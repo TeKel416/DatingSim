@@ -24,5 +24,10 @@ namespace VNCreator
             source.clip = clip;
             source.Play();
         }
+
+        private void Start()
+        {
+            DontDestroyOnLoad(gameObject);
+        }
     }
 }

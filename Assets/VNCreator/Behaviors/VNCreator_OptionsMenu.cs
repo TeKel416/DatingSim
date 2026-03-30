@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -47,7 +45,7 @@ namespace VNCreator
 
         void Back()
         {
-            mainMenu.SetActive(true);
+            if (mainMenu) mainMenu.SetActive(true);
             optionsMenu.SetActive(false);
         }
     }

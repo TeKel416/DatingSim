@@ -22,12 +22,16 @@ namespace VNCreator
         public Button previousBtn;
         public Button saveBtn;
         public Button menuButton;
+        public Button optButton;
         [Header("Choices")]
         public Button choiceBtn1;
         public Button choiceBtn2;
         public Button choiceBtn3;
         [Header("End")]
-        public GameObject endScreen;
+        [Scene]
+        public string endScene;
+        [Header("Options menu")]
+        public GameObject optionsMenu;
         [Header("Main menu")]
         [Scene]
         public string mainMenu;
@@ -41,6 +45,8 @@ namespace VNCreator
                 saveBtn.onClick.AddListener(Save);
             if (menuButton != null)
                 menuButton.onClick.AddListener(ExitGame);
+            if (optButton != null)
+                optButton.onClick.AddListener(OpenOptionsMenu);
 
             if(choiceBtn1 != null)
                 choiceBtn1.onClick.AddListener(delegate { NextNode(0); });
@@ -49,8 +55,6 @@ namespace VNCreator
             if(choiceBtn3 != null)
                 choiceBtn3.onClick.AddListener(delegate { NextNode(2); });
 
-            endScreen.SetActive(false);
-
             StartCoroutine(DisplayCurrentNode());
         }
 
@@ -58,7 +62,7 @@ namespace VNCreator
         {
             if (lastNode)
             {
-                endScreen.SetActive(true);
+                EndStory();
                 return;
             }
 
@@ -144,6 +148,16 @@ namespace VNCreator
         void ExitGame()
         {
             SceneManager.LoadScene(mainMenu, LoadSceneMode.Single);
+        }
+
+        void OpenOptionsMenu()
+        {
+            optionsMenu.SetActive(true);
+        }
+
+        void EndStory()
+        {
+            SceneManager.LoadScene(endScene, LoadSceneMode.Single);
         }
     }
 }
