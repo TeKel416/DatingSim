@@ -377,7 +377,7 @@ MonoBehaviour:
   choiceBtn1: {fileID: 233319996}
   choiceBtn2: {fileID: 905483075}
   choiceBtn3: {fileID: 624807058}
-  endScene: Assets/Scenes/Explore_1.unity
+  endScene: Assets/Scenes/Explore.unity
   optionsMenu: {fileID: 1787659241}
   mainMenu: Assets/Scenes/MainMenu.unity
 --- !u!114 &814937706

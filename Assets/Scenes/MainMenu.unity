@@ -315,7 +315,7 @@ MonoBehaviour:
   continueBtn: {fileID: 501169371}
   optionsMenuBtn: {fileID: 2137931590}
   quitBtn: {fileID: 1848255693}
-  playScene: Assets/Scenes/Scene_1.unity
+  playScene: Assets/Scenes/Story_1.unity
   optionsMenu: {fileID: 616427217}
   mainMenu: {fileID: 767500822}
 --- !u!4 &363488094
