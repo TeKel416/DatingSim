@@ -24,7 +24,9 @@ namespace VNCreator
 
         void Start()
         {
-            if(newGameBtn != null)
+            VNCreator_MusicSource.Instance.PlayMusic("MainMenu");
+
+            if (newGameBtn != null)
                 newGameBtn.onClick.AddListener(NewGame);
             if(optionsMenuBtn != null)
                 optionsMenuBtn.onClick.AddListener(DisplayOptionsMenu);

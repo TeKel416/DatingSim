@@ -1,10 +1,13 @@
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
 
 namespace VNCreator
 {
     public class VNCreator_OptionsMenu : MonoBehaviour
     {
+        public AudioMixer audioMixer;
+
         public Slider musicVolumeSlider;
         public Slider sfxVolumeSlider;
         public Slider readSpeedSlider;
@@ -22,7 +25,8 @@ namespace VNCreator
             if(musicVolumeSlider != null)
             {
                 musicVolumeSlider.value = GameOptions.musicVolume;
-                musicVolumeSlider.onValueChanged.AddListener(GameOptions.SetMusicVolume);
+                musicVolumeSlider.onValueChanged.AddListener(GameOptions.SetMusicVolumeValue);
+                musicVolumeSlider.onValueChanged.AddListener(UpdateMusicVolume);
             }
             if (sfxVolumeSlider != null)
             {
@@ -47,6 +51,11 @@ namespace VNCreator
         {
             if (mainMenu) mainMenu.SetActive(true);
             optionsMenu.SetActive(false);
+        }
+
+        public void UpdateMusicVolume(float volume)
+        {
+            audioMixer.SetFloat("Master_Vol", volume);
         }
     }
 }

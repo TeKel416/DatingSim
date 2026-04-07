@@ -6,7 +6,7 @@ namespace VNCreator
 {
     public static class GameOptions
     {
-        public static float musicVolume = 0.5f;
+        public static float musicVolume = -30f;
         public static float sfxVolume = 0.5f;
         public static float readSpeed = 0.5f;
         public static bool isInstantText = false;
@@ -23,7 +23,7 @@ namespace VNCreator
                 isInstantText = PlayerPrefs.GetInt("InstantText") == 1 ? true : false;
         }
 
-        public static void SetMusicVolume(float index)
+        public static void SetMusicVolumeValue(float index)
         {
             musicVolume = index;
             PlayerPrefs.SetFloat("MusicVolume", index);

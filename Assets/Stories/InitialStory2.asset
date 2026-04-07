@@ -44,7 +44,7 @@ MonoBehaviour:
       width: 499.19998
       height: 303.2
     soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 3a40a3c8071985b4a8d7920906ef2944, type: 3}
   - guid: 909d0dda-20ca-4609-840d-10bde64799f2
     characterSpr: {fileID: 21300000, guid: 9c3a05b2ac701a24ab670be6be22e5ef, type: 3}
     characterName: "Voc\xEA"

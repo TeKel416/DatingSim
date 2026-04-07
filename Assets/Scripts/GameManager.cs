@@ -83,9 +83,5 @@ public class GameManager : MonoBehaviour
         {
             SelectItem(-1);
         }
-        else if (itemsAmount == 1)
-        {
-            SelectItem(0);
-        }
     }
 }

@@ -119,7 +119,7 @@ namespace VNCreator
             }
 
             if (currentNode.backgroundMusic != null)
-                VNCreator_MusicSource.instance.Play(currentNode.backgroundMusic);
+                VNCreator_MusicSource.Instance.PlayMusic(currentNode.backgroundMusic);
             if (currentNode.soundEffect != null)
                 VNCreator_SfxSource.instance.Play(currentNode.soundEffect);
 
