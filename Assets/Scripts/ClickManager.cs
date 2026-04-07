@@ -23,6 +23,14 @@ public class ClickManager : MonoBehaviour
             }
 
             gameManager.UpdateEquipmentCanvas();
+
+            if (item.successMsg != "")
+            {
+                nameTextBox.GetComponent<Text>().text = "Você";
+                textBox.GetComponent<Text>().text = item.successMsg;
+                item.hint = item.successMsg;
+                storyCanvas.SetActive(true);
+            }
         }
     }
 
@@ -37,6 +45,19 @@ public class ClickManager : MonoBehaviour
 
             GameManager.collectedItems.Remove(GameManager.collectedItems[item.requiredItemID]);
             gameManager.UpdateEquipmentCanvas();
+
+            if (item.successMsg != null)
+            {
+                nameTextBox.GetComponent<Text>().text = item.itemName;
+                textBox.GetComponent<Text>().text = item.successMsg;
+                item.hint = item.successMsg;
+                storyCanvas.SetActive(true);
+            }
+
+            if (item.itemToAdd != null) 
+            {
+                AddNewItem(item.itemToAdd);
+            }
         }
         else
         {
@@ -44,5 +65,12 @@ public class ClickManager : MonoBehaviour
             textBox.GetComponent<Text>().text = item.hint;
             storyCanvas.SetActive(true);
         }
+    }
+
+    public void AddNewItem(ItemData item)
+    {
+        GameManager.collectedItems.Add(item);
+        gameManager.UpdateEquipmentCanvas();
+        Destroy(item.gameObject);
     }
 }

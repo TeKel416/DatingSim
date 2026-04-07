@@ -8,6 +8,8 @@ namespace VNCreator
 {
     public class VNCreator_DisplayUI : DisplayBase
     {
+        [Header("New Story")]
+        public bool isNewStory = false;
         [Header("Text")]
         public Text characterNameTxt;
         public Text dialogueTxt;
@@ -157,7 +159,15 @@ namespace VNCreator
 
         void EndStory()
         {
-            SceneManager.LoadScene(endScene, LoadSceneMode.Single);
+            if (isNewStory)
+            {
+                SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene());
+                //SceneManager.SetActiveScene(SceneManager.GetSceneByName(endScene));
+            }
+            else
+            {
+                SceneManager.LoadScene(endScene, LoadSceneMode.Single);
+            }
         }
     }
 }

@@ -362,7 +362,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19bffdf8e809ebd439aaf9f444d2ea04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VNCreator::VNCreator.VNCreator_DisplayUI
-  story: {fileID: 11400000, guid: 3bfb46118a9d5de439b4b8cc93da5440, type: 2}
+  story: {fileID: 11400000, guid: 8fd08a080be1d7f4e9cfd75f81f1d538, type: 2}
+  isNewStory: 0
   characterNameTxt: {fileID: 1607366203}
   dialogueTxt: {fileID: 929745192}
   characterImg: {fileID: 169878136}

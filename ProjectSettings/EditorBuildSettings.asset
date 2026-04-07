@@ -9,11 +9,20 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 5bb7e75473ed9d34bb5abd107fd6dec6
   - enabled: 1
-    path: Assets/Scenes/Story_1.unity
+    path: Assets/Scenes/InitialStory.unity
     guid: d4b8c6b1da5929c4395ba8318983cec4
   - enabled: 1
     path: Assets/Scenes/Explore.unity
     guid: 0db7f15e2871a5344b142cfb5251a01e
+  - enabled: 1
+    path: Assets/Scenes/Almoxarifado.unity
+    guid: 8b6150f8774e40c4e93300f1932d8c0e
+  - enabled: 1
+    path: Assets/Scenes/SalaServidores.unity
+    guid: 5f374f4541a15d741aefd6bb625b6a7d
+  - enabled: 1
+    path: Assets/Scenes/EndScreen.unity
+    guid: 0febab711d4a6f94db074538c0816a08
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0

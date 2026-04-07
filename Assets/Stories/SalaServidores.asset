@@ -1,0 +1,571 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: SalaServidores
+  m_EditorClassIdentifier: VNCreator::VNCreator.StoryObject
+  links:
+  - guid: 440384e0-4518-4174-9568-0dd9b7afb775
+    targetGuid: ea5bc6a4-0f15-401b-98e9-15fe62679cba
+    portId: 0
+  - guid: 440384e0-4518-4174-9568-0dd9b7afb775
+    targetGuid: 506bb2bd-81e3-41d5-abea-0e6ddcaf5605
+    portId: 1
+  - guid: ea5bc6a4-0f15-401b-98e9-15fe62679cba
+    targetGuid: b8ca24ef-6dce-4df9-b05d-3b31c05aa27f
+    portId: 2
+  - guid: 506bb2bd-81e3-41d5-abea-0e6ddcaf5605
+    targetGuid: 2987a3f2-6f66-4149-af10-932669f4656c
+    portId: 3
+  - guid: 8147d10b-6651-467f-9cff-06e4cd3e8828
+    targetGuid: 440384e0-4518-4174-9568-0dd9b7afb775
+    portId: 4
+  - guid: 2987a3f2-6f66-4149-af10-932669f4656c
+    targetGuid: b5232cb0-e793-4827-8b72-5c60aabbe968
+    portId: 5
+  - guid: b8ca24ef-6dce-4df9-b05d-3b31c05aa27f
+    targetGuid: 35672bb8-60b8-4aa2-9b55-4546f8b34031
+    portId: 6
+  - guid: 35672bb8-60b8-4aa2-9b55-4546f8b34031
+    targetGuid: 5fb53754-441f-4bcb-b407-73ebe9d81c8c
+    portId: 7
+  - guid: 5fb53754-441f-4bcb-b407-73ebe9d81c8c
+    targetGuid: 003eae81-cffc-4a42-bc2d-2dfa57976df3
+    portId: 8
+  - guid: b5232cb0-e793-4827-8b72-5c60aabbe968
+    targetGuid: 3094714e-222a-4047-b0b0-52466d9e3b05
+    portId: 9
+  - guid: 3094714e-222a-4047-b0b0-52466d9e3b05
+    targetGuid: 78fa90c5-4453-447d-8838-523ccba1884c
+    portId: 10
+  - guid: 78fa90c5-4453-447d-8838-523ccba1884c
+    targetGuid: 786ce477-4f3d-49f9-aada-d789e99419c5
+    portId: 11
+  - guid: 003eae81-cffc-4a42-bc2d-2dfa57976df3
+    targetGuid: 7792b92e-742d-4a61-be0f-55ce7627f11e
+    portId: 12
+  - guid: 7792b92e-742d-4a61-be0f-55ce7627f11e
+    targetGuid: ac520c52-310b-4ee8-87e3-62d245dc8473
+    portId: 13
+  - guid: ac520c52-310b-4ee8-87e3-62d245dc8473
+    targetGuid: 6bb5182d-8d78-4af4-8dd8-778d2a269ab5
+    portId: 14
+  - guid: 786ce477-4f3d-49f9-aada-d789e99419c5
+    targetGuid: d4b8661f-b236-419c-825c-8b07dac71907
+    portId: 15
+  - guid: 6bb5182d-8d78-4af4-8dd8-778d2a269ab5
+    targetGuid: 3741ed82-e474-42a6-b389-eab14be1c86f
+    portId: 16
+  - guid: d4b8661f-b236-419c-825c-8b07dac71907
+    targetGuid: facfb5a1-d4d0-4550-b3ea-8d6bc19b723c
+    portId: 17
+  - guid: facfb5a1-d4d0-4550-b3ea-8d6bc19b723c
+    targetGuid: 330edc0a-129f-4300-8c88-d5e5495a550b
+    portId: 18
+  - guid: 3741ed82-e474-42a6-b389-eab14be1c86f
+    targetGuid: 1694d04e-2880-4cb0-835c-52208a75ec63
+    portId: 19
+  - guid: 1694d04e-2880-4cb0-835c-52208a75ec63
+    targetGuid: a3f21fcf-e135-4cc9-807f-8723d08fa709
+    portId: 20
+  - guid: 330edc0a-129f-4300-8c88-d5e5495a550b
+    targetGuid: bea6757a-ada9-4c60-8ef0-47fadd5a4a96
+    portId: 21
+  - guid: bea6757a-ada9-4c60-8ef0-47fadd5a4a96
+    targetGuid: 2d9909c6-3f19-48f2-8df8-0d5ade22e0c7
+    portId: 22
+  - guid: a3f21fcf-e135-4cc9-807f-8723d08fa709
+    targetGuid: b6ab9dd4-167c-4888-9fdb-772e136fdcde
+    portId: 23
+  - guid: b6ab9dd4-167c-4888-9fdb-772e136fdcde
+    targetGuid: de460d30-ec7b-4d6a-8427-22f777681113
+    portId: 24
+  nodes:
+  - guid: 440384e0-4518-4174-9568-0dd9b7afb775
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: ???
+    dialogueText: Oi!~
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - "Que droga voc\xEA faz aqui? Essa sala \xE9 de acesso restrito."
+    - "Opa! O que uma mo\xE7a bonita como voc\xEA faz aqui?"
+    nodePosition:
+      serializedVersion: 2
+      x: 526.4
+      y: -243.2
+      width: 499.19995
+      height: 362.40002
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ea5bc6a4-0f15-401b-98e9-15fe62679cba
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: Sua Nova Chefe?
+    dialogueText: "Oi, brotinho! \xC9 assim que voc\xEAs falam, n\xE9? Eu n\xE3o
+      preciso te dizer meu nome, se voc\xEA quiser pode me chamar de sua nova chefe!"
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1076.8
+      y: -468.8
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 506bb2bd-81e3-41d5-abea-0e6ddcaf5605
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: "Mo\xE7a Bonita?"
+    dialogueText: "N\xE3o vai se animando, n\xE3o, bicho-grilo! (\xE9 assim que voc\xEAs
+      falam, n\xE9?) Mas pelo menos voc\xEA tem bom gosto!"
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1074.4
+      y: -153.59999
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2987a3f2-6f66-4149-af10-932669f4656c
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "E o que a senhorita est\xE1 fazendo aqui? Quem \xE9 voc\xEA?"
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1610.4
+      y: -157.59999
+      width: 499.20007
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: b8ca24ef-6dce-4df9-b05d-3b31c05aa27f
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: " Qu\xEA?? T\xE1 louca? O Chester \xE9 meu chefe. E o que carambas
+      \xE9 voc\xEA?"
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1611.2
+      y: -471.19998
+      width: 499.19995
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 35672bb8-60b8-4aa2-9b55-4546f8b34031
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: Sua Nova Chefe?
+    dialogueText: "Ah, o Chester vai ser o antigo chefe um dia. Afinal, tudo que
+      \xE9 velho, cai!"
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2133.6
+      y: -468.8
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5fb53754-441f-4bcb-b407-73ebe9d81c8c
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: Sua Nova Chefe?
+    dialogueText: "Voc\xEA \xE9 o subordinado dele, n\xE9? Responde por ele. Pois
+      ent\xE3o agora vai responder a mim, meu subordinado!"
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2656.8
+      y: -465.6
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: b5232cb0-e793-4827-8b72-5c60aabbe968
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: Sua Nova Chefe Bonita?
+    dialogueText: Sou sua nova chefe, brotinho! E eu quero que seja meu subordinado!
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2136.8
+      y: -156.79999
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3094714e-222a-4047-b0b0-52466d9e3b05
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Aah, legal. Pelo menos a chefe \xE9 bonita agora, j\xE1 \xE9 bem
+      mais que o Chester."
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2659.2
+      y: -160
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 78fa90c5-4453-447d-8838-523ccba1884c
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "E voc\xEA \xE9 um rob\xF4?"
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3183.2
+      y: -163.2
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 003eae81-cffc-4a42-bc2d-2dfa57976df3
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "(Certo, acho que eu tomei caf\xE9 demais... O Figgs disse que
+      nessas horas \xE9 melhor entrar na brisa.)"
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3184
+      y: -480.8
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7792b92e-742d-4a61-be0f-55ce7627f11e
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Primeiramente, por que voc\xEA tem essas partes rob\xF3ticas?"
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3705.6
+      y: -476
+      width: 499.1997
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ac520c52-310b-4ee8-87e3-62d245dc8473
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: Sua Nova Chefe?
+    dialogueText: Porque eu sou perfeita, oras! Eu me criei assim.
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4225.6
+      y: -480
+      width: 499.1997
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 786ce477-4f3d-49f9-aada-d789e99419c5
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: "Sua Nova Chefe Rob\xF4 Bonita?"
+    dialogueText: "\xC9, tecnicamente, mas eu sou muito melhor que isso."
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3710.4
+      y: -164
+      width: 499.2002
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 6bb5182d-8d78-4af4-8dd8-778d2a269ab5
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Se criou?? Voc\xEA \xE9 uma m\xE1quina?"
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4759.2
+      y: -494.4
+      width: 499.1997
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d4b8661f-b236-419c-825c-8b07dac71907
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: Como assim muito melhor?
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4232
+      y: -163.2
+      width: 499.2002
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: facfb5a1-d4d0-4550-b3ea-8d6bc19b723c
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: "Sua Nova Chefe Rob\xF4 Bonita?"
+    dialogueText: "Eu diria que sou bem mais inteligente que qualquer mera m\xE1quina
+      ou humano."
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4760.8
+      y: -165.59999
+      width: 499.2002
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3741ed82-e474-42a6-b389-eab14be1c86f
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: "Sua Nova Chefe Rob\xF4?"
+    dialogueText: "Sim, idiota, voc\xEA por acaso \xE9 burro?"
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5292
+      y: -497.6
+      width: 499.2002
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 1694d04e-2880-4cb0-835c-52208a75ec63
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Ok, e por que voc\xEA ta aqui?"
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5825.6
+      y: -507.19998
+      width: 499.1997
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 330edc0a-129f-4300-8c88-d5e5495a550b
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Aah, legal. E como voc\xEA se criou?"
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5286.4
+      y: -155.2
+      width: 499.2002
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2d9909c6-3f19-48f2-8df8-0d5ade22e0c7
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Belezura,chuchu. Acabou meu turno mesmo. T\xF4 saindo."
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6412.8
+      y: -188.79999
+      width: 499.2002
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: bea6757a-ada9-4c60-8ef0-47fadd5a4a96
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: "Sua Nova Chefe Rob\xF4 Bonita?"
+    dialogueText: "Essa \xE9 uma hist\xF3ria pra outra hora, mas gostei de voc\xEA!
+      Vamos conversar depois, brotinho!"
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5830.4
+      y: -167.2
+      width: 499.2002
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a3f21fcf-e135-4cc9-807f-8723d08fa709
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: "Sua Nova Chefe Rob\xF4?"
+    dialogueText: "Porque eu cansei de brincar l\xE1 fora. Decidi brincar um pouco
+      nesse lugar."
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6388
+      y: -536
+      width: 499.2002
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: b6ab9dd4-167c-4888-9fdb-772e136fdcde
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: "Sua Nova Chefe Rob\xF4?"
+    dialogueText: "Parece m\xF3rbido e chato, vou dar uma renovada!"
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6913.6
+      y: -550.4
+      width: 499.1997
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: de460d30-ec7b-4d6a-8427-22f777681113
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "T\xE1 bom...? Eu acho que tenho que ir pra casa descansar, se
+      voc\xEA n\xE3o for da minha cabe\xE7a eu falo com voc\xEA amanh\xE3."
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7452.8
+      y: -551.2
+      width: 499.2002
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8147d10b-6651-467f-9cff-06e4cd3e8828
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: ???
+    dialogueText: Oi!~
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -8.8
+      y: -246.4
+      width: 499.19998
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

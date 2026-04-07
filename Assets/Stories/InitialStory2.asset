@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: InitialStory2
+  m_EditorClassIdentifier: VNCreator::VNCreator.StoryObject
+  links:
+  - guid: eefca884-dac2-4afa-9a47-500af7062172
+    targetGuid: 909d0dda-20ca-4609-840d-10bde64799f2
+    portId: 0
+  - guid: 909d0dda-20ca-4609-840d-10bde64799f2
+    targetGuid: 5a3291c5-95f0-4678-996d-9e0245c9636f
+    portId: 1
+  - guid: 5a3291c5-95f0-4678-996d-9e0245c9636f
+    targetGuid: b6d56dbb-664a-4498-80e7-d929ce1fdd04
+    portId: 2
+  - guid: b6d56dbb-664a-4498-80e7-d929ce1fdd04
+    targetGuid: 7d084069-7442-48d2-8f23-1e401b13103d
+    portId: 3
+  nodes:
+  - guid: eefca884-dac2-4afa-9a47-500af7062172
+    characterSpr: {fileID: 5908192335037729698, guid: d12f77ff6b1e89242af6f0f64b3b1328, type: 3}
+    characterName: 
+    dialogueText: "\xC0s 22:50 do meridiano de Greenwich, o rel\xF3gio parece correr
+      lentamente, o tempo se arrasta no escrit\xF3rio de telefonia Chester's."
+    backgroundSpr: {fileID: 5908192335037729698, guid: d12f77ff6b1e89242af6f0f64b3b1328, type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 233.6
+      y: 112.799995
+      width: 499.19998
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 909d0dda-20ca-4609-840d-10bde64799f2
+    characterSpr: {fileID: 21300000, guid: 9c3a05b2ac701a24ab670be6be22e5ef, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "J\xE1 faz muito tempo que eu t\xF4 aqui, esses pap\xE9is s\xF3
+      se acumulam, maldito dia."
+    backgroundSpr: {fileID: 21300000, guid: 9c3a05b2ac701a24ab670be6be22e5ef, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 752.8
+      y: 111.200005
+      width: 499.2
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5a3291c5-95f0-4678-996d-9e0245c9636f
+    characterSpr: {fileID: 21300000, guid: 9c3a05b2ac701a24ab670be6be22e5ef, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Essa mudan\xE7a e conex\xE3o para os sat\xE9lites est\xE3o ferrando
+      minha vida."
+    backgroundSpr: {fileID: 21300000, guid: 9c3a05b2ac701a24ab670be6be22e5ef, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1285.6
+      y: 103.99999
+      width: 499.20007
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: b6d56dbb-664a-4498-80e7-d929ce1fdd04
+    characterSpr: {fileID: 21300000, guid: 9c3a05b2ac701a24ab670be6be22e5ef, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "N\xE3o quero passar a madrugada aqui, acho que vou fazer outra
+      coisa e deixar esses pap\xE9is pra outro dia."
+    backgroundSpr: {fileID: 21300000, guid: 9c3a05b2ac701a24ab670be6be22e5ef, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1824.8
+      y: 99.2
+      width: 499.19995
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7d084069-7442-48d2-8f23-1e401b13103d
+    characterSpr: {fileID: 21300000, guid: 9c3a05b2ac701a24ab670be6be22e5ef, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Tinha um documento do chefe pra entregar pro Figgs, se n\xE3o
+      me engano era o de presta\xE7\xE3o de contas. Acho que vou procurar por ele
+      para me ocupar."
+    backgroundSpr: {fileID: 21300000, guid: 9c3a05b2ac701a24ab670be6be22e5ef, type: 3}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2358.4
+      y: 92.799995
+      width: 499.2002
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

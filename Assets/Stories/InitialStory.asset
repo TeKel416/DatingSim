@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: InitialStory
+  m_EditorClassIdentifier: VNCreator::VNCreator.StoryObject
+  links:
+  - guid: e64043e1-8393-414a-a776-e5966c8f5ac0
+    targetGuid: 7f47f2fe-501a-4628-8686-ac76e456b232
+    portId: 0
+  - guid: 7f47f2fe-501a-4628-8686-ac76e456b232
+    targetGuid: 51016b2c-cf6c-449d-9bcb-e2363e2c5cde
+    portId: 1
+  - guid: 51016b2c-cf6c-449d-9bcb-e2363e2c5cde
+    targetGuid: e84c6e9c-f0cd-413f-928f-b6787d099234
+    portId: 2
+  - guid: e84c6e9c-f0cd-413f-928f-b6787d099234
+    targetGuid: b09cc56d-7630-4611-87e0-673c9cec4a35
+    portId: 3
+  - guid: b09cc56d-7630-4611-87e0-673c9cec4a35
+    targetGuid: 4af2c7d7-5beb-451c-bc3e-95f8dad56023
+    portId: 4
+  - guid: 4af2c7d7-5beb-451c-bc3e-95f8dad56023
+    targetGuid: e2cfb883-70a8-4084-a7b5-c44ac76a8f83
+    portId: 5
+  - guid: e2cfb883-70a8-4084-a7b5-c44ac76a8f83
+    targetGuid: 381343ff-d7b3-425a-b4ea-55a625f5bf78
+    portId: 6
+  - guid: 381343ff-d7b3-425a-b4ea-55a625f5bf78
+    targetGuid: b4b5254d-817b-403e-9b75-f88977fc886e
+    portId: 7
+  - guid: b4b5254d-817b-403e-9b75-f88977fc886e
+    targetGuid: 657de0e3-9b50-4192-bd85-6c76b71be786
+    portId: 8
+  - guid: 657de0e3-9b50-4192-bd85-6c76b71be786
+    targetGuid: dd012154-72d5-443f-bd3c-7c30da2a0fa3
+    portId: 9
+  nodes:
+  - guid: e64043e1-8393-414a-a776-e5966c8f5ac0
+    characterSpr: {fileID: 0}
+    characterName: Telefone
+    dialogueText: '*ring ring* *ring ring*'
+    backgroundSpr: {fileID: 21300000, guid: ba8a446527e5e9643827dd5d41b67ddd, type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 44
+      y: 128.8
+      width: 499.2
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7f47f2fe-501a-4628-8686-ac76e456b232
+    characterSpr: {fileID: 0}
+    characterName: "Voc\xEA"
+    dialogueText: Poxa, logo quando eu tava caindo no sono...
+    backgroundSpr: {fileID: 21300000, guid: ba8a446527e5e9643827dd5d41b67ddd, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 564.8
+      y: 129.6
+      width: 499.2
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 51016b2c-cf6c-449d-9bcb-e2363e2c5cde
+    characterSpr: {fileID: 0}
+    characterName: "Voc\xEA"
+    dialogueText: "Al\xF4?"
+    backgroundSpr: {fileID: 21300000, guid: ba8a446527e5e9643827dd5d41b67ddd, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1107.2
+      y: 124.799995
+      width: 499.20007
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e84c6e9c-f0cd-413f-928f-b6787d099234
+    characterSpr: {fileID: 0}
+    characterName: Chefe
+    dialogueText: "Boa noite. Estou te ligando para te lembrar daquela reuni\xE3o
+      amanh\xE3."
+    backgroundSpr: {fileID: 21300000, guid: ba8a446527e5e9643827dd5d41b67ddd, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1684
+      y: 114.4
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: b09cc56d-7630-4611-87e0-673c9cec4a35
+    characterSpr: {fileID: 0}
+    characterName: "Voc\xEA"
+    dialogueText: "Sim, sim, estarei l\xE1. N\xE3o se preocupe com isso."
+    backgroundSpr: {fileID: 21300000, guid: ba8a446527e5e9643827dd5d41b67ddd, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2239.2
+      y: 116.799995
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e2cfb883-70a8-4084-a7b5-c44ac76a8f83
+    characterSpr: {fileID: 0}
+    characterName: "Voc\xEA"
+    dialogueText: "Relaxa! Eu j\xE1 faltei em algum evento importante da empresa?"
+    backgroundSpr: {fileID: 21300000, guid: ba8a446527e5e9643827dd5d41b67ddd, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3339.2
+      y: 108.799995
+      width: 499.19995
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 381343ff-d7b3-425a-b4ea-55a625f5bf78
+    characterSpr: {fileID: 0}
+    characterName: Chefe
+    dialogueText: ...
+    backgroundSpr: {fileID: 21300000, guid: ba8a446527e5e9643827dd5d41b67ddd, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3896
+      y: 103.200005
+      width: 499.2002
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: b4b5254d-817b-403e-9b75-f88977fc886e
+    characterSpr: {fileID: 0}
+    characterName: "Voc\xEA"
+    dialogueText: "Bem, o ponto \xE9 que eu estarei l\xE1 sem falta."
+    backgroundSpr: {fileID: 21300000, guid: ba8a446527e5e9643827dd5d41b67ddd, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4426.4
+      y: 113.6
+      width: 499.2002
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 657de0e3-9b50-4192-bd85-6c76b71be786
+    characterSpr: {fileID: 0}
+    characterName: Chefe
+    dialogueText: "\xC9 bom que esteja mesmo, porque  sen\xE3o eu vou come\xE7ar
+      a descontar do seu sal\xE1rio. *click*"
+    backgroundSpr: {fileID: 21300000, guid: ba8a446527e5e9643827dd5d41b67ddd, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4968
+      y: 115.99999
+      width: 499.2002
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 4af2c7d7-5beb-451c-bc3e-95f8dad56023
+    characterSpr: {fileID: 0}
+    characterName: Chefe
+    dialogueText: "Estou ligando porque todos do time estar\xE3o l\xE1. \xC9 a primeira
+      vez que os sat\xE9lites v\xE3o entrar em funcionamento e precisamos ter certeza
+      que TODOS os envolvidos estejam dispon\xEDveis caso algum imprevisto aconte\xE7a."
+    backgroundSpr: {fileID: 21300000, guid: ba8a446527e5e9643827dd5d41b67ddd, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2788.8
+      y: 111.200005
+      width: 499.19995
+      height: 303.19998
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: dd012154-72d5-443f-bd3c-7c30da2a0fa3
+    characterSpr: {fileID: 0}
+    characterName: "Voc\xEA"
+    dialogueText: "Sigh... Finalmente ele desligou. Esses \xFAltimos dias t\xEAm
+      sido muito pesados. \xC9 a primeira vez nessa semana que vou dormir na minha
+      cama ao inv\xE9s do escrit\xF3rio."
+    backgroundSpr: {fileID: 21300000, guid: ba8a446527e5e9643827dd5d41b67ddd, type: 3}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5505.6
+      y: 115.99999
+      width: 499.1997
+      height: 303.2
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
