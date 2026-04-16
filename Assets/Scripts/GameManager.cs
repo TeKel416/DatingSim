@@ -33,6 +33,15 @@ public class GameManager : MonoBehaviour
     {
         Color c = Color.white;
         c.a = 0;
+
+        if (selectedCanvasSlotID == equipmentCanvasID && equipmentSlots[equipmentCanvasID].color == selectedItemColor)
+        {
+            equipmentSlots[equipmentCanvasID].color = c;
+            selectedItemID = -1;
+            selectedCanvasSlotID = 0;
+            return;
+        }
+
         // change the alpha of the previous slot to 0
         equipmentSlots[selectedCanvasSlotID].color = c;
 
