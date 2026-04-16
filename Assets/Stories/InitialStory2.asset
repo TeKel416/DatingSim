@@ -39,31 +39,12 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 233.6
-      y: 112.799995
-      width: 499.19998
-      height: 303.2
+      x: 234
+      y: 113
+      width: 499
+      height: 305
     soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 8300000, guid: 3a40a3c8071985b4a8d7920906ef2944, type: 3}
-  - guid: 909d0dda-20ca-4609-840d-10bde64799f2
-    characterSpr: {fileID: 21300000, guid: 9c3a05b2ac701a24ab670be6be22e5ef, type: 3}
-    characterName: "Voc\xEA"
-    dialogueText: "J\xE1 faz muito tempo que eu t\xF4 aqui, esses pap\xE9is s\xF3
-      se acumulam, maldito dia."
-    backgroundSpr: {fileID: 21300000, guid: 9c3a05b2ac701a24ab670be6be22e5ef, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 752.8
-      y: 111.200005
-      width: 499.2
-      height: 303.19998
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 8275a4bd932cf644b8913c201305a8f4, type: 3}
   - guid: 5a3291c5-95f0-4678-996d-9e0245c9636f
     characterSpr: {fileID: 21300000, guid: 9c3a05b2ac701a24ab670be6be22e5ef, type: 3}
     characterName: "Voc\xEA"
@@ -77,10 +58,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 1285.6
-      y: 103.99999
-      width: 499.20007
-      height: 303.2
+      x: 1286
+      y: 104
+      width: 499
+      height: 305
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
   - guid: b6d56dbb-664a-4498-80e7-d929ce1fdd04
@@ -96,10 +77,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 1824.8
-      y: 99.2
-      width: 499.19995
-      height: 303.19998
+      x: 1825
+      y: 99
+      width: 499
+      height: 305
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
   - guid: 7d084069-7442-48d2-8f23-1e401b13103d
@@ -116,9 +97,28 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 2358.4
-      y: 92.799995
-      width: 499.2002
-      height: 303.2
+      x: 2358
+      y: 93
+      width: 499
+      height: 305
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+  - guid: 909d0dda-20ca-4609-840d-10bde64799f2
+    characterSpr: {fileID: 21300000, guid: 9c3a05b2ac701a24ab670be6be22e5ef, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "J\xE1 faz muito tempo que eu t\xF4 aqui, esses pap\xE9is s\xF3
+      se acumulam, maldito dia."
+    backgroundSpr: {fileID: 21300000, guid: 9c3a05b2ac701a24ab670be6be22e5ef, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 753
+      y: 112
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 8275a4bd932cf644b8913c201305a8f4, type: 3}
