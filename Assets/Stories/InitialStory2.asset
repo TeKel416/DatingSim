@@ -16,14 +16,14 @@ MonoBehaviour:
   - guid: eefca884-dac2-4afa-9a47-500af7062172
     targetGuid: 909d0dda-20ca-4609-840d-10bde64799f2
     portId: 0
-  - guid: 909d0dda-20ca-4609-840d-10bde64799f2
-    targetGuid: 5a3291c5-95f0-4678-996d-9e0245c9636f
-    portId: 1
   - guid: 5a3291c5-95f0-4678-996d-9e0245c9636f
     targetGuid: b6d56dbb-664a-4498-80e7-d929ce1fdd04
-    portId: 2
+    portId: 1
   - guid: b6d56dbb-664a-4498-80e7-d929ce1fdd04
     targetGuid: 7d084069-7442-48d2-8f23-1e401b13103d
+    portId: 2
+  - guid: 909d0dda-20ca-4609-840d-10bde64799f2
+    targetGuid: 5a3291c5-95f0-4678-996d-9e0245c9636f
     portId: 3
   nodes:
   - guid: eefca884-dac2-4afa-9a47-500af7062172
@@ -42,9 +42,11 @@ MonoBehaviour:
       x: 234
       y: 113
       width: 499
-      height: 305
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 8300000, guid: 8275a4bd932cf644b8913c201305a8f4, type: 3}
+    likeGain: 0
+    showLikeBar: 0
   - guid: 5a3291c5-95f0-4678-996d-9e0245c9636f
     characterSpr: {fileID: 21300000, guid: 9c3a05b2ac701a24ab670be6be22e5ef, type: 3}
     characterName: "Voc\xEA"
@@ -61,9 +63,11 @@ MonoBehaviour:
       x: 1286
       y: 104
       width: 499
-      height: 305
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: -50
+    showLikeBar: 1
   - guid: b6d56dbb-664a-4498-80e7-d929ce1fdd04
     characterSpr: {fileID: 21300000, guid: 9c3a05b2ac701a24ab670be6be22e5ef, type: 3}
     characterName: "Voc\xEA"
@@ -80,9 +84,11 @@ MonoBehaviour:
       x: 1825
       y: 99
       width: 499
-      height: 305
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
   - guid: 7d084069-7442-48d2-8f23-1e401b13103d
     characterSpr: {fileID: 21300000, guid: 9c3a05b2ac701a24ab670be6be22e5ef, type: 3}
     characterName: "Voc\xEA"
@@ -100,9 +106,11 @@ MonoBehaviour:
       x: 2358
       y: 93
       width: 499
-      height: 305
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
   - guid: 909d0dda-20ca-4609-840d-10bde64799f2
     characterSpr: {fileID: 21300000, guid: 9c3a05b2ac701a24ab670be6be22e5ef, type: 3}
     characterName: "Voc\xEA"
@@ -119,6 +127,8 @@ MonoBehaviour:
       x: 753
       y: 112
       width: 499
-      height: 305
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 8300000, guid: 8275a4bd932cf644b8913c201305a8f4, type: 3}
+    likeGain: 0
+    showLikeBar: 1

@@ -19,74 +19,74 @@ MonoBehaviour:
   - guid: 440384e0-4518-4174-9568-0dd9b7afb775
     targetGuid: 506bb2bd-81e3-41d5-abea-0e6ddcaf5605
     portId: 1
-  - guid: ea5bc6a4-0f15-401b-98e9-15fe62679cba
-    targetGuid: b8ca24ef-6dce-4df9-b05d-3b31c05aa27f
-    portId: 2
   - guid: 506bb2bd-81e3-41d5-abea-0e6ddcaf5605
     targetGuid: 2987a3f2-6f66-4149-af10-932669f4656c
-    portId: 3
+    portId: 2
   - guid: 2987a3f2-6f66-4149-af10-932669f4656c
     targetGuid: b5232cb0-e793-4827-8b72-5c60aabbe968
-    portId: 4
+    portId: 3
   - guid: b8ca24ef-6dce-4df9-b05d-3b31c05aa27f
     targetGuid: 35672bb8-60b8-4aa2-9b55-4546f8b34031
-    portId: 5
+    portId: 4
   - guid: 35672bb8-60b8-4aa2-9b55-4546f8b34031
     targetGuid: 5fb53754-441f-4bcb-b407-73ebe9d81c8c
-    portId: 6
+    portId: 5
   - guid: 5fb53754-441f-4bcb-b407-73ebe9d81c8c
     targetGuid: 003eae81-cffc-4a42-bc2d-2dfa57976df3
-    portId: 7
+    portId: 6
   - guid: b5232cb0-e793-4827-8b72-5c60aabbe968
     targetGuid: 3094714e-222a-4047-b0b0-52466d9e3b05
-    portId: 8
+    portId: 7
   - guid: 3094714e-222a-4047-b0b0-52466d9e3b05
     targetGuid: 78fa90c5-4453-447d-8838-523ccba1884c
-    portId: 9
+    portId: 8
   - guid: 78fa90c5-4453-447d-8838-523ccba1884c
     targetGuid: 786ce477-4f3d-49f9-aada-d789e99419c5
-    portId: 10
+    portId: 9
   - guid: 003eae81-cffc-4a42-bc2d-2dfa57976df3
     targetGuid: 7792b92e-742d-4a61-be0f-55ce7627f11e
-    portId: 11
+    portId: 10
   - guid: 7792b92e-742d-4a61-be0f-55ce7627f11e
     targetGuid: ac520c52-310b-4ee8-87e3-62d245dc8473
-    portId: 12
+    portId: 11
   - guid: ac520c52-310b-4ee8-87e3-62d245dc8473
     targetGuid: 6bb5182d-8d78-4af4-8dd8-778d2a269ab5
-    portId: 13
+    portId: 12
   - guid: 786ce477-4f3d-49f9-aada-d789e99419c5
     targetGuid: d4b8661f-b236-419c-825c-8b07dac71907
-    portId: 14
+    portId: 13
   - guid: 6bb5182d-8d78-4af4-8dd8-778d2a269ab5
     targetGuid: 3741ed82-e474-42a6-b389-eab14be1c86f
-    portId: 15
+    portId: 14
   - guid: d4b8661f-b236-419c-825c-8b07dac71907
     targetGuid: facfb5a1-d4d0-4550-b3ea-8d6bc19b723c
-    portId: 16
+    portId: 15
   - guid: facfb5a1-d4d0-4550-b3ea-8d6bc19b723c
     targetGuid: 330edc0a-129f-4300-8c88-d5e5495a550b
-    portId: 17
+    portId: 16
   - guid: 3741ed82-e474-42a6-b389-eab14be1c86f
     targetGuid: 1694d04e-2880-4cb0-835c-52208a75ec63
-    portId: 18
+    portId: 17
   - guid: 1694d04e-2880-4cb0-835c-52208a75ec63
     targetGuid: a3f21fcf-e135-4cc9-807f-8723d08fa709
-    portId: 19
+    portId: 18
   - guid: 330edc0a-129f-4300-8c88-d5e5495a550b
     targetGuid: bea6757a-ada9-4c60-8ef0-47fadd5a4a96
-    portId: 20
+    portId: 19
   - guid: bea6757a-ada9-4c60-8ef0-47fadd5a4a96
     targetGuid: 2d9909c6-3f19-48f2-8df8-0d5ade22e0c7
-    portId: 21
+    portId: 20
   - guid: a3f21fcf-e135-4cc9-807f-8723d08fa709
     targetGuid: b6ab9dd4-167c-4888-9fdb-772e136fdcde
-    portId: 22
+    portId: 21
   - guid: b6ab9dd4-167c-4888-9fdb-772e136fdcde
     targetGuid: de460d30-ec7b-4d6a-8427-22f777681113
-    portId: 23
+    portId: 22
   - guid: 8147d10b-6651-467f-9cff-06e4cd3e8828
     targetGuid: 440384e0-4518-4174-9568-0dd9b7afb775
+    portId: 23
+  - guid: ea5bc6a4-0f15-401b-98e9-15fe62679cba
+    targetGuid: b8ca24ef-6dce-4df9-b05d-3b31c05aa27f
     portId: 24
   nodes:
   - guid: 440384e0-4518-4174-9568-0dd9b7afb775
@@ -102,31 +102,13 @@ MonoBehaviour:
     - "Opa! O que uma mo\xE7a bonita como voc\xEA faz aqui?"
     nodePosition:
       serializedVersion: 2
-      x: 526.4
-      y: -243.2
-      width: 499.19995
-      height: 362.40002
+      x: 526
+      y: -243
+      width: 499
+      height: 415
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
-  - guid: ea5bc6a4-0f15-401b-98e9-15fe62679cba
-    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
-    characterName: Sua Nova Chefe?
-    dialogueText: "Oi, brotinho! \xC9 assim que voc\xEAs falam, n\xE9? Eu n\xE3o
-      preciso te dizer meu nome, se voc\xEA quiser pode me chamar de sua nova chefe!"
-    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 1076.8
-      y: -468.8
-      width: 499.19995
-      height: 303.2
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: 506bb2bd-81e3-41d5-abea-0e6ddcaf5605
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Mo\xE7a Bonita?"
@@ -140,12 +122,13 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 1074.4
-      y: -153.59999
-      width: 499.19995
-      height: 303.2
+      x: 1074
+      y: -154
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: 2987a3f2-6f66-4149-af10-932669f4656c
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Voc\xEA"
@@ -158,12 +141,13 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 1610.4
-      y: -157.59999
-      width: 499.20007
-      height: 303.2
+      x: 1610
+      y: -158
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: b8ca24ef-6dce-4df9-b05d-3b31c05aa27f
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Voc\xEA"
@@ -177,12 +161,13 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 1611.2
-      y: -471.19998
-      width: 499.19995
-      height: 303.19998
+      x: 1611
+      y: -471
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: 35672bb8-60b8-4aa2-9b55-4546f8b34031
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: Sua Nova Chefe?
@@ -196,12 +181,13 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 2133.6
-      y: -468.8
-      width: 499.19995
-      height: 303.2
+      x: 2134
+      y: -469
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: 5fb53754-441f-4bcb-b407-73ebe9d81c8c
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: Sua Nova Chefe?
@@ -215,12 +201,13 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 2656.8
-      y: -465.6
-      width: 499.19995
-      height: 303.2
+      x: 2657
+      y: -466
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: b5232cb0-e793-4827-8b72-5c60aabbe968
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: Sua Nova Chefe Bonita?
@@ -233,12 +220,13 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 2136.8
-      y: -156.79999
-      width: 499.19995
-      height: 303.2
+      x: 2137
+      y: -157
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: 3094714e-222a-4047-b0b0-52466d9e3b05
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Voc\xEA"
@@ -252,12 +240,13 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 2659.2
+      x: 2659
       y: -160
-      width: 499.19995
-      height: 303.2
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: 78fa90c5-4453-447d-8838-523ccba1884c
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Voc\xEA"
@@ -270,12 +259,13 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 3183.2
-      y: -163.2
-      width: 499.19995
-      height: 303.2
+      x: 3183
+      y: -163
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: 003eae81-cffc-4a42-bc2d-2dfa57976df3
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Voc\xEA"
@@ -290,11 +280,12 @@ MonoBehaviour:
     nodePosition:
       serializedVersion: 2
       x: 3184
-      y: -480.8
-      width: 499.19995
-      height: 303.2
+      y: -481
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: 7792b92e-742d-4a61-be0f-55ce7627f11e
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Voc\xEA"
@@ -307,12 +298,13 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 3705.6
+      x: 3706
       y: -476
-      width: 499.1997
-      height: 303.2
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: ac520c52-310b-4ee8-87e3-62d245dc8473
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: Sua Nova Chefe?
@@ -325,12 +317,13 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 4225.6
+      x: 4226
       y: -480
-      width: 499.1997
-      height: 303.2
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: 786ce477-4f3d-49f9-aada-d789e99419c5
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Sua Nova Chefe Rob\xF4 Bonita?"
@@ -343,12 +336,13 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 3710.4
+      x: 3710
       y: -164
-      width: 499.2002
-      height: 303.2
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: 6bb5182d-8d78-4af4-8dd8-778d2a269ab5
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Voc\xEA"
@@ -361,12 +355,13 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 4759.2
-      y: -494.4
-      width: 499.1997
-      height: 303.2
+      x: 4759
+      y: -494
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: d4b8661f-b236-419c-825c-8b07dac71907
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Voc\xEA"
@@ -380,11 +375,12 @@ MonoBehaviour:
     nodePosition:
       serializedVersion: 2
       x: 4232
-      y: -163.2
-      width: 499.2002
-      height: 303.2
+      y: -163
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: facfb5a1-d4d0-4550-b3ea-8d6bc19b723c
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Sua Nova Chefe Rob\xF4 Bonita?"
@@ -398,12 +394,13 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 4760.8
-      y: -165.59999
-      width: 499.2002
-      height: 303.2
+      x: 4761
+      y: -166
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: 3741ed82-e474-42a6-b389-eab14be1c86f
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Sua Nova Chefe Rob\xF4?"
@@ -417,11 +414,12 @@ MonoBehaviour:
     nodePosition:
       serializedVersion: 2
       x: 5292
-      y: -497.6
-      width: 499.2002
-      height: 303.2
+      y: -498
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: 1694d04e-2880-4cb0-835c-52208a75ec63
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Voc\xEA"
@@ -434,12 +432,13 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 5825.6
-      y: -507.19998
-      width: 499.1997
-      height: 303.19998
+      x: 5826
+      y: -507
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: 330edc0a-129f-4300-8c88-d5e5495a550b
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Voc\xEA"
@@ -452,12 +451,13 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 5286.4
-      y: -155.2
-      width: 499.2002
-      height: 303.2
+      x: 5286
+      y: -155
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: 2d9909c6-3f19-48f2-8df8-0d5ade22e0c7
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Voc\xEA"
@@ -470,12 +470,13 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 6412.8
-      y: -188.79999
-      width: 499.2002
-      height: 303.2
+      x: 6413
+      y: -189
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: bea6757a-ada9-4c60-8ef0-47fadd5a4a96
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Sua Nova Chefe Rob\xF4 Bonita?"
@@ -489,12 +490,13 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 5830.4
-      y: -167.2
-      width: 499.2002
-      height: 303.2
+      x: 5830
+      y: -167
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: a3f21fcf-e135-4cc9-807f-8723d08fa709
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Sua Nova Chefe Rob\xF4?"
@@ -510,10 +512,11 @@ MonoBehaviour:
       serializedVersion: 2
       x: 6388
       y: -536
-      width: 499.2002
-      height: 303.2
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: b6ab9dd4-167c-4888-9fdb-772e136fdcde
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Sua Nova Chefe Rob\xF4?"
@@ -526,12 +529,13 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 6913.6
-      y: -550.4
-      width: 499.1997
-      height: 303.2
+      x: 6914
+      y: -550
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: de460d30-ec7b-4d6a-8427-22f777681113
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Voc\xEA"
@@ -545,12 +549,13 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 7452.8
-      y: -551.2
-      width: 499.2002
-      height: 303.19998
+      x: 7453
+      y: -551
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
   - guid: 8147d10b-6651-467f-9cff-06e4cd3e8828
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: ???
@@ -563,9 +568,30 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: -8.8
-      y: -246.4
-      width: 499.19998
-      height: 303.2
+      x: -9
+      y: -246
+      width: 499
+      height: 353
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 8300000, guid: c786fe15453d61f4a8d0387acef23634, type: 3}
+    likeGain: 0
+  - guid: ea5bc6a4-0f15-401b-98e9-15fe62679cba
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: Sua Nova Chefe?
+    dialogueText: "Oi, brotinho! \xC9 assim que voc\xEAs falam, n\xE9? Eu n\xE3o
+      preciso te dizer meu nome, se voc\xEA quiser pode me chamar de sua nova chefe!"
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1057
+      y: -646
+      width: 499
+      height: 353
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: -10

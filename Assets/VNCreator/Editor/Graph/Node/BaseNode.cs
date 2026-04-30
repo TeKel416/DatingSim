@@ -53,6 +53,24 @@ namespace VNCreator
                 }
             );
 
+            TextField likeGainField = this.Query<TextField>("Like_Gain");
+            likeGainField.value = node.nodeData.likeGain.ToString();
+            likeGainField.RegisterValueChangedCallback(
+                e =>
+                {
+                    node.nodeData.likeGain = float.Parse(likeGainField.value);
+                }
+            );
+
+            Toggle showLikeBar = this.Query<Toggle>("Show_Like_Bar");
+            showLikeBar.value = node.nodeData.showLikeBar;
+            showLikeBar.RegisterValueChangedCallback(
+                e =>
+                {
+                    node.nodeData.showLikeBar = showLikeBar.value;
+                }
+            );
+
             TextField charNameField = this.Query<TextField>("Char_Name");
             charNameField.value = node.nodeData.characterName;
             charNameField.RegisterValueChangedCallback(

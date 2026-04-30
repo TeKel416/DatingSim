@@ -37,7 +37,9 @@ namespace VNCreator
                         choiceOptions = _node.nodeData.choiceOptions,
                         nodePosition = _node.GetPosition(),
                         soundEffect = _node.nodeData.soundEffect,
-                        backgroundMusic = _node.nodeData.backgroundMusic
+                        backgroundMusic = _node.nodeData.backgroundMusic,
+                        likeGain = _node.nodeData.likeGain,
+                        showLikeBar = _node.nodeData.showLikeBar
                     });
             }
 

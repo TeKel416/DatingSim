@@ -19,6 +19,8 @@ namespace VNCreator
         public Rect nodePosition;
         public AudioClip soundEffect;
         public AudioClip backgroundMusic;
+        public float likeGain = 0;
+        public bool showLikeBar;
 
         public NodeData()
         {

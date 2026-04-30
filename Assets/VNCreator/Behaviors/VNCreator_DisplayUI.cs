@@ -8,6 +8,8 @@ namespace VNCreator
 {
     public class VNCreator_DisplayUI : DisplayBase
     {
+        [Header("Like Bar")]
+        public Slider likeSlider;
         [Header("New Story")]
         public bool isNewStory = false;
         [Header("Text")]
@@ -38,6 +40,8 @@ namespace VNCreator
         [Scene]
         public string mainMenu;
 
+        private bool isTyping = false;
+
         void Start()
         {
             nextBtn.onClick.AddListener(delegate { NextNode(0); });
@@ -57,23 +61,31 @@ namespace VNCreator
             if(choiceBtn3 != null)
                 choiceBtn3.onClick.AddListener(delegate { NextNode(2); });
 
+            likeSlider.value = LikeBar.Instance.GetLikeLevel();
+            likeSlider.gameObject.SetActive(currentNode.showLikeBar);
+
             StartCoroutine(DisplayCurrentNode());
         }
 
         protected override void NextNode(int _choiceId)
         {
-            if (lastNode)
+            if (!isTyping)
             {
-                EndStory();
-                return;
-            }
+                if (lastNode)
+                {
+                    EndStory();
+                    return;
+                }
 
-            base.NextNode(_choiceId);
-            StartCoroutine(DisplayCurrentNode());
+                base.NextNode(_choiceId);
+                StartCoroutine(DisplayCurrentNode());
+            }
         }
 
         IEnumerator DisplayCurrentNode()
         {
+            likeSlider.gameObject.SetActive(currentNode.showLikeBar);
+
             characterNameTxt.text = currentNode.characterName;
             if (currentNode.characterSpr != null)
             {
@@ -123,13 +135,23 @@ namespace VNCreator
             if (currentNode.soundEffect != null)
                 VNCreator_SfxSource.instance.Play(currentNode.soundEffect);
 
+            if (currentNode.likeGain != 0)
+            {
+                LikeBar.Instance.ChangeLikeLevel(currentNode.likeGain);
+                likeSlider.value = LikeBar.Instance.GetLikeLevel();
+            }
+
+            // escrever o texto de dialogo
             dialogueTxt.text = string.Empty;
             if (GameOptions.isInstantText)
             {
+                isTyping = false;
                 dialogueTxt.text = currentNode.dialogueText;
             }
             else
             {
+                isTyping = true;
+
                 char[] _chars = currentNode.dialogueText.ToCharArray();
                 string fullString = string.Empty;
                 for (int i = 0; i < _chars.Length; i++)
@@ -138,6 +160,8 @@ namespace VNCreator
                     dialogueTxt.text = fullString;
                     yield return new WaitForSeconds(0.01f/ GameOptions.readSpeed);
                 }
+
+                isTyping = false;
             }
         }
 
