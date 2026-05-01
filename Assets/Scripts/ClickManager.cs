@@ -67,6 +67,13 @@ public class ClickManager : MonoBehaviour
         }
     }
 
+    public void CombineItem(ItemData item)
+    {
+        Debug.Log(item.itemName);
+        GameManager.collectedItems.Remove(GameManager.collectedItems[item.itemToCombineID]);
+        AddNewItem(item.itemToAdd);
+    }
+
     public void AddNewItem(ItemData item)
     {
         GameManager.collectedItems.Add(item);

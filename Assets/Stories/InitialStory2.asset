@@ -66,8 +66,8 @@ MonoBehaviour:
       height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
-    likeGain: -50
-    showLikeBar: 1
+    likeGain: 0
+    showLikeBar: 0
   - guid: b6d56dbb-664a-4498-80e7-d929ce1fdd04
     characterSpr: {fileID: 21300000, guid: 9c3a05b2ac701a24ab670be6be22e5ef, type: 3}
     characterName: "Voc\xEA"
@@ -131,4 +131,4 @@ MonoBehaviour:
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 8300000, guid: 8275a4bd932cf644b8913c201305a8f4, type: 3}
     likeGain: 0
-    showLikeBar: 1
+    showLikeBar: 0

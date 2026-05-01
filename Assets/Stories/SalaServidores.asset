@@ -105,10 +105,11 @@ MonoBehaviour:
       x: 526
       y: -243
       width: 499
-      height: 415
+      height: 433
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
+    showLikeBar: 1
   - guid: 506bb2bd-81e3-41d5-abea-0e6ddcaf5605
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Mo\xE7a Bonita?"
@@ -125,10 +126,11 @@ MonoBehaviour:
       x: 1074
       y: -154
       width: 499
-      height: 353
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
-    likeGain: 0
+    likeGain: 20
+    showLikeBar: 1
   - guid: 2987a3f2-6f66-4149-af10-932669f4656c
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Voc\xEA"
@@ -144,70 +146,11 @@ MonoBehaviour:
       x: 1610
       y: -158
       width: 499
-      height: 353
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
-  - guid: b8ca24ef-6dce-4df9-b05d-3b31c05aa27f
-    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
-    characterName: "Voc\xEA"
-    dialogueText: " Qu\xEA?? T\xE1 louca? O Chester \xE9 meu chefe. E o que carambas
-      \xE9 voc\xEA?"
-    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 1611
-      y: -471
-      width: 499
-      height: 353
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-    likeGain: 0
-  - guid: 35672bb8-60b8-4aa2-9b55-4546f8b34031
-    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
-    characterName: Sua Nova Chefe?
-    dialogueText: "Ah, o Chester vai ser o antigo chefe um dia. Afinal, tudo que
-      \xE9 velho, cai!"
-    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 2134
-      y: -469
-      width: 499
-      height: 353
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-    likeGain: 0
-  - guid: 5fb53754-441f-4bcb-b407-73ebe9d81c8c
-    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
-    characterName: Sua Nova Chefe?
-    dialogueText: "Voc\xEA \xE9 o subordinado dele, n\xE9? Responde por ele. Pois
-      ent\xE3o agora vai responder a mim, meu subordinado!"
-    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 2657
-      y: -466
-      width: 499
-      height: 353
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-    likeGain: 0
+    showLikeBar: 1
   - guid: b5232cb0-e793-4827-8b72-5c60aabbe968
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: Sua Nova Chefe Bonita?
@@ -223,10 +166,11 @@ MonoBehaviour:
       x: 2137
       y: -157
       width: 499
-      height: 353
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
+    showLikeBar: 1
   - guid: 3094714e-222a-4047-b0b0-52466d9e3b05
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Voc\xEA"
@@ -243,10 +187,11 @@ MonoBehaviour:
       x: 2659
       y: -160
       width: 499
-      height: 353
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
+    showLikeBar: 1
   - guid: 78fa90c5-4453-447d-8838-523ccba1884c
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Voc\xEA"
@@ -262,30 +207,11 @@ MonoBehaviour:
       x: 3183
       y: -163
       width: 499
-      height: 353
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
-  - guid: 003eae81-cffc-4a42-bc2d-2dfa57976df3
-    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
-    characterName: "Voc\xEA"
-    dialogueText: "(Certo, acho que eu tomei caf\xE9 demais... O Figgs disse que
-      nessas horas \xE9 melhor entrar na brisa.)"
-    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 3184
-      y: -481
-      width: 499
-      height: 353
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-    likeGain: 0
+    showLikeBar: 1
   - guid: 7792b92e-742d-4a61-be0f-55ce7627f11e
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Voc\xEA"
@@ -301,10 +227,11 @@ MonoBehaviour:
       x: 3706
       y: -476
       width: 499
-      height: 353
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
+    showLikeBar: 1
   - guid: ac520c52-310b-4ee8-87e3-62d245dc8473
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: Sua Nova Chefe?
@@ -320,10 +247,11 @@ MonoBehaviour:
       x: 4226
       y: -480
       width: 499
-      height: 353
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
+    showLikeBar: 1
   - guid: 786ce477-4f3d-49f9-aada-d789e99419c5
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Sua Nova Chefe Rob\xF4 Bonita?"
@@ -339,10 +267,11 @@ MonoBehaviour:
       x: 3710
       y: -164
       width: 499
-      height: 353
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
+    showLikeBar: 1
   - guid: 6bb5182d-8d78-4af4-8dd8-778d2a269ab5
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Voc\xEA"
@@ -358,10 +287,11 @@ MonoBehaviour:
       x: 4759
       y: -494
       width: 499
-      height: 353
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
+    showLikeBar: 1
   - guid: d4b8661f-b236-419c-825c-8b07dac71907
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Voc\xEA"
@@ -377,10 +307,11 @@ MonoBehaviour:
       x: 4232
       y: -163
       width: 499
-      height: 353
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
+    showLikeBar: 1
   - guid: facfb5a1-d4d0-4550-b3ea-8d6bc19b723c
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Sua Nova Chefe Rob\xF4 Bonita?"
@@ -397,10 +328,11 @@ MonoBehaviour:
       x: 4761
       y: -166
       width: 499
-      height: 353
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
+    showLikeBar: 1
   - guid: 3741ed82-e474-42a6-b389-eab14be1c86f
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Sua Nova Chefe Rob\xF4?"
@@ -416,10 +348,11 @@ MonoBehaviour:
       x: 5292
       y: -498
       width: 499
-      height: 353
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
+    showLikeBar: 1
   - guid: 1694d04e-2880-4cb0-835c-52208a75ec63
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Voc\xEA"
@@ -435,10 +368,11 @@ MonoBehaviour:
       x: 5826
       y: -507
       width: 499
-      height: 353
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
+    showLikeBar: 1
   - guid: 330edc0a-129f-4300-8c88-d5e5495a550b
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Voc\xEA"
@@ -454,29 +388,11 @@ MonoBehaviour:
       x: 5286
       y: -155
       width: 499
-      height: 353
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
-  - guid: 2d9909c6-3f19-48f2-8df8-0d5ade22e0c7
-    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
-    characterName: "Voc\xEA"
-    dialogueText: "Belezura,chuchu. Acabou meu turno mesmo. T\xF4 saindo."
-    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
-    startNode: 0
-    endNode: 1
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 6413
-      y: -189
-      width: 499
-      height: 353
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-    likeGain: 0
+    showLikeBar: 1
   - guid: bea6757a-ada9-4c60-8ef0-47fadd5a4a96
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Sua Nova Chefe Rob\xF4 Bonita?"
@@ -493,10 +409,11 @@ MonoBehaviour:
       x: 5830
       y: -167
       width: 499
-      height: 353
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
+    showLikeBar: 1
   - guid: a3f21fcf-e135-4cc9-807f-8723d08fa709
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Sua Nova Chefe Rob\xF4?"
@@ -513,10 +430,11 @@ MonoBehaviour:
       x: 6388
       y: -536
       width: 499
-      height: 353
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
+    showLikeBar: 1
   - guid: b6ab9dd4-167c-4888-9fdb-772e136fdcde
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Sua Nova Chefe Rob\xF4?"
@@ -532,10 +450,11 @@ MonoBehaviour:
       x: 6914
       y: -550
       width: 499
-      height: 353
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
+    showLikeBar: 1
   - guid: de460d30-ec7b-4d6a-8427-22f777681113
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: "Voc\xEA"
@@ -552,10 +471,11 @@ MonoBehaviour:
       x: 7453
       y: -551
       width: 499
-      height: 353
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
+    showLikeBar: 1
   - guid: 8147d10b-6651-467f-9cff-06e4cd3e8828
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: ???
@@ -571,10 +491,11 @@ MonoBehaviour:
       x: -9
       y: -246
       width: 499
-      height: 353
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 8300000, guid: c786fe15453d61f4a8d0387acef23634, type: 3}
     likeGain: 0
+    showLikeBar: 1
   - guid: ea5bc6a4-0f15-401b-98e9-15fe62679cba
     characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
     characterName: Sua Nova Chefe?
@@ -591,7 +512,112 @@ MonoBehaviour:
       x: 1057
       y: -646
       width: 499
-      height: 353
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: -10
+    showLikeBar: 1
+  - guid: b8ca24ef-6dce-4df9-b05d-3b31c05aa27f
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: " Qu\xEA?? T\xE1 louca? O Chester \xE9 meu chefe. E o que carambas
+      \xE9 voc\xEA?"
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1608
+      y: -541
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: 35672bb8-60b8-4aa2-9b55-4546f8b34031
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: Sua Nova Chefe?
+    dialogueText: "Ah, o Chester vai ser o antigo chefe um dia. Afinal, tudo que
+      \xE9 velho, cai!"
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2116
+      y: -546
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: 5fb53754-441f-4bcb-b407-73ebe9d81c8c
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: Sua Nova Chefe?
+    dialogueText: "Voc\xEA \xE9 o subordinado dele, n\xE9? Responde por ele. Pois
+      ent\xE3o agora vai responder a mim, meu subordinado!"
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2672
+      y: -571
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: 003eae81-cffc-4a42-bc2d-2dfa57976df3
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "(Certo, acho que eu tomei caf\xE9 demais... O Figgs disse que
+      nessas horas \xE9 melhor entrar na brisa.)"
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3191
+      y: -560
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: 2d9909c6-3f19-48f2-8df8-0d5ade22e0c7
+    characterSpr: {fileID: 21300000, guid: 8627e28118c0dd241ba67a1da1175295, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Belezura,chuchu. Acabou meu turno mesmo. T\xF4 saindo."
+    backgroundSpr: {fileID: 21300000, guid: 2a33a4601408a2d4799049d4c23212a9, type: 3}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6416
+      y: -141
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1

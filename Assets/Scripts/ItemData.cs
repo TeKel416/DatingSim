@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ItemData : MonoBehaviour
 {
-    public int itemID, requiredItemID;
+    public int itemID, requiredItemID = -1, itemToCombineID = -1;
     public string itemName;
     public string hint;
     public string successMsg;

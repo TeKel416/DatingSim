@@ -2,9 +2,11 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using static UnityEditor.Progress;
 
 public class GameManager : MonoBehaviour
 {
+    ClickManager clickManager;
     public static List<ItemData> collectedItems = new List<ItemData>();
     public RectTransform nameTag;
 
@@ -14,6 +16,11 @@ public class GameManager : MonoBehaviour
     public Sprite emptyItemSlotSprite;
     public Color selectedItemColor;
     public int selectedCanvasSlotID = 0, selectedItemID = -1;
+
+    private void Start()
+    {
+        clickManager = FindFirstObjectByType<ClickManager>();
+    }
 
     public void UpdateNameTag(ItemData item)
     {
@@ -34,6 +41,7 @@ public class GameManager : MonoBehaviour
         Color c = Color.white;
         c.a = 0;
 
+        // deselecionar o mesmo item
         if (selectedCanvasSlotID == equipmentCanvasID && equipmentSlots[equipmentCanvasID].color == selectedItemColor)
         {
             equipmentSlots[equipmentCanvasID].color = c;
@@ -45,6 +53,7 @@ public class GameManager : MonoBehaviour
         // change the alpha of the previous slot to 0
         equipmentSlots[selectedCanvasSlotID].color = c;
 
+        // selecionar campo vazio
         // save changes and stop if an empty slot is clicked or the last item is removed
         if (equipmentCanvasID >= collectedItems.Count || equipmentCanvasID < 0)
         {
@@ -54,11 +63,33 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        // change the alpha of the new slot to x
+        Debug.Log(collectedItems[equipmentCanvasID].itemName);
+        /*
+        if (collectedItems[equipmentCanvasID].itemToCombineID == collectedItems[selectedCanvasSlotID].itemID)
+        {
+            clickManager.CombineItem(collectedItems[selectedCanvasSlotID]);
+
+            // no items selected
+            equipmentSlots[equipmentCanvasID].color = c;
+            selectedItemID = -1;
+            selectedCanvasSlotID = 0;
+
+            UpdateEquipmentCanvas();
+        }
+        else
+        {
+            // selecionar item
+            // change the alpha of the new slot to the select color
+            equipmentSlots[equipmentCanvasID].color = selectedItemColor;
+            selectedItemID = collectedItems[selectedCanvasSlotID].itemID;
+            selectedCanvasSlotID = equipmentCanvasID;
+        }*/
+
+        // selecionar item
+        // change the alpha of the new slot to the select color
         equipmentSlots[equipmentCanvasID].color = selectedItemColor;
-        // save changes
-        selectedCanvasSlotID = equipmentCanvasID;
         selectedItemID = collectedItems[selectedCanvasSlotID].itemID;
+        selectedCanvasSlotID = equipmentCanvasID;
     }
 
     public void ShowItemName(int equipmentCanvasID)

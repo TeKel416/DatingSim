@@ -3177,7 +3177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ed6c7bc45cf4834d822614c9e7b9ef3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveManager
-  activeLocation: {fileID: 1079561934}
+  activeLocation: {fileID: 2040645057}
   goLeftBtn: {fileID: 1660029751}
   goRightBtn: {fileID: 1872819410}
 --- !u!1 &628289957
@@ -3595,7 +3595,7 @@ MonoBehaviour:
   itemID: 4
   requiredItemID: -1
   itemToCombineID: 1
-  itemName: CHAVE 2
+  itemName: Chave da Sala do Chefe
   hint: 
   successMsg: 
   objectsToRemove:
@@ -6514,7 +6514,7 @@ MonoBehaviour:
   itemID: 1
   requiredItemID: -1
   itemToCombineID: 4
-  itemName: CHAVE 1
+  itemName: Chave da Sala do Chefe
   hint: 
   successMsg: 
   objectsToRemove:
