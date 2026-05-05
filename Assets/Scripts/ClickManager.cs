@@ -48,7 +48,7 @@ public class ClickManager : MonoBehaviour
                 Destroy(g);
             }
 
-            GameManager.collectedItems.Remove(GameManager.collectedItems[item.requiredItemID]);
+            GameManager.collectedItems.Remove(GameManager.collectedItems.Find(i => i.itemID == item.requiredItemID));
             gameManager.UpdateEquipmentCanvas();
 
             if (item.successMsg != null)
