@@ -10,4 +10,5 @@ public class ItemData : MonoBehaviour
     public Vector2 nameTagSize = new Vector2(300, 80);
     public Sprite itemSlotSprite;
     public ItemData itemToAdd;
+    public AudioClip pickupSfx;
 }

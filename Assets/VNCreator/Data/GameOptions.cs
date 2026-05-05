@@ -6,13 +6,16 @@ namespace VNCreator
 {
     public static class GameOptions
     {
-        public static float musicVolume = -30f;
-        public static float sfxVolume = 0.5f;
+        public static float masterVolume = -25f;
+        public static float musicVolume = 0f;
+        public static float sfxVolume = 0f;
         public static float readSpeed = 0.5f;
         public static bool isInstantText = false;
 
         public static void InitilizeOptions()
         {
+            if (PlayerPrefs.HasKey("MasterVolume"))
+                masterVolume = PlayerPrefs.GetFloat("MasterVolume");
             if (PlayerPrefs.HasKey("MusicVolume"))
                 musicVolume = PlayerPrefs.GetFloat("MusicVolume");
             if (PlayerPrefs.HasKey("SfxVolume"))
@@ -21,6 +24,12 @@ namespace VNCreator
                 readSpeed = PlayerPrefs.GetFloat("ReadSpeed");
             if (PlayerPrefs.HasKey("InstantText"))
                 isInstantText = PlayerPrefs.GetInt("InstantText") == 1 ? true : false;
+        }
+
+        public static void SetMasterVolumeValue(float index)
+        {
+            masterVolume = index;
+            PlayerPrefs.SetFloat("MasterVolume", index);
         }
 
         public static void SetMusicVolumeValue(float index)

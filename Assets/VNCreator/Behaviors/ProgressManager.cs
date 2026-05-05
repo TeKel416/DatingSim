@@ -4,16 +4,26 @@ using UnityEngine.SceneManagement;
 
 public class ProgressManager : MonoBehaviour
 {
-    MoveManager moveManager;
+    public static ProgressManager Instance;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void Awake()
     {
-        moveManager = FindFirstObjectByType<MoveManager>();
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
     }
+
+    public GameObject movementCanvas;
 
     public void TriggerStoryOnEnter(string storyScene)
     {
+        ActivateMoveCanvas(false);
         StartCoroutine(LoadAsyncScene(storyScene));
     }
 
@@ -28,5 +38,10 @@ public class ProgressManager : MonoBehaviour
         }
 
         SceneManager.SetActiveScene(SceneManager.GetSceneByName(storyScene));
+    }
+
+    public void ActivateMoveCanvas(bool on)
+    {
+        if (movementCanvas) movementCanvas.SetActive(on);
     }
 }

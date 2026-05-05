@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
-  m_Name: Almoxarifado
+  m_Name: Almoxarifado1
   m_EditorClassIdentifier: VNCreator::VNCreator.StoryObject
   links:
   - guid: 4a29c2b7-1e45-4f14-af69-e42092f35867
@@ -21,7 +21,7 @@ MonoBehaviour:
     portId: 1
   nodes:
   - guid: 4a29c2b7-1e45-4f14-af69-e42092f35867
-    characterSpr: {fileID: 21300000, guid: 59761d37806f3244ba77b4b23f66b5a4, type: 3}
+    characterSpr: {fileID: 21300000, guid: 07eee9fe8243833459e3629b86ffa0aa, type: 3}
     characterName: Figgs
     dialogueText: "E a\xED, bicho! Do que precisa?"
     backgroundSpr: {fileID: 21300000, guid: ddf42dd21410b674996786d91e5f8d69, type: 3}
@@ -32,17 +32,19 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 152.8
-      y: 135.20001
-      width: 499.2
-      height: 303.19998
+      x: 153
+      y: 135
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
   - guid: 0dfc8745-cea7-4192-b8da-88eef2faed9c
-    characterSpr: {fileID: 21300000, guid: 59761d37806f3244ba77b4b23f66b5a4, type: 3}
+    characterSpr: {fileID: 21300000, guid: 07eee9fe8243833459e3629b86ffa0aa, type: 3}
     characterName: "Voc\xEA"
-    dialogueText: "Oi, Figgs! T\xF4 querendo a chave da sala do chefe. Ele pediu
-      pra te entregar um documento para a prefeitura, tinha esquecido de fazer isso."
+    dialogueText: "Oi, Figgs. T\xF4 querendo a chave da sala do chefe. Ele pediu
+      pra buscar um processo da prefeitura, mas eu tinha esquecido de fazer isso."
     backgroundSpr: {fileID: 21300000, guid: ddf42dd21410b674996786d91e5f8d69, type: 3}
     startNode: 0
     endNode: 0
@@ -52,15 +54,17 @@ MonoBehaviour:
     nodePosition:
       serializedVersion: 2
       x: 676
-      y: 134.40001
-      width: 499.19995
-      height: 303.2
+      y: 134
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
   - guid: 6fa8db8e-d52f-43d5-9649-0b7dddfc1e94
-    characterSpr: {fileID: 21300000, guid: 59761d37806f3244ba77b4b23f66b5a4, type: 3}
+    characterSpr: {fileID: 21300000, guid: 7da10fc76ac0a884da8a693de444b7d3, type: 3}
     characterName: Figgs
-    dialogueText: "Aaah, pode cr\xEA. Ele me falou disso. A chave deve estar em algum
+    dialogueText: "Aaah pode cr\xEA, ele me falou disso. A chave deve estar em algum
       lugar dessas tralhas."
     backgroundSpr: {fileID: 21300000, guid: ddf42dd21410b674996786d91e5f8d69, type: 3}
     startNode: 0
@@ -72,7 +76,9 @@ MonoBehaviour:
       serializedVersion: 2
       x: 1216
       y: 136
-      width: 499.19995
-      height: 303.2
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0

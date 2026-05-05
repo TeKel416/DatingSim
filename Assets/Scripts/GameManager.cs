@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using static UnityEditor.Progress;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,7 +14,7 @@ public class GameManager : MonoBehaviour
     public Image[] equipmentSlots, equipmentImages;
     public Sprite emptyItemSlotSprite;
     public Color selectedItemColor;
-    public int selectedCanvasSlotID = 0, selectedItemID = -1;
+    public int lastSlotClickedID = -1, selectedItemID = -1;
 
     private void Start()
     {
@@ -36,67 +35,74 @@ public class GameManager : MonoBehaviour
         nameTag.sizeDelta = obj.nameTagSize;
     }
 
-    public void SelectItem(int equipmentCanvasID)
+    public void SelectItem(int slotID)
     {
-        Color c = Color.white;
-        c.a = 0;
-
-        // deselecionar o mesmo item
-        if (selectedCanvasSlotID == equipmentCanvasID && equipmentSlots[equipmentCanvasID].color == selectedItemColor)
-        {
-            equipmentSlots[equipmentCanvasID].color = c;
-            selectedItemID = -1;
-            selectedCanvasSlotID = 0;
-            return;
-        }
-
-        // change the alpha of the previous slot to 0
-        equipmentSlots[selectedCanvasSlotID].color = c;
+        Color emptyColor = Color.white;
+        emptyColor.a = 0;
 
         // selecionar campo vazio
         // save changes and stop if an empty slot is clicked or the last item is removed
-        if (equipmentCanvasID >= collectedItems.Count || equipmentCanvasID < 0)
+        if (slotID >= collectedItems.Count || slotID < 0)
         {
             // no items selected
+            DeselectSlot(lastSlotClickedID);
             selectedItemID = -1;
-            selectedCanvasSlotID = 0;
-            return;
         }
-
-        Debug.Log(collectedItems[equipmentCanvasID].itemName);
-        /*
-        if (collectedItems[equipmentCanvasID].itemToCombineID == collectedItems[selectedCanvasSlotID].itemID)
+        // deselecionar o mesmo item
+        else if (lastSlotClickedID == slotID && equipmentSlots[slotID].color == selectedItemColor)
         {
-            clickManager.CombineItem(collectedItems[selectedCanvasSlotID]);
-
-            // no items selected
-            equipmentSlots[equipmentCanvasID].color = c;
+            DeselectSlot(slotID);
             selectedItemID = -1;
-            selectedCanvasSlotID = 0;
-
-            UpdateEquipmentCanvas();
         }
-        else
-        {
-            // selecionar item
-            // change the alpha of the new slot to the select color
-            equipmentSlots[equipmentCanvasID].color = selectedItemColor;
-            selectedItemID = collectedItems[selectedCanvasSlotID].itemID;
-            selectedCanvasSlotID = equipmentCanvasID;
-        }*/
+        else {
+            // verifica se o novo item selecionado e o item anterior se combinam
+            if (lastSlotClickedID != -1 
+                && collectedItems[slotID].itemToCombineID == collectedItems[lastSlotClickedID].itemID)
+            {
+                ItemData newItem = clickManager.CombineItems(slotID, lastSlotClickedID);
 
-        // selecionar item
-        // change the alpha of the new slot to the select color
-        equipmentSlots[equipmentCanvasID].color = selectedItemColor;
-        selectedItemID = collectedItems[selectedCanvasSlotID].itemID;
-        selectedCanvasSlotID = equipmentCanvasID;
+                UpdateEquipmentCanvas();
+
+                // selecionar novo item criado
+                for (int i = 0; i < collectedItems.Count; i++)
+                {
+                    if (newItem.itemID == collectedItems[i].itemID)
+                    {
+                        DeselectSlot(lastSlotClickedID);
+                        SelectSlot(i);
+                    }
+                }
+            }
+            else
+            {
+                // selecionar item
+                if (lastSlotClickedID != -1) { DeselectSlot(lastSlotClickedID); }
+                SelectSlot(slotID);
+            }
+        }
     }
 
-    public void ShowItemName(int equipmentCanvasID)
+    private void SelectSlot(int slotID)
     {
-        if (equipmentCanvasID < collectedItems.Count)
+        equipmentSlots[slotID].color = selectedItemColor;
+        selectedItemID = collectedItems[slotID].itemID;
+        lastSlotClickedID = slotID;
+    }
+
+    private void DeselectSlot(int slotID)
+    {
+        Color emptyColor = Color.white;
+        emptyColor.a = 0;
+
+        equipmentSlots[slotID].color = emptyColor;
+        lastSlotClickedID = -1;
+    }
+
+    public void ShowItemName(int slotID)
+    {
+        if (slotID < collectedItems.Count)
         {
-            UpdateNameTag(collectedItems[equipmentCanvasID]);
+            UpdateNameTag(collectedItems[slotID]);
         }
     }
 
@@ -116,12 +122,6 @@ public class GameManager : MonoBehaviour
             {
                 equipmentImages[i].sprite = emptyItemSlotSprite;
             }
-        }
-
-        // add special conditions for selecting items
-        if (itemsAmount == 0)
-        {
-            SelectItem(-1);
         }
     }
 }

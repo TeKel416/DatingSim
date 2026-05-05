@@ -76,7 +76,7 @@ public class MoveManager : MonoBehaviour
         else if (gameManager.selectedItemID == rightLocation.requiredItemID)
         {
             rightLocation.isLocked = false;
-            GameManager.collectedItems.Remove(GameManager.collectedItems[gameManager.selectedCanvasSlotID]);
+            GameManager.collectedItems.Remove(GameManager.collectedItems[gameManager.lastSlotClickedID]);
             gameManager.UpdateEquipmentCanvas();
 
             clickManager.nameTextBox.GetComponent<Text>().text = "Você";

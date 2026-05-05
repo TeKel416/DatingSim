@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: Almoxarifado2
+  m_EditorClassIdentifier: VNCreator::VNCreator.StoryObject
+  links:
+  - guid: 4a29c2b7-1e45-4f14-af69-e42092f35867
+    targetGuid: 0dfc8745-cea7-4192-b8da-88eef2faed9c
+    portId: 0
+  - guid: 0dfc8745-cea7-4192-b8da-88eef2faed9c
+    targetGuid: 24298508-5b1e-403e-b642-d79e7bc45b82
+    portId: 1
+  - guid: 24298508-5b1e-403e-b642-d79e7bc45b82
+    targetGuid: 3db225e3-7ffc-4bbf-8994-86a51cd61881
+    portId: 2
+  - guid: 3db225e3-7ffc-4bbf-8994-86a51cd61881
+    targetGuid: 74e15e37-03b7-4dbb-b7f0-f73177f79d6c
+    portId: 3
+  - guid: 74e15e37-03b7-4dbb-b7f0-f73177f79d6c
+    targetGuid: 8e3a2ebd-1479-4e1b-8414-4082b1573efc
+    portId: 4
+  - guid: 8e3a2ebd-1479-4e1b-8414-4082b1573efc
+    targetGuid: a0c77e8e-bab3-45ed-a38f-e6224226f35a
+    portId: 5
+  - guid: a0c77e8e-bab3-45ed-a38f-e6224226f35a
+    targetGuid: 521a9f51-3641-4ee3-97d9-19737e7c00bc
+    portId: 6
+  - guid: 521a9f51-3641-4ee3-97d9-19737e7c00bc
+    targetGuid: 25a9e7bf-2ca9-4a88-9307-def080b570f1
+    portId: 7
+  - guid: 25a9e7bf-2ca9-4a88-9307-def080b570f1
+    targetGuid: 99e53746-91e1-47f7-87f5-8b35a97149f2
+    portId: 8
+  nodes:
+  - guid: 4a29c2b7-1e45-4f14-af69-e42092f35867
+    characterSpr: {fileID: 21300000, guid: 07eee9fe8243833459e3629b86ffa0aa, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Figgs, voc\xEA n\xE3o sabe da nova, bicho! Eu acabei de ver uma
+      rob\xF4 numa nice cheia de beleza ali na sala de servidores."
+    backgroundSpr: {fileID: 21300000, guid: ddf42dd21410b674996786d91e5f8d69, type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 153
+      y: 135
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 0dfc8745-cea7-4192-b8da-88eef2faed9c
+    characterSpr: {fileID: 21300000, guid: 7da10fc76ac0a884da8a693de444b7d3, type: 3}
+    characterName: Figgs
+    dialogueText: "\xC9 o que, bicho? C\xEA fumou alguma parada minha?"
+    backgroundSpr: {fileID: 21300000, guid: ddf42dd21410b674996786d91e5f8d69, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 676
+      y: 134
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 24298508-5b1e-403e-b642-d79e7bc45b82
+    characterSpr: {fileID: 21300000, guid: 7da10fc76ac0a884da8a693de444b7d3, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Hoje n\xE3o, era real, cara! E ela disse que vai ser nossa nova
+      chefe."
+    backgroundSpr: {fileID: 21300000, guid: ddf42dd21410b674996786d91e5f8d69, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1247
+      y: 136
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 3db225e3-7ffc-4bbf-8994-86a51cd61881
+    characterSpr: {fileID: 21300000, guid: 57dac032cb39fc24598584709727ce46, type: 3}
+    characterName: Figgs
+    dialogueText: "Ai, pelo menos ela \xE9 bonita."
+    backgroundSpr: {fileID: 21300000, guid: ddf42dd21410b674996786d91e5f8d69, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1802
+      y: 134
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 74e15e37-03b7-4dbb-b7f0-f73177f79d6c
+    characterSpr: {fileID: 21300000, guid: 07eee9fe8243833459e3629b86ffa0aa, type: 3}
+    characterName: Figgs
+    dialogueText: "Falando em chefe, o Chester disse que t\xE1 chegando a\xED."
+    backgroundSpr: {fileID: 21300000, guid: ddf42dd21410b674996786d91e5f8d69, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2360
+      y: 128
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 8e3a2ebd-1479-4e1b-8414-4082b1573efc
+    characterSpr: {fileID: 21300000, guid: 07eee9fe8243833459e3629b86ffa0aa, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: Droga, o que ele vai querer?
+    backgroundSpr: {fileID: 21300000, guid: ddf42dd21410b674996786d91e5f8d69, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2946
+      y: 121
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: a0c77e8e-bab3-45ed-a38f-e6224226f35a
+    characterSpr: {fileID: 21300000, guid: 7da10fc76ac0a884da8a693de444b7d3, type: 3}
+    characterName: Figgs
+    dialogueText: "Sei n\xE3o, mas melhor voc\xEA ir falar com ele. Disseram que
+      ele t\xE1 de bode, bem bravo."
+    backgroundSpr: {fileID: 21300000, guid: ddf42dd21410b674996786d91e5f8d69, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3538
+      y: 122
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 25a9e7bf-2ca9-4a88-9307-def080b570f1
+    characterSpr: {fileID: 21300000, guid: 07eee9fe8243833459e3629b86ffa0aa, type: 3}
+    characterName: Chester
+    dialogueText: NA MINHA SALA, AGORA!!
+    backgroundSpr: {fileID: 21300000, guid: ddf42dd21410b674996786d91e5f8d69, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4726
+      y: 111
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 521a9f51-3641-4ee3-97d9-19737e7c00bc
+    characterSpr: {fileID: 21300000, guid: 7da10fc76ac0a884da8a693de444b7d3, type: 3}
+    characterName: 
+    dialogueText: "* Voc\xEA ouve um grito estridente. Parece ter vindo da sala ao
+      lado. *"
+    backgroundSpr: {fileID: 21300000, guid: ddf42dd21410b674996786d91e5f8d69, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4101
+      y: 118
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 99e53746-91e1-47f7-87f5-8b35a97149f2
+    characterSpr: {fileID: 21300000, guid: 07eee9fe8243833459e3629b86ffa0aa, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: Me dei mal, bicho.
+    backgroundSpr: {fileID: 21300000, guid: ddf42dd21410b674996786d91e5f8d69, type: 3}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5340
+      y: 97
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0

@@ -8,6 +8,7 @@ namespace VNCreator
     {
         public AudioMixer audioMixer;
 
+        public Slider masterVolumeSlider;
         public Slider musicVolumeSlider;
         public Slider sfxVolumeSlider;
         public Slider readSpeedSlider;
@@ -22,16 +23,23 @@ namespace VNCreator
         {
             GameOptions.InitilizeOptions();
 
-            if(musicVolumeSlider != null)
+            if (masterVolumeSlider != null)
             {
-                musicVolumeSlider.value = GameOptions.musicVolume;
+                masterVolumeSlider.onValueChanged.AddListener(GameOptions.SetMasterVolumeValue);
+                masterVolumeSlider.onValueChanged.AddListener(UpdateMasterVolume);
+                masterVolumeSlider.value = GameOptions.masterVolume;
+            }
+            if (musicVolumeSlider != null)
+            {
                 musicVolumeSlider.onValueChanged.AddListener(GameOptions.SetMusicVolumeValue);
                 musicVolumeSlider.onValueChanged.AddListener(UpdateMusicVolume);
+                musicVolumeSlider.value = GameOptions.musicVolume;
             }
             if (sfxVolumeSlider != null)
             {
-                sfxVolumeSlider.value = GameOptions.sfxVolume;
                 sfxVolumeSlider.onValueChanged.AddListener(GameOptions.SetSFXVolume);
+                sfxVolumeSlider.onValueChanged.AddListener(UpdateSFXVolume);
+                sfxVolumeSlider.value = GameOptions.sfxVolume;
             }
             if (readSpeedSlider != null)
             {
@@ -53,9 +61,19 @@ namespace VNCreator
             optionsMenu.SetActive(false);
         }
 
-        public void UpdateMusicVolume(float volume)
+        public void UpdateMasterVolume(float volume)
         {
             audioMixer.SetFloat("Master_Vol", volume);
+        }
+
+        public void UpdateMusicVolume(float volume)
+        {
+            audioMixer.SetFloat("Music_Vol", volume);
+        }
+
+        public void UpdateSFXVolume(float volume)
+        {
+            audioMixer.SetFloat("SFX_Vol", volume);
         }
     }
 }

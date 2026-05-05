@@ -133,7 +133,7 @@ namespace VNCreator
             if (currentNode.backgroundMusic != null)
                 VNCreator_MusicSource.Instance.PlayMusic(currentNode.backgroundMusic);
             if (currentNode.soundEffect != null)
-                VNCreator_SfxSource.instance.Play(currentNode.soundEffect);
+                VNCreator_SfxSource.Instance.PlaySound2D(currentNode.soundEffect);
 
             if (currentNode.likeGain != 0)
             {
@@ -151,6 +151,7 @@ namespace VNCreator
             else
             {
                 isTyping = true;
+                VNCreator_SfxSource.Instance.PlaySoundOnLoop("Type");
 
                 char[] _chars = currentNode.dialogueText.ToCharArray();
                 string fullString = string.Empty;
@@ -162,6 +163,7 @@ namespace VNCreator
                 }
 
                 isTyping = false;
+                VNCreator_SfxSource.Instance.StopLoop();
             }
         }
 
@@ -191,6 +193,14 @@ namespace VNCreator
             else
             {
                 SceneManager.LoadScene(endScene, LoadSceneMode.Single);
+            }
+        }
+
+        private void OnDisable()
+        {
+            if (ProgressManager.Instance)
+            {
+                ProgressManager.Instance.ActivateMoveCanvas(true);
             }
         }
     }

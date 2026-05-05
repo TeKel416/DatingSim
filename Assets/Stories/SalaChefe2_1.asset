@@ -1,0 +1,465 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: SalaChefe2_1
+  m_EditorClassIdentifier: VNCreator::VNCreator.StoryObject
+  links:
+  - guid: 4a29c2b7-1e45-4f14-af69-e42092f35867
+    targetGuid: fce215a7-155b-4712-9194-ea9cef39b9d9
+    portId: 0
+  - guid: fce215a7-155b-4712-9194-ea9cef39b9d9
+    targetGuid: deb98f72-55f2-4c8d-a6e6-856aeade9b7b
+    portId: 1
+  - guid: deb98f72-55f2-4c8d-a6e6-856aeade9b7b
+    targetGuid: 6a70dc28-1b2b-4147-9ed4-a2935538126b
+    portId: 2
+  - guid: 6a70dc28-1b2b-4147-9ed4-a2935538126b
+    targetGuid: 9a38cd4d-9e34-4682-9474-38653a47d88d
+    portId: 3
+  - guid: 9a38cd4d-9e34-4682-9474-38653a47d88d
+    targetGuid: 4b7bf64c-b9c4-4816-ae65-3b9a5b5973c8
+    portId: 4
+  - guid: 9a38cd4d-9e34-4682-9474-38653a47d88d
+    targetGuid: 4f126e26-169b-4b01-80c3-1db10864db9c
+    portId: 5
+  - guid: 4b7bf64c-b9c4-4816-ae65-3b9a5b5973c8
+    targetGuid: 9bebac16-e928-4d9b-8317-db52cb8282fb
+    portId: 6
+  - guid: 4f126e26-169b-4b01-80c3-1db10864db9c
+    targetGuid: 03ddb597-3078-4dfe-b9e1-5f1b23332a6e
+    portId: 7
+  - guid: 9bebac16-e928-4d9b-8317-db52cb8282fb
+    targetGuid: c2af2baa-9469-4868-b88c-4d06e2e031db
+    portId: 8
+  - guid: 03ddb597-3078-4dfe-b9e1-5f1b23332a6e
+    targetGuid: 0eec18f5-c8b3-4625-a017-102ed8a92b74
+    portId: 9
+  - guid: c2af2baa-9469-4868-b88c-4d06e2e031db
+    targetGuid: 790b7267-5b17-4982-a13c-311b89fe51af
+    portId: 10
+  - guid: 790b7267-5b17-4982-a13c-311b89fe51af
+    targetGuid: 69241ade-a59e-4976-bf90-4bca0454ee6e
+    portId: 11
+  - guid: 69241ade-a59e-4976-bf90-4bca0454ee6e
+    targetGuid: e0529b28-2c0f-4ba0-a98c-259949366f3a
+    portId: 12
+  - guid: a3870e1d-cb21-46b9-9e13-13f81fa2dea0
+    targetGuid: e0529b28-2c0f-4ba0-a98c-259949366f3a
+    portId: 13
+  - guid: e0529b28-2c0f-4ba0-a98c-259949366f3a
+    targetGuid: 91c1ab33-411c-4b9d-9df5-bfe57085e7d9
+    portId: 14
+  - guid: 91c1ab33-411c-4b9d-9df5-bfe57085e7d9
+    targetGuid: 350b6258-1b39-461c-b7d7-0e81f1f7afbc
+    portId: 15
+  - guid: 350b6258-1b39-461c-b7d7-0e81f1f7afbc
+    targetGuid: a9d4aab4-07dc-4033-8338-2926e626a576
+    portId: 16
+  nodes:
+  - guid: 4a29c2b7-1e45-4f14-af69-e42092f35867
+    characterSpr: {fileID: 21300000, guid: 9c983164e6fa82948968e14cd1200977, type: 3}
+    characterName: Chester
+    dialogueText: "Primeiramente, voc\xEA entregou o documento para o Figgs?"
+    backgroundSpr: {fileID: 21300000, guid: 3ca3deff72af3854d882fcf4f1c66d37, type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 153
+      y: 135
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: fce215a7-155b-4712-9194-ea9cef39b9d9
+    characterSpr: {fileID: 21300000, guid: 9c983164e6fa82948968e14cd1200977, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Sim chefe, j\xE1 est\xE1 com ele. E eu tenho uma coisa pra fala-"
+    backgroundSpr: {fileID: 21300000, guid: 3ca3deff72af3854d882fcf4f1c66d37, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 778
+      y: 131
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: deb98f72-55f2-4c8d-a6e6-856aeade9b7b
+    characterSpr: {fileID: 21300000, guid: 9c983164e6fa82948968e14cd1200977, type: 3}
+    characterName: Chester
+    dialogueText: "\xD3timo, espero que aquele pentelho n\xE3o demore. Estamos com
+      muitas demandas desde que tudo foi conectado com os sat\xE9lites e os superiores
+      tem nos enchido o saco com presta\xE7\xE3o de contas."
+    backgroundSpr: {fileID: 21300000, guid: 3ca3deff72af3854d882fcf4f1c66d37, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1363
+      y: 125
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 6a70dc28-1b2b-4147-9ed4-a2935538126b
+    characterSpr: {fileID: 21300000, guid: 9c983164e6fa82948968e14cd1200977, type: 3}
+    characterName: Chester
+    dialogueText: "Pelo que sei, as coisas t\xEAm ficado um caos l\xE1 fora, tudo
+      depois disso\u2026 bem, o importante \xE9 que o dinheiro est\xE1 entrando.
+      O que voc\xEA tinha a dizer mesmo?"
+    backgroundSpr: {fileID: 21300000, guid: 3ca3deff72af3854d882fcf4f1c66d37, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1939
+      y: 114
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 9a38cd4d-9e34-4682-9474-38653a47d88d
+    characterSpr: {fileID: 21300000, guid: 9c983164e6fa82948968e14cd1200977, type: 3}
+    characterName: Chester
+    dialogueText: "Pelo que sei, as coisas t\xEAm ficado um caos l\xE1 fora, tudo
+      depois disso\u2026 bem, o importante \xE9 que o dinheiro est\xE1 entrando.
+      O que voc\xEA tinha a dizer mesmo?"
+    backgroundSpr: {fileID: 21300000, guid: 3ca3deff72af3854d882fcf4f1c66d37, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - "Eu encontrei uma rob\xF4 na sala dos servidores. Ao menos \xE9 isso que ela
+      diz ser."
+    - "O senhor por acaso est\xE1 pensando em se aposentar?"
+    nodePosition:
+      serializedVersion: 2
+      x: 2488
+      y: 74
+      width: 499
+      height: 433
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 4b7bf64c-b9c4-4816-ae65-3b9a5b5973c8
+    characterSpr: {fileID: 21300000, guid: 9c983164e6fa82948968e14cd1200977, type: 3}
+    characterName: Chester
+    dialogueText: "\xC9 o que?? Andou bebendo? Como assim um rob\xF4, rapaz?"
+    backgroundSpr: {fileID: 21300000, guid: 3ca3deff72af3854d882fcf4f1c66d37, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3131
+      y: -147
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 03ddb597-3078-4dfe-b9e1-5f1b23332a6e
+    characterSpr: {fileID: 21300000, guid: 9c983164e6fa82948968e14cd1200977, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Ah, \xE9 que um brotinho rob\xF4 falou que era minha nova chefe,
+      ent\xE3o achei que o senhor j\xE1 estava pra se aposentar."
+    backgroundSpr: {fileID: 21300000, guid: 3ca3deff72af3854d882fcf4f1c66d37, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3708
+      y: 285
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 4f126e26-169b-4b01-80c3-1db10864db9c
+    characterSpr: {fileID: 21300000, guid: 9c983164e6fa82948968e14cd1200977, type: 3}
+    characterName: Chester
+    dialogueText: "Que pergunta \xE9 essa do nada? Eu ainda n\xE3o irei me aposentar,
+      apesar de velho."
+    backgroundSpr: {fileID: 21300000, guid: 3ca3deff72af3854d882fcf4f1c66d37, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3090
+      y: 290
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 9bebac16-e928-4d9b-8317-db52cb8282fb
+    characterSpr: {fileID: 21300000, guid: 9c983164e6fa82948968e14cd1200977, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Estou dizendo a verdade, senhor! \xC9 um rob\xF4 aparentemente
+      muito inteligente, capaz de conversar como um humano."
+    backgroundSpr: {fileID: 21300000, guid: 3ca3deff72af3854d882fcf4f1c66d37, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3730
+      y: -157
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: c2af2baa-9469-4868-b88c-4d06e2e031db
+    characterSpr: {fileID: 21300000, guid: 9c983164e6fa82948968e14cd1200977, type: 3}
+    characterName: Chester
+    dialogueText: "Vou verificar nas c\xE2meras de seguran\xE7a\u2026 MACACOS ME
+      MORDAM O QUE \xC9 ISSO?? Realmente tem um rob\xF4 ali!"
+    backgroundSpr: {fileID: 21300000, guid: 3ca3deff72af3854d882fcf4f1c66d37, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4364
+      y: -155
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 0eec18f5-c8b3-4625-a017-102ed8a92b74
+    characterSpr: {fileID: 21300000, guid: 9c983164e6fa82948968e14cd1200977, type: 3}
+    characterName: Chester
+    dialogueText: "Voc\xEAs ainda n\xE3o tem supervisor novo\u2026 mas espera, brotinho?
+      Onde? Calma, um ROB\xD4????"
+    backgroundSpr: {fileID: 21300000, guid: 3ca3deff72af3854d882fcf4f1c66d37, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4351
+      y: 262
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 790b7267-5b17-4982-a13c-311b89fe51af
+    characterSpr: {fileID: 21300000, guid: 9c983164e6fa82948968e14cd1200977, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: Sim, senhor! O que fazemos agora??
+    backgroundSpr: {fileID: 21300000, guid: 3ca3deff72af3854d882fcf4f1c66d37, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4943
+      y: -168
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 2c47e110-3178-4e77-8ff2-c3482c4493ff
+    characterSpr: {fileID: 21300000, guid: 9c983164e6fa82948968e14cd1200977, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "\xC9 sim, um brotinho e tanto, chefe. D\xE1 pra ver das c\xE2meras,
+      n\xE3o?"
+    backgroundSpr: {fileID: 21300000, guid: 3ca3deff72af3854d882fcf4f1c66d37, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4934
+      y: 268
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 69241ade-a59e-4976-bf90-4bca0454ee6e
+    characterSpr: {fileID: 21300000, guid: 9c983164e6fa82948968e14cd1200977, type: 3}
+    characterName: Chester
+    dialogueText: "O que fazemos? Ora bolas, ganhamos dinheiro! Isso a\xED deve dar
+      bastante, aprenda a mexer nessa coisa e fa\xE7a ela realizar tarefas."
+    backgroundSpr: {fileID: 21300000, guid: 3ca3deff72af3854d882fcf4f1c66d37, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5504
+      y: -154
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: a3870e1d-cb21-46b9-9e13-13f81fa2dea0
+    characterSpr: {fileID: 21300000, guid: 9c983164e6fa82948968e14cd1200977, type: 3}
+    characterName: Chester
+    dialogueText: "Sim, consigo ver aqui\u2026 Isso deve dar um dinheiro e tanto.
+      Veja o que ela pode fazer e me informe."
+    backgroundSpr: {fileID: 21300000, guid: 3ca3deff72af3854d882fcf4f1c66d37, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5520
+      y: 260
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: e0529b28-2c0f-4ba0-a98c-259949366f3a
+    characterSpr: {fileID: 21300000, guid: 9c983164e6fa82948968e14cd1200977, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "N\xE3o sei se ela vai me deixar fazer isso, senhor."
+    backgroundSpr: {fileID: 21300000, guid: 3ca3deff72af3854d882fcf4f1c66d37, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6101
+      y: 21
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 91c1ab33-411c-4b9d-9df5-bfe57085e7d9
+    characterSpr: {fileID: 21300000, guid: 9c983164e6fa82948968e14cd1200977, type: 3}
+    characterName: Chester
+    dialogueText: "N\xE3o importa o que voc\xEA acha, v\xE1 agora! E aproveitando,
+      veja se consegue descobrir o que deu no elevador, eu n\xE3o aguento descer
+      de escada."
+    backgroundSpr: {fileID: 21300000, guid: 3ca3deff72af3854d882fcf4f1c66d37, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6689
+      y: 24
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 350b6258-1b39-461c-b7d7-0e81f1f7afbc
+    characterSpr: {fileID: 21300000, guid: 9c983164e6fa82948968e14cd1200977, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Ok, chefe\u2026."
+    backgroundSpr: {fileID: 21300000, guid: 3ca3deff72af3854d882fcf4f1c66d37, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7278
+      y: 4
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: a9d4aab4-07dc-4033-8338-2926e626a576
+    characterSpr: {fileID: 21300000, guid: 9c983164e6fa82948968e14cd1200977, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "(Que merda, eu n\xE3o ganho o suficiente pra ser o faz tudo.)"
+    backgroundSpr: {fileID: 21300000, guid: 3ca3deff72af3854d882fcf4f1c66d37, type: 3}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7861
+      y: -4
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
