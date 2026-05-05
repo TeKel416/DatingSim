@@ -459,7 +459,7 @@ MonoBehaviour:
   onEnable:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 464165507}
+      - m_Target: {fileID: 512735854}
         m_TargetAssemblyTypeName: ProgressManager, VNCreator
         m_MethodName: TriggerStoryOnEnter
         m_Mode: 5
@@ -951,7 +951,7 @@ MonoBehaviour:
   itemID: 11
   requiredItemID: 10
   itemToCombineID: -1
-  itemName: 
+  itemName: Elevador
   hint: "Parece que um fus\xEDvel quebrou. Vou precisar arranjar um novo se quiser
     consertar o elevador."
   successMsg: "Agora sim o elevador t\xE1 funcionando!"
@@ -1374,6 +1374,181 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1749767734994748651, guid: 3ad6e9e242dcb1c4ba93f65978b27011, type: 3}
   m_PrefabInstance: {fileID: 201349828}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &201866901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 201866902}
+  - component: {fileID: 201866906}
+  - component: {fileID: 201866905}
+  - component: {fileID: 201866904}
+  - component: {fileID: 201866903}
+  m_Layer: 5
+  m_Name: Fios
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &201866902
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201866901}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 872513695}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5633301, y: 0.1242963}
+  m_AnchorMax: {x: 0.93243754, y: 0.8202593}
+  m_AnchoredPosition: {x: 0.12841797, y: 0.7955322}
+  m_SizeDelta: {x: -0.2567978, y: -2.282898}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &201866903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201866901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 464165504}
+          m_TargetAssemblyTypeName: ClickManager, Assembly-CSharp
+          m_MethodName: TryGettingItem
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 201866904}
+            m_ObjectArgumentAssemblyTypeName: ItemData, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1596856618}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 464165505}
+          m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+          m_MethodName: UpdateNameTag
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 201866904}
+            m_ObjectArgumentAssemblyTypeName: ItemData, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1596856618}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &201866904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201866901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11e3677ba8cdc304ca1d0ee6b5da3ff2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemID: 7
+  requiredItemID: -1
+  itemToCombineID: 6
+  itemName: Fios
+  hint: 
+  successMsg: Achei uns fios... Talvez eu consiga juntar com outra coisa e consertar
+    o elevador!
+  objectsToRemove:
+  - {fileID: 201866901}
+  nameTagSize: {x: 300, y: 80}
+  itemSlotSprite: {fileID: 21300000, guid: e358fb8ec2c703748ad1f39b5588d8b0, type: 3}
+  itemToAdd: {fileID: 165855534}
+  pickupSfx: {fileID: 0}
+--- !u!114 &201866905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201866901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.59607846, g: 0.050980397, b: 0.0627451, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &201866906
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201866901}
+  m_CullTransparentMesh: 1
 --- !u!1 &214182678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1631,6 +1806,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2258864106930545577, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2377907317015384882, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -1733,6 +1912,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2448169688750684186, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873701187786153080, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3095857317431894832, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
@@ -2163,66 +2346,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1 &333585546
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 333585547}
-  - component: {fileID: 333585548}
-  m_Layer: 5
-  m_Name: FusivelVazio
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &333585547
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 333585546}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 872513695}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &333585548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 333585546}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11e3677ba8cdc304ca1d0ee6b5da3ff2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  itemID: 9
-  requiredItemID: -1
-  itemToCombineID: 8
-  itemName: "Fus\xEDvel Vazio"
-  hint: 
-  successMsg: "Achei um fus\xEDvel vazio! Se eu juntar com alguns fios eu poderia
-    consertar o elevador com ele."
-  objectsToRemove: []
-  nameTagSize: {x: 300, y: 80}
-  itemSlotSprite: {fileID: 21300000, guid: 7ee7a33975e20994b86663608ff2e98b, type: 3}
-  itemToAdd: {fileID: 165855534}
-  pickupSfx: {fileID: 0}
 --- !u!1 &345897864
 GameObject:
   m_ObjectHideFlags: 0
@@ -3006,7 +3129,6 @@ GameObject:
   - component: {fileID: 464165504}
   - component: {fileID: 464165505}
   - component: {fileID: 464165506}
-  - component: {fileID: 464165507}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3155,19 +3277,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   nameTextBox: {fileID: 264535336}
   textBox: {fileID: 264535337}
---- !u!114 &464165507
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 464165500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 015673f01b9ed054c9178d821ab8c909, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: VNCreator::ProgressManager
-  movementCanvas: {fileID: 612826449}
 --- !u!1 &467456538
 GameObject:
   m_ObjectHideFlags: 0
@@ -3245,6 +3354,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 467456538}
   m_CullTransparentMesh: 1
+--- !u!1001 &512735853
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4672998363243691338, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_Name
+      value: PROGRESS MANAGER
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672998363243691338, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_TagString
+      value: ProgressManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5948763965868200761, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: movementCanvas
+      value: 
+      objectReference: {fileID: 612826449}
+    - target: {fileID: 7541095546128419412, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 761.9698
+      objectReference: {fileID: 0}
+    - target: {fileID: 7541095546128419412, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 547.49023
+      objectReference: {fileID: 0}
+    - target: {fileID: 7541095546128419412, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7541095546128419412, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7541095546128419412, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7541095546128419412, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7541095546128419412, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7541095546128419412, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7541095546128419412, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7541095546128419412, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+--- !u!114 &512735854 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5948763965868200761, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+  m_PrefabInstance: {fileID: 512735853}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 015673f01b9ed054c9178d821ab8c909, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VNCreator::ProgressManager
 --- !u!1 &516974886
 GameObject:
   m_ObjectHideFlags: 0
@@ -4238,9 +4423,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1537675999}
-  - {fileID: 1172805812}
-  - {fileID: 1193062136}
-  - {fileID: 333585547}
+  - {fileID: 201866902}
   - {fileID: 165855533}
   m_Father: {fileID: 1079561938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4803,180 +4986,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1092721506}
   m_CullTransparentMesh: 1
---- !u!1 &1172805811
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1172805812}
-  - component: {fileID: 1172805816}
-  - component: {fileID: 1172805815}
-  - component: {fileID: 1172805817}
-  - component: {fileID: 1172805814}
-  m_Layer: 5
-  m_Name: Caixas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1172805812
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1172805811}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 872513695}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.038000003, y: 0.26700002}
-  m_AnchorMax: {x: 0.5273926, y: 0.77162874}
-  m_AnchoredPosition: {x: -1.3898926, y: 3.051941}
-  m_SizeDelta: {x: 2.790001, y: 1.1419983}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1172805814
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1172805811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates:
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 464165504}
-          m_TargetAssemblyTypeName: ClickManager, Assembly-CSharp
-          m_MethodName: TryGettingItem
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 1172805817}
-            m_ObjectArgumentAssemblyTypeName: ItemData, Assembly-CSharp
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 464165505}
-          m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-          m_MethodName: UpdateNameTag
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 1172805817}
-            m_ObjectArgumentAssemblyTypeName: ItemData, Assembly-CSharp
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1596856618}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1172805815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1172805811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.59607846, g: 0.050980397, b: 0.0627451, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1172805816
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1172805811}
-  m_CullTransparentMesh: 1
---- !u!114 &1172805817
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1172805811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11e3677ba8cdc304ca1d0ee6b5da3ff2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  itemID: 7
-  requiredItemID: -1
-  itemToCombineID: -1
-  itemName: Caixas
-  hint: 
-  successMsg: 
-  objectsToRemove:
-  - {fileID: 333585546}
-  nameTagSize: {x: 300, y: 80}
-  itemSlotSprite: {fileID: 0}
-  itemToAdd: {fileID: 333585548}
-  pickupSfx: {fileID: 0}
 --- !u!1 &1182090106
 GameObject:
   m_ObjectHideFlags: 0
@@ -5028,8 +5037,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eea05f275ca71734abca0979491c5e5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  objName: Computadores
-  objDescription: "O escrit\xF3rio est\xE1 vazio. Fui o \xFAnico que sobrou aqui."
+  objName: Lixeira
+  objDescription: Apenas uma lixeira comum.
   nameTagSize: {x: 300, y: 80}
 --- !u!114 &1182090109
 MonoBehaviour:
@@ -5166,65 +5175,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1182090106}
   m_CullTransparentMesh: 1
---- !u!1 &1193062135
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1193062136}
-  - component: {fileID: 1193062137}
-  m_Layer: 5
-  m_Name: Fios
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1193062136
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1193062135}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 872513695}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1193062137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1193062135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11e3677ba8cdc304ca1d0ee6b5da3ff2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  itemID: 8
-  requiredItemID: -1
-  itemToCombineID: 9
-  itemName: Fios
-  hint: 
-  successMsg: 
-  objectsToRemove: []
-  nameTagSize: {x: 300, y: 80}
-  itemSlotSprite: {fileID: 21300000, guid: e358fb8ec2c703748ad1f39b5588d8b0, type: 3}
-  itemToAdd: {fileID: 165855534}
-  pickupSfx: {fileID: 0}
 --- !u!1 &1271494496
 GameObject:
   m_ObjectHideFlags: 0
@@ -5334,38 +5284,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LocationData
   leftLocation: {fileID: 84945933}
   rightLocation: {fileID: 0}
-  isLocked: 1
-  requiredItemID: 2
-  hint: "A sala dos servidores t\xE1 trancada."
-  successMsg: Abriu!
+  isLocked: 0
+  requiredItemID: -1
+  hint: 
+  successMsg: 
   removeOnEnable: 1
   onEnable:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 464165507}
-        m_TargetAssemblyTypeName: ProgressManager, VNCreator
-        m_MethodName: TriggerStoryOnEnter
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: SalaServidores
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 612826449}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: SalaServidores
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1387617253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5829,7 +5755,7 @@ GameObject:
   - component: {fileID: 1537676004}
   - component: {fileID: 1537676001}
   m_Layer: 5
-  m_Name: Estante
+  m_Name: FusivelVazio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5849,10 +5775,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 872513695}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5633301, y: 0.1242963}
-  m_AnchorMax: {x: 0.93243754, y: 0.8202593}
-  m_AnchoredPosition: {x: 0.12841797, y: 0.7955322}
-  m_SizeDelta: {x: -0.2567978, y: -2.282898}
+  m_AnchorMin: {x: 0.075, y: 0.1242963}
+  m_AnchorMax: {x: 0.44639584, y: 0.8202593}
+  m_AnchoredPosition: {x: -0.5, y: -3}
+  m_SizeDelta: {x: -5.256836, y: -2.282898}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1537676001
 MonoBehaviour:
@@ -5979,16 +5905,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemID: 6
   requiredItemID: -1
-  itemToCombineID: -1
-  itemName: Estante
+  itemToCombineID: 7
+  itemName: "Fus\xEDvel Vazio"
   hint: 
   successMsg: Achei uns fios... Talvez eu consiga juntar com outra coisa e consertar
     o elevador!
   objectsToRemove:
-  - {fileID: 1193062135}
+  - {fileID: 1537675998}
   nameTagSize: {x: 300, y: 80}
-  itemSlotSprite: {fileID: 0}
-  itemToAdd: {fileID: 1193062137}
+  itemSlotSprite: {fileID: 21300000, guid: 7ee7a33975e20994b86663608ff2e98b, type: 3}
+  itemToAdd: {fileID: 165855534}
   pickupSfx: {fileID: 0}
 --- !u!1 &1596856618
 GameObject:
@@ -8520,3 +8446,4 @@ SceneRoots:
   - {fileID: 1387617256}
   - {fileID: 914307179}
   - {fileID: 264535334}
+  - {fileID: 512735853}

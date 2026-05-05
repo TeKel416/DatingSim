@@ -68,7 +68,7 @@ public class GameManager : MonoBehaviour
                 {
                     if (newItem.itemID == collectedItems[i].itemID)
                     {
-                        DeselectSlot(lastSlotClickedID);
+                        if (lastSlotClickedID != -1) { DeselectSlot(lastSlotClickedID); }
                         SelectSlot(i);
                     }
                 }
@@ -112,7 +112,9 @@ public class GameManager : MonoBehaviour
         int itemsAmount = collectedItems.Count, itemSlotsAmount = equipmentSlots.Length;
         // replace no item sprites and old sprites with collectedItems[x].itemImage
         for (int i = 0; i < itemSlotsAmount; i++) 
-        { 
+        {
+            DeselectSlot(i);
+
             // choose between no item image and item sprite
             if (i < itemsAmount)
             {

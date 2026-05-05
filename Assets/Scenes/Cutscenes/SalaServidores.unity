@@ -485,7 +485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: VNCreator::VNCreator.VNCreator_DisplayUI
   story: {fileID: 11400000, guid: bd9a86fcd238ee348bb4ded58ce57114, type: 2}
   likeSlider: {fileID: 463027549}
-  isNewStory: 1
+  isNewStory: 0
   characterNameTxt: {fileID: 398951000}
   dialogueTxt: {fileID: 398951001}
   characterImg: {fileID: 398951002}

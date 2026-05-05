@@ -357,8 +357,7 @@ MonoBehaviour:
   itemToCombineID: -1
   itemName: Figgs
   hint: 
-  successMsg: "Boa! Obrigado! Enquanto c\xEA tava fora eu achei a chave da sala dos
-    servidores. Toma a\xED."
+  successMsg: 
   objectsToRemove: []
   nameTagSize: {x: 300, y: 80}
   itemSlotSprite: {fileID: 0}
@@ -444,7 +443,7 @@ MonoBehaviour:
   onEnable:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 464165507}
+      - m_Target: {fileID: 1907888872}
         m_TargetAssemblyTypeName: ProgressManager, VNCreator
         m_MethodName: TriggerStoryOnEnter
         m_Mode: 5
@@ -1920,7 +1919,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &447441132
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2277,6 +2276,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2258864106930545577, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2377907317015384882, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -2379,6 +2382,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2448169688750684186, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873701187786153080, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3095857317431894832, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
@@ -2551,7 +2558,6 @@ GameObject:
   - component: {fileID: 464165504}
   - component: {fileID: 464165505}
   - component: {fileID: 464165506}
-  - component: {fileID: 464165507}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2700,19 +2706,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   nameTextBox: {fileID: 452124100}
   textBox: {fileID: 452124101}
---- !u!114 &464165507
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 464165500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 015673f01b9ed054c9178d821ab8c909, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: VNCreator::ProgressManager
-  movementCanvas: {fileID: 612826449}
 --- !u!1 &593524086
 GameObject:
   m_ObjectHideFlags: 0
@@ -3529,7 +3522,7 @@ MonoBehaviour:
   onEnable:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 464165507}
+      - m_Target: {fileID: 1907888872}
         m_TargetAssemblyTypeName: ProgressManager, VNCreator
         m_MethodName: TriggerStoryOnEnter
         m_Mode: 5
@@ -6126,6 +6119,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1896680496}
   m_CullTransparentMesh: 1
+--- !u!114 &1907888872 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5948763965868200761, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+  m_PrefabInstance: {fileID: 6251405903707188732}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 015673f01b9ed054c9178d821ab8c909, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VNCreator::ProgressManager
 --- !u!1 &1918827649
 GameObject:
   m_ObjectHideFlags: 0
@@ -6729,6 +6733,71 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1001 &6251405903707188732
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4672998363243691338, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_Name
+      value: PROGRESS MANAGER
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672998363243691338, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_TagString
+      value: ProgressManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5948763965868200761, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: movementCanvas
+      value: 
+      objectReference: {fileID: 612826449}
+    - target: {fileID: 7541095546128419412, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 33.54586
+      objectReference: {fileID: 0}
+    - target: {fileID: 7541095546128419412, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.09492
+      objectReference: {fileID: 0}
+    - target: {fileID: 7541095546128419412, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7541095546128419412, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7541095546128419412, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7541095546128419412, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7541095546128419412, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7541095546128419412, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7541095546128419412, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7541095546128419412, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0e37fe2969e3219458fa26f79be6a0a7, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -6743,3 +6812,4 @@ SceneRoots:
   - {fileID: 1387617256}
   - {fileID: 914307179}
   - {fileID: 452124098}
+  - {fileID: 6251405903707188732}

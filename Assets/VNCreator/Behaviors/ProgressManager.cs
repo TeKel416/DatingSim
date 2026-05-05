@@ -4,21 +4,6 @@ using UnityEngine.SceneManagement;
 
 public class ProgressManager : MonoBehaviour
 {
-    public static ProgressManager Instance;
-
-    private void Awake()
-    {
-        if (Instance != null)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-    }
-
     public GameObject movementCanvas;
 
     public void TriggerStoryOnEnter(string storyScene)

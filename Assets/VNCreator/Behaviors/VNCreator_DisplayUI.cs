@@ -198,9 +198,11 @@ namespace VNCreator
 
         private void OnDisable()
         {
-            if (ProgressManager.Instance)
+            GameObject progressManager = GameObject.FindWithTag("ProgressManager");
+
+            if (progressManager)
             {
-                ProgressManager.Instance.ActivateMoveCanvas(true);
+                progressManager.GetComponent<ProgressManager>().ActivateMoveCanvas(true);
             }
         }
     }
