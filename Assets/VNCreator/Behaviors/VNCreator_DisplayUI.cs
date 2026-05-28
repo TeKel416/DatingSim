@@ -78,9 +78,19 @@ namespace VNCreator
                 }
 
                 base.NextNode(_choiceId);
-                StartCoroutine(DisplayCurrentNode());
+                _displayCurrentNodeCoroutine = StartCoroutine(DisplayCurrentNode());
+            }
+            else
+            {
+                StopCoroutine(_displayCurrentNodeCoroutine);
+
+                isTyping = false;
+                VNCreator_SfxSource.Instance.StopLoop();
+                dialogueTxt.text = currentNode.dialogueText;
             }
         }
+
+        private Coroutine _displayCurrentNodeCoroutine;
 
         IEnumerator DisplayCurrentNode()
         {

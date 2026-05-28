@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
 
         // selecionar campo vazio
         // save changes and stop if an empty slot is clicked or the last item is removed
-        if (slotID >= collectedItems.Count || slotID < 0)
+        if ((slotID >= collectedItems.Count || slotID < 0) && lastSlotClickedID > -1)
         {
             // no items selected
             DeselectSlot(lastSlotClickedID);
