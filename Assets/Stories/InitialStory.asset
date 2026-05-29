@@ -23,8 +23,14 @@ MonoBehaviour:
     targetGuid: 5a3291c5-95f0-4678-996d-9e0245c9636f
     portId: 2
   - guid: eefca884-dac2-4afa-9a47-500af7062172
-    targetGuid: 909d0dda-20ca-4609-840d-10bde64799f2
+    targetGuid: cde83ca9-3c0a-427c-ae6a-75f30b611fd0
     portId: 3
+  - guid: cde83ca9-3c0a-427c-ae6a-75f30b611fd0
+    targetGuid: 909d0dda-20ca-4609-840d-10bde64799f2
+    portId: 4
+  - guid: cde83ca9-3c0a-427c-ae6a-75f30b611fd0
+    targetGuid: 909d0dda-20ca-4609-840d-10bde64799f2
+    portId: 5
   nodes:
   - guid: 5a3291c5-95f0-4678-996d-9e0245c9636f
     characterSpr: {fileID: 0}
@@ -89,27 +95,6 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
     likeGain: 0
     showLikeBar: 0
-  - guid: 909d0dda-20ca-4609-840d-10bde64799f2
-    characterSpr: {fileID: 0}
-    characterName: "Voc\xEA"
-    dialogueText: "J\xE1 faz tanto tempo que eu t\xF4 aqui e esses pap\xE9is s\xF3
-      se acumulam\u2026 Maldito dia!"
-    backgroundSpr: {fileID: 21300000, guid: f24a8af226fe14549a102b3747eb8ed2, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 753
-      y: 112
-      width: 499
-      height: 371
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 8300000, guid: 8275a4bd932cf644b8913c201305a8f4, type: 3}
-    likeGain: 0
-    showLikeBar: 0
   - guid: eefca884-dac2-4afa-9a47-500af7062172
     characterSpr: {fileID: 0}
     characterName: 
@@ -123,10 +108,52 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 234
-      y: 113
+      x: -16
+      y: 103
       width: 499
       height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 909d0dda-20ca-4609-840d-10bde64799f2
+    characterSpr: {fileID: 0}
+    characterName: "Voc\xEA"
+    dialogueText: "J\xE1 faz tanto tempo que eu t\xF4 aqui e esses pap\xE9is s\xF3
+      se acumulam\u2026 Maldito dia!"
+    backgroundSpr: {fileID: 21300000, guid: f24a8af226fe14549a102b3747eb8ed2, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1183
+      y: -283
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 8275a4bd932cf644b8913c201305a8f4, type: 3}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: cde83ca9-3c0a-427c-ae6a-75f30b611fd0
+    characterSpr: {fileID: 0}
+    characterName: teste
+    dialogueText: teste
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - a
+    - b
+    nodePosition:
+      serializedVersion: 2
+      x: 516
+      y: -251
+      width: 499
+      height: 433
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
