@@ -197,15 +197,19 @@ namespace VNCreator
 
         protected override void Previous()
         {
-            if (isTyping)
+            // não volta se for uma escolha
+            if (story.GetCurrentNode(loadList[loadList.Count-2]).choices == 1)
             {
-                StopCoroutine(_displayCurrentNodeCoroutine);
-                isTyping = false;
-                VNCreator_SfxSource.Instance.StopLoop();
-            }
+                if (isTyping)
+                {
+                    StopCoroutine(_displayCurrentNodeCoroutine);
+                    isTyping = false;
+                    VNCreator_SfxSource.Instance.StopLoop();
+                }
 
-            base.Previous();
-            _displayCurrentNodeCoroutine = StartCoroutine(DisplayCurrentNode());
+                base.Previous();
+                _displayCurrentNodeCoroutine = StartCoroutine(DisplayCurrentNode());
+            }            
         }
 
         void ExitGame()
