@@ -64,7 +64,8 @@ namespace VNCreator
             likeSlider.value = LikeBar.Instance.GetLikeLevel();
             likeSlider.gameObject.SetActive(currentNode.showLikeBar);
 
-            StartCoroutine(DisplayCurrentNode());
+            _displayCurrentNodeCoroutine = StartCoroutine(DisplayCurrentNode());
+            isTyping = true;
         }
 
         protected override void NextNode(int _choiceId)
@@ -147,8 +148,23 @@ namespace VNCreator
 
             if (currentNode.likeGain != 0)
             {
-                LikeBar.Instance.ChangeLikeLevel(currentNode.likeGain);
-                likeSlider.value = LikeBar.Instance.GetLikeLevel();
+                bool ignoreGain = false;
+
+                for (int i = 0; i < likeTokens.Count; i++)
+                {
+                    if (likeTokens[i] == currentNode.guid)
+                    {
+                        ignoreGain = true;
+                        break;
+                    }
+                }
+
+                if (!ignoreGain)
+                {
+                    LikeBar.Instance.ChangeLikeLevel(currentNode.likeGain);
+                    likeSlider.value = LikeBar.Instance.GetLikeLevel();
+                    likeTokens.Add(currentNode.guid);
+                }
             }
 
             // escrever o texto de dialogo
@@ -177,10 +193,19 @@ namespace VNCreator
             }
         }
 
+        private static List<string> likeTokens = new List<string>();
+
         protected override void Previous()
         {
+            if (isTyping)
+            {
+                StopCoroutine(_displayCurrentNodeCoroutine);
+                isTyping = false;
+                VNCreator_SfxSource.Instance.StopLoop();
+            }
+
             base.Previous();
-            StartCoroutine(DisplayCurrentNode());
+            _displayCurrentNodeCoroutine = StartCoroutine(DisplayCurrentNode());
         }
 
         void ExitGame()
