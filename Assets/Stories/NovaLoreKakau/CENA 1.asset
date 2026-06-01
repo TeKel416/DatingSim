@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
-  m_Name: CenaCopa
+  m_Name: CENA 1
   m_EditorClassIdentifier: VNCreator::VNCreator.StoryObject
   links:
   - guid: dc9bd742-640a-47ea-87bf-003626e77efb
@@ -31,7 +31,7 @@ MonoBehaviour:
     characterName: "Voc\xEA"
     dialogueText: "Agora o que eu fa\xE7o? acho que vou tomar um bom copo de caf\xE9
       na cafeteira vermelha ou fa\xE7o um misto no fog\xE3o azul\u2026\r\n"
-    backgroundSpr: {fileID: 21300000, guid: edd163ef8717b9740800624f1935f60d, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: 27bc2de4825c8b14884b8b8b1cd23a39, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -53,7 +53,7 @@ MonoBehaviour:
     dialogueText: "Uiii lindo, vem aqui tomar meu cafezinho, vem, s\xF3 n\xE3o vai
       se queimar de tanto calor ou vem c\xE1 tomar meu caf\xE9, eu posso te deixar
       acordado a noite inteira\r\n"
-    backgroundSpr: {fileID: 21300000, guid: edd163ef8717b9740800624f1935f60d, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: 27bc2de4825c8b14884b8b8b1cd23a39, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -75,7 +75,7 @@ MonoBehaviour:
     dialogueText: 'Eu to louco ou a cafeteira falou comigo???
 
 '
-    backgroundSpr: {fileID: 21300000, guid: edd163ef8717b9740800624f1935f60d, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: 27bc2de4825c8b14884b8b8b1cd23a39, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -95,7 +95,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: "Fog\xE3o azul"
     dialogueText: "vem aqui brincar com as minhas 4 bocas, p\xE3ozinho\u2026\r\n"
-    backgroundSpr: {fileID: 21300000, guid: edd163ef8717b9740800624f1935f60d, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: 27bc2de4825c8b14884b8b8b1cd23a39, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -114,9 +114,9 @@ MonoBehaviour:
   - guid: 5f7adf51-9ce2-4c7b-a820-9903c14b5411
     characterSpr: {fileID: 0}
     characterName: "Voc\xEA"
-    dialogueText: "Vou tomar uma \xE1gua e so sair daqui, isso est\xE1 ficando extremamente
-      esquisito\r\n"
-    backgroundSpr: {fileID: 21300000, guid: edd163ef8717b9740800624f1935f60d, type: 3}
+    dialogueText: "Vou tomar uma \xE1gua e s\xF3 sair daqui, isso est\xE1 ficando
+      extremamente esquisito\r\n"
+    backgroundSpr: {fileID: 21300000, guid: 27bc2de4825c8b14884b8b8b1cd23a39, type: 3}
     startNode: 0
     endNode: 1
     choices: 1

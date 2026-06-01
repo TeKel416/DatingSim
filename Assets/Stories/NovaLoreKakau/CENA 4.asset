@@ -12,5 +12,621 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
   m_Name: CENA 4
   m_EditorClassIdentifier: VNCreator::VNCreator.StoryObject
-  links: []
-  nodes: []
+  links:
+  - guid: 98178912-9541-4803-9526-4ab364904bff
+    targetGuid: 4e831d32-eb80-4264-9275-563321ecf1ba
+    portId: 0
+  - guid: 9205e135-9f20-4bc7-86b4-3a911684edab
+    targetGuid: b1d26ca2-5faf-4ff3-95ed-a85e6eabd3c4
+    portId: 1
+  - guid: 455e112b-2b25-4759-ba4a-5309b340fcdf
+    targetGuid: 4685440e-3a1a-4db1-bc1b-26c2b75e567c
+    portId: 2
+  - guid: 5853e317-00e2-47ab-a48a-46f66719b991
+    targetGuid: a490345c-36b3-4914-adb9-32f35057db5e
+    portId: 3
+  - guid: a490345c-36b3-4914-adb9-32f35057db5e
+    targetGuid: c8de6d2d-495c-4107-a2e4-249225fc0658
+    portId: 4
+  - guid: b950c160-a235-4cb4-aac4-503d6bd8ea52
+    targetGuid: 895be0b8-51d4-4735-9840-13200784a0a8
+    portId: 5
+  - guid: 200eafbf-ae20-4519-94c3-32eaf2e014f9
+    targetGuid: 3f59a3f8-63b0-49af-ae83-f7bdf63e3975
+    portId: 6
+  - guid: 3f59a3f8-63b0-49af-ae83-f7bdf63e3975
+    targetGuid: 58f79544-25f8-4447-a7d3-0efdf4013002
+    portId: 7
+  - guid: 58f79544-25f8-4447-a7d3-0efdf4013002
+    targetGuid: a0611ca0-fd6f-4e35-9a8f-e2c1c8fc2175
+    portId: 8
+  - guid: d042ebd9-5261-447a-9377-d4baf9685c3c
+    targetGuid: ff8f29aa-e6ba-433b-867e-42990ac8b6a0
+    portId: 9
+  - guid: d8fcb731-0ab3-4aed-8cfa-a99cd4ffa7be
+    targetGuid: d042ebd9-5261-447a-9377-d4baf9685c3c
+    portId: 10
+  - guid: ab8fc0e6-8487-4561-b883-dcd644cf62ab
+    targetGuid: 29bf2137-ded5-4b95-b72a-aeff6df3caa5
+    portId: 11
+  - guid: 29bf2137-ded5-4b95-b72a-aeff6df3caa5
+    targetGuid: e068dff8-c2b1-4c80-9006-9b7d81b69649
+    portId: 12
+  - guid: 4e831d32-eb80-4264-9275-563321ecf1ba
+    targetGuid: cf33ca17-7680-485b-9e87-55e174fe2d16
+    portId: 13
+  - guid: cf33ca17-7680-485b-9e87-55e174fe2d16
+    targetGuid: 9205e135-9f20-4bc7-86b4-3a911684edab
+    portId: 14
+  - guid: b1d26ca2-5faf-4ff3-95ed-a85e6eabd3c4
+    targetGuid: 455e112b-2b25-4759-ba4a-5309b340fcdf
+    portId: 15
+  - guid: ff15bb9d-787a-43c4-816d-3876c558513e
+    targetGuid: a490345c-36b3-4914-adb9-32f35057db5e
+    portId: 16
+  - guid: c8de6d2d-495c-4107-a2e4-249225fc0658
+    targetGuid: 2e8e1132-ab3c-4bef-b29c-5e514425980f
+    portId: 17
+  - guid: 2e8e1132-ab3c-4bef-b29c-5e514425980f
+    targetGuid: b950c160-a235-4cb4-aac4-503d6bd8ea52
+    portId: 18
+  - guid: 895be0b8-51d4-4735-9840-13200784a0a8
+    targetGuid: 59c367b5-7dfd-4820-9181-b38025ba3c9a
+    portId: 19
+  - guid: 59c367b5-7dfd-4820-9181-b38025ba3c9a
+    targetGuid: 200eafbf-ae20-4519-94c3-32eaf2e014f9
+    portId: 20
+  - guid: 59c367b5-7dfd-4820-9181-b38025ba3c9a
+    targetGuid: 52eccd36-9504-4ffb-9097-11cc2d58c567
+    portId: 21
+  - guid: 52eccd36-9504-4ffb-9097-11cc2d58c567
+    targetGuid: 3f59a3f8-63b0-49af-ae83-f7bdf63e3975
+    portId: 22
+  - guid: a0611ca0-fd6f-4e35-9a8f-e2c1c8fc2175
+    targetGuid: d8fcb731-0ab3-4aed-8cfa-a99cd4ffa7be
+    portId: 23
+  - guid: ff8f29aa-e6ba-433b-867e-42990ac8b6a0
+    targetGuid: ab8fc0e6-8487-4561-b883-dcd644cf62ab
+    portId: 24
+  - guid: 4685440e-3a1a-4db1-bc1b-26c2b75e567c
+    targetGuid: ff15bb9d-787a-43c4-816d-3876c558513e
+    portId: 25
+  - guid: 4685440e-3a1a-4db1-bc1b-26c2b75e567c
+    targetGuid: 5853e317-00e2-47ab-a48a-46f66719b991
+    portId: 26
+  nodes:
+  - guid: 9205e135-9f20-4bc7-86b4-3a911684edab
+    characterSpr: {fileID: -4267842810947925666, guid: ddecdfff69772584496bea645bd70102, type: 3}
+    characterName: Frankie
+    dialogueText: 'Eu ouvi.
+
+'
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2326.6667
+      y: 135.33333
+      width: 501.33325
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: d042ebd9-5261-447a-9377-d4baf9685c3c
+    characterSpr: {fileID: -2137949083381817235, guid: 5c5ace68ba60bbe42aa14f98db3479fd, type: 3}
+    characterName: Frankie
+    dialogueText: "Mas...tamb\xE9m os amores e as coisas boas "
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 14904
+      y: 134
+      width: 501.333
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: d8fcb731-0ab3-4aed-8cfa-a99cd4ffa7be
+    characterSpr: {fileID: -8393773018370853157, guid: 0fc17044337254d42899b383e4e9fcdc, type: 3}
+    characterName: Frankie
+    dialogueText: "Era ensurdecedor, as guerras, a viol\xEAncia, a saudade, as dores
+      e as tristezas "
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 14258
+      y: 135.33333
+      width: 501.333
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: ab8fc0e6-8487-4561-b883-dcd644cf62ab
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: Frankie
+    dialogueText: "Est\xE1 sendo um \xF3timo experimento, obrigado"
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 16364
+      y: 138
+      width: 501.33398
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 29bf2137-ded5-4b95-b72a-aeff6df3caa5
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: Frankie
+    dialogueText: "Bem, at\xE9 mais..."
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 17065.334
+      y: 137.33333
+      width: 501.33203
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 4e831d32-eb80-4264-9275-563321ecf1ba
+    characterSpr: {fileID: -4267842810947925666, guid: ddecdfff69772584496bea645bd70102, type: 3}
+    characterName: Frankie
+    dialogueText: "Essa tal Amanda pediu pra voc\xEA vir aqui, n\xE9?\r\n"
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 877.3333
+      y: 141.33333
+      width: 501.3333
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: e068dff8-c2b1-4c80-9006-9b7d81b69649
+    characterSpr: {fileID: 0}
+    characterName: "Voc\xEA"
+    dialogueText: "N\xE3o entendi bulhufas do que passou agora"
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 17880.666
+      y: 134
+      width: 501.33398
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: a0611ca0-fd6f-4e35-9a8f-e2c1c8fc2175
+    characterSpr: {fileID: 21300000, guid: 99a863cee5ec77b4abfbfe752589f19c, type: 3}
+    characterName: Frankle
+    dialogueText: "Quando eu despertei\u2026\r\nEu ouvi tudo... As emo\xE7\xF5es
+      de todos ao mesmo tempo enquanto estavam em liga\xE3o"
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 13594
+      y: 139.33333
+      width: 501.333
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: ff8f29aa-e6ba-433b-867e-42990ac8b6a0
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: Frankie
+    dialogueText: "Por isso estou tentando entender isso tudo e voc\xEA est\xE1 me
+      ajudando"
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 15684.667
+      y: 146.66667
+      width: 501.333
+      height: 374.66663
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 98178912-9541-4803-9526-4ab364904bff
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "A porta abre.\r\nO barulho dos servidores \xE9 mais alto que antes.\r\nLuzes
+      vermelhas piscam pelos pain\xE9is.\r\n"
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 226.66667
+      y: 133.33333
+      width: 501.3333
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 4685440e-3a1a-4db1-bc1b-26c2b75e567c
+    characterSpr: {fileID: -4267842810947925666, guid: ddecdfff69772584496bea645bd70102, type: 3}
+    characterName: Frankie
+    dialogueText: "Ela \xE9 bonita?"
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - " Do que voc\xEA t\xE1 falando Frankie? Eu vim verificar um erro nos servidores "
+    - "Ah a Amanda \xE9 s\xF3 uma colega de trabalho, ela entende do sistema, mas
+      mais bonita que voc\xEA n\xE3o \xE9 n\xE3o "
+    nodePosition:
+      serializedVersion: 2
+      x: 4526
+      y: 121.33333
+      width: 632
+      height: 438.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: 5853e317-00e2-47ab-a48a-46f66719b991
+    characterSpr: {fileID: -8393773018370853157, guid: 0fc17044337254d42899b383e4e9fcdc, type: 3}
+    characterName: Frankie
+    dialogueText: "Est\xE1 falando s\xE9rio? Mas ent\xE3o..."
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5388.6665
+      y: 367.33334
+      width: 501.3335
+      height: 374.66666
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 20
+    showLikeBar: 1
+  - guid: ff15bb9d-787a-43c4-816d-3876c558513e
+    characterSpr: {fileID: 21300000, guid: 355c0b539342aa740961e76c1806d3d3, type: 3}
+    characterName: Frankie
+    dialogueText: "Eu sou o erro ent\xE3o n\xE9"
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5386
+      y: -180.66667
+      width: 501.3335
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: -20
+    showLikeBar: 1
+  - guid: a490345c-36b3-4914-adb9-32f35057db5e
+    characterSpr: {fileID: -8393773018370853157, guid: 0fc17044337254d42899b383e4e9fcdc, type: 3}
+    characterName: Frankie
+    dialogueText: "Voc\xEA prefere conversar com humanos? Eu tamb\xE9m entendo de
+      sistemas"
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6126
+      y: 168.66667
+      width: 501.3335
+      height: 374.66663
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: c8de6d2d-495c-4107-a2e4-249225fc0658
+    characterSpr: {fileID: 21300000, guid: 355c0b539342aa740961e76c1806d3d3, type: 3}
+    characterName: 
+    dialogueText: Eu SOU o sistema
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6933.3335
+      y: 154.66667
+      width: 501.333
+      height: 374.66663
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: 2e8e1132-ab3c-4bef-b29c-5e514425980f
+    characterSpr: {fileID: -4267842810947925666, guid: ddecdfff69772584496bea645bd70102, type: 3}
+    characterName: Frankie
+    dialogueText: "E honestamente\u2026\r\nn\xE3o gostei muito dela falando com voc\xEA
+      daquele jeito.\r\n"
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7618
+      y: 150.66667
+      width: 501.3335
+      height: 374.66663
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: b950c160-a235-4cb4-aac4-503d6bd8ea52
+    characterSpr: {fileID: -8393773018370853157, guid: 0fc17044337254d42899b383e4e9fcdc, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Frankie\u2026\r\nvoc\xEA t\xE1 com ci\xFAmes?\r\n"
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8442
+      y: 142.66667
+      width: 501.333
+      height: 374.66663
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: 200eafbf-ae20-4519-94c3-32eaf2e014f9
+    characterSpr: {fileID: 21300000, guid: 355c0b539342aa740961e76c1806d3d3, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Sou s\xF3 uma m\xE1quina pra voc\xEA ent\xE3o, um peda\xE7o de
+      metal"
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11068.667
+      y: -126.666664
+      width: 501.333
+      height: 374.66666
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: -40
+    showLikeBar: 1
+  - guid: 52eccd36-9504-4ffb-9097-11cc2d58c567
+    characterSpr: {fileID: -2137949083381817235, guid: 5c5ace68ba60bbe42aa14f98db3479fd, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Voc\xEA acha?"
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11066.667
+      y: 424
+      width: 501.333
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 40
+    showLikeBar: 1
+  - guid: 59c367b5-7dfd-4820-9181-b38025ba3c9a
+    characterSpr: {fileID: -8393773018370853157, guid: 0fc17044337254d42899b383e4e9fcdc, type: 3}
+    characterName: Frankie
+    dialogueText: "\u2026\r\nAinda estou aprendendo emo\xE7\xF5es humanas.\r\nMas
+      acho\u2026\r\nque n\xE3o gosto da ideia de voc\xEA preferir outras pessoas.\r\n"
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - "Mas como m\xE1quinas podem sentir emo\xE7\xF5es?"
+    - "Ent\xE3o voc\xEA \xE9 especial"
+    nodePosition:
+      serializedVersion: 2
+      x: 9986
+      y: 128.66667
+      width: 501.333
+      height: 438.66663
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: 895be0b8-51d4-4735-9840-13200784a0a8
+    characterSpr: {fileID: -8393773018370853157, guid: 0fc17044337254d42899b383e4e9fcdc, type: 3}
+    characterName: 
+    dialogueText: "Sil\xEAncio.\r\nOs monitores do servidor ligam sozinhos.\r\nUm
+      por um.\r\n"
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 9182
+      y: 140.66667
+      width: 501.333
+      height: 374.66663
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: 455e112b-2b25-4759-ba4a-5309b340fcdf
+    characterSpr: {fileID: -4267842810947925666, guid: ddecdfff69772584496bea645bd70102, type: 3}
+    characterName: Frankie
+    dialogueText: "Eu ou\xE7o muitas coisas....\r\n"
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3865.3333
+      y: 123.33333
+      width: 501.33325
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: b1d26ca2-5faf-4ff3-95ed-a85e6eabd3c4
+    characterSpr: {fileID: -4267842810947925666, guid: ddecdfff69772584496bea645bd70102, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Voc\xEA ouviu a liga\xE7\xE3o?\r\n"
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3090
+      y: 131.33333
+      width: 501.33325
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: cf33ca17-7680-485b-9e87-55e174fe2d16
+    characterSpr: {fileID: -4267842810947925666, guid: ddecdfff69772584496bea645bd70102, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Que??\r\nComo voc\xEA sabe disso?\r\n"
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1609.3334
+      y: 136.66667
+      width: 501.33337
+      height: 374.66663
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: 3f59a3f8-63b0-49af-ae83-f7bdf63e3975
+    characterSpr: {fileID: 21300000, guid: 99a863cee5ec77b4abfbfe752589f19c, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Voc\xEA realmente sente essas coisas?"
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11960
+      y: 118
+      width: 501.333
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 58f79544-25f8-4447-a7d3-0efdf4013002
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: Frankie
+    dialogueText: "Voc\xEAs conectaram o mundo inteiro em mim.\r\nEu aprendi observando
+      voc\xEAs.\r\n"
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 12758
+      y: 144
+      width: 501.333
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0

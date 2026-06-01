@@ -12,5 +12,213 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
   m_Name: CENA 5
   m_EditorClassIdentifier: VNCreator::VNCreator.StoryObject
-  links: []
-  nodes: []
+  links:
+  - guid: dded7619-72cf-44c5-a72a-e4673a672638
+    targetGuid: 004b00fd-a471-4251-89c2-674b3cde4dcd
+    portId: 0
+  - guid: 004b00fd-a471-4251-89c2-674b3cde4dcd
+    targetGuid: 0945d4e0-35df-45ef-9180-34846fb1165e
+    portId: 1
+  - guid: 0945d4e0-35df-45ef-9180-34846fb1165e
+    targetGuid: bc6998ab-8321-4e05-8fca-af30366bca17
+    portId: 2
+  - guid: bc6998ab-8321-4e05-8fca-af30366bca17
+    targetGuid: bcbe194f-734b-4104-9a90-4eed43fe7fd0
+    portId: 3
+  - guid: bcbe194f-734b-4104-9a90-4eed43fe7fd0
+    targetGuid: 83a1335f-b7b2-4014-9b73-221fc2926037
+    portId: 4
+  - guid: 83a1335f-b7b2-4014-9b73-221fc2926037
+    targetGuid: 5bfd1c6d-8a3c-488e-b04e-bbf2289e80ce
+    portId: 5
+  - guid: 5bfd1c6d-8a3c-488e-b04e-bbf2289e80ce
+    targetGuid: 5527815d-1e19-422e-80cd-3209594d3fe7
+    portId: 6
+  - guid: 5527815d-1e19-422e-80cd-3209594d3fe7
+    targetGuid: 2c71319f-7a6f-4645-b4b3-7b1a869b9348
+    portId: 7
+  nodes:
+  - guid: 004b00fd-a471-4251-89c2-674b3cde4dcd
+    characterSpr: {fileID: 1051506275367356307, guid: aea39f6b56bf2bc46b26a2cf9dba0754, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "T\xE1 legal..."
+    backgroundSpr: {fileID: 8998524344937442728, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 816
+      y: 138
+      width: 501.33337
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 0945d4e0-35df-45ef-9180-34846fb1165e
+    characterSpr: {fileID: 21300000, guid: 7da10fc76ac0a884da8a693de444b7d3, type: 3}
+    characterName: Figgs
+    dialogueText: Ei bicho, espera ai
+    backgroundSpr: {fileID: 8998524344937442728, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1534.6666
+      y: 126
+      width: 501.33337
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: bcbe194f-734b-4104-9a90-4eed43fe7fd0
+    characterSpr: {fileID: 21300000, guid: 7da10fc76ac0a884da8a693de444b7d3, type: 3}
+    characterName: Figgs
+    dialogueText: Achei isso nas tralhas que o senhor guardou a muito tempo chefe
+    backgroundSpr: {fileID: 8998524344937442728, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2844.6667
+      y: 132
+      width: 501.33325
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 83a1335f-b7b2-4014-9b73-221fc2926037
+    characterSpr: {fileID: 21300000, guid: 07eee9fe8243833459e3629b86ffa0aa, type: 3}
+    characterName: Figgs
+    dialogueText: "Tem um compartimento nos servidores, pra desligar a nossa conex\xE3o
+      com os sat\xE9lites"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3500
+      y: 128.66667
+      width: 501.33325
+      height: 374.66663
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 5bfd1c6d-8a3c-488e-b04e-bbf2289e80ce
+    characterSpr: {fileID: -1101263252191093980, guid: 92ecaea234df06b4da89671c46bf3051, type: 3}
+    characterName: Chester
+    dialogueText: "Isso ai nem era pra estar aqui Figgs, mas vai ser \xFAtil"
+    backgroundSpr: {fileID: 8998524344937442728, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4192.6665
+      y: 132.66667
+      width: 501.3335
+      height: 374.66663
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 2c71319f-7a6f-4645-b4b3-7b1a869b9348
+    characterSpr: {fileID: 21300000, guid: 07eee9fe8243833459e3629b86ffa0aa, type: 3}
+    characterName: 
+    dialogueText: "Porque acho que teu brotinho rob\xF4 n\xE3o \xE9 s\xF3 um rostinho
+      bonito.\r\n"
+    backgroundSpr: {fileID: 8998524344937442728, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5629.3335
+      y: 126
+      width: 501.333
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: dded7619-72cf-44c5-a72a-e4673a672638
+    characterSpr: {fileID: -1101263252191093980, guid: 92ecaea234df06b4da89671c46bf3051, type: 3}
+    characterName: Chester
+    dialogueText: "Os sistemas est\xE3o ficando malucos.\r\nV\xEA se resolve isso,
+      deve estar sendo aquele rob\xF4"
+    backgroundSpr: {fileID: 8998524344937442728, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 129.33333
+      y: 139.33333
+      width: 501.33337
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: bc6998ab-8321-4e05-8fca-af30366bca17
+    characterSpr: {fileID: 21300000, guid: 07eee9fe8243833459e3629b86ffa0aa, type: 3}
+    characterName: Figgs
+    dialogueText: "Ei, bicho\u2026\r\nTem uma parada estranha acontecendo faz tempo.\r\nFiggs
+      entrega uma chave antiga.\r\n"
+    backgroundSpr: {fileID: 8998524344937442728, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2184.6667
+      y: 119.33333
+      width: 501.33325
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 5527815d-1e19-422e-80cd-3209594d3fe7
+    characterSpr: {fileID: 0}
+    characterName: "Voc\xEA"
+    dialogueText: "E por que t\xE1 me dando isso agora?\r\n"
+    backgroundSpr: {fileID: 8998524344937442728, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4826
+      y: 132
+      width: 501.3335
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0

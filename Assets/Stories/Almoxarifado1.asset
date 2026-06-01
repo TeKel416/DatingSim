@@ -24,7 +24,7 @@ MonoBehaviour:
     characterSpr: {fileID: 21300000, guid: 07eee9fe8243833459e3629b86ffa0aa, type: 3}
     characterName: Figgs
     dialogueText: "E a\xED, bicho! Do que precisa?"
-    backgroundSpr: {fileID: 21300000, guid: ddf42dd21410b674996786d91e5f8d69, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: bf0a7af63a478e246a8a99cdaa71dd76, type: 3}
     startNode: 1
     endNode: 0
     choices: 1
@@ -32,10 +32,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 153
-      y: 135
-      width: 499
-      height: 371
+      x: 153.33333
+      y: 135.33333
+      width: 501.33337
+      height: 374.6667
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -45,7 +45,7 @@ MonoBehaviour:
     characterName: "Voc\xEA"
     dialogueText: "Oi, Figgs. T\xF4 querendo a chave da sala do chefe. Ele pediu
       pra buscar um processo da prefeitura, mas eu tinha esquecido de fazer isso."
-    backgroundSpr: {fileID: 21300000, guid: ddf42dd21410b674996786d91e5f8d69, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: bf0a7af63a478e246a8a99cdaa71dd76, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -55,8 +55,8 @@ MonoBehaviour:
       serializedVersion: 2
       x: 676
       y: 134
-      width: 499
-      height: 371
+      width: 501.33337
+      height: 374.6667
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -66,7 +66,7 @@ MonoBehaviour:
     characterName: Figgs
     dialogueText: "Aaah pode cr\xEA, ele me falou disso. A chave deve estar em algum
       lugar dessas tralhas."
-    backgroundSpr: {fileID: 21300000, guid: ddf42dd21410b674996786d91e5f8d69, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: bf0a7af63a478e246a8a99cdaa71dd76, type: 3}
     startNode: 0
     endNode: 1
     choices: 1
@@ -76,8 +76,8 @@ MonoBehaviour:
       serializedVersion: 2
       x: 1216
       y: 136
-      width: 499
-      height: 371
+      width: 501.33337
+      height: 374.6667
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
