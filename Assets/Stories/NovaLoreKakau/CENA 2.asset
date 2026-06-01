@@ -19,6 +19,129 @@ MonoBehaviour:
   - guid: 7dd7203a-ccaf-4261-9f3b-0aa05f067292
     targetGuid: fd09d23a-b523-4649-b4a3-706c3c132b82
     portId: 1
+  - guid: fd09d23a-b523-4649-b4a3-706c3c132b82
+    targetGuid: 1d48db36-8003-4b43-a518-e3c7e25c4159
+    portId: 2
+  - guid: 1d48db36-8003-4b43-a518-e3c7e25c4159
+    targetGuid: 6d34fb05-456f-41ca-84ff-41f73770428e
+    portId: 3
+  - guid: 1d48db36-8003-4b43-a518-e3c7e25c4159
+    targetGuid: fbe747ca-cac5-4b77-8481-9d8caf105f3e
+    portId: 4
+  - guid: fbe747ca-cac5-4b77-8481-9d8caf105f3e
+    targetGuid: 634c24bb-dfac-42a2-ae7f-3ad2360712bc
+    portId: 5
+  - guid: e41edd40-39de-439c-82a9-595455ccfc63
+    targetGuid: 862e5d3f-0b16-4d78-a176-3ed34414b712
+    portId: 6
+  - guid: 634c24bb-dfac-42a2-ae7f-3ad2360712bc
+    targetGuid: b531b10b-84be-4194-bf43-d7295216df9f
+    portId: 7
+  - guid: 862e5d3f-0b16-4d78-a176-3ed34414b712
+    targetGuid: b5dd3f53-1f7b-4d21-b63a-4ed96f38c799
+    portId: 8
+  - guid: c4b94fc6-3fd4-468b-be2a-1541ca6717a8
+    targetGuid: e98f0d50-ee9f-4180-b46d-fed59609b7e4
+    portId: 9
+  - guid: ae1ad85d-7582-4f61-a90c-bc6bbea4deb1
+    targetGuid: cfdccc9c-d334-442c-a1b8-da895fc7bff6
+    portId: 10
+  - guid: 1741fc7b-cf60-412b-a61c-422596ad027d
+    targetGuid: 7ea8e203-9ea1-45a5-b0d4-c01eaaff873b
+    portId: 11
+  - guid: 7ea8e203-9ea1-45a5-b0d4-c01eaaff873b
+    targetGuid: 6ac8e030-7a9b-446b-b9d7-362ee66cb1cf
+    portId: 12
+  - guid: 6ac8e030-7a9b-446b-b9d7-362ee66cb1cf
+    targetGuid: 3816681f-ed14-4b3f-9967-5dc5a0bfee18
+    portId: 13
+  - guid: b531b10b-84be-4194-bf43-d7295216df9f
+    targetGuid: e7007c54-f26c-42f8-bcb3-697facf22fe1
+    portId: 14
+  - guid: e7007c54-f26c-42f8-bcb3-697facf22fe1
+    targetGuid: c4b94fc6-3fd4-468b-be2a-1541ca6717a8
+    portId: 15
+  - guid: b5dd3f53-1f7b-4d21-b63a-4ed96f38c799
+    targetGuid: 024dc2b2-c9db-435c-b345-7a8b8019fcd4
+    portId: 16
+  - guid: 024dc2b2-c9db-435c-b345-7a8b8019fcd4
+    targetGuid: e98f0d50-ee9f-4180-b46d-fed59609b7e4
+    portId: 17
+  - guid: e98f0d50-ee9f-4180-b46d-fed59609b7e4
+    targetGuid: ae1ad85d-7582-4f61-a90c-bc6bbea4deb1
+    portId: 18
+  - guid: cfdccc9c-d334-442c-a1b8-da895fc7bff6
+    targetGuid: 1741fc7b-cf60-412b-a61c-422596ad027d
+    portId: 19
+  - guid: 3816681f-ed14-4b3f-9967-5dc5a0bfee18
+    targetGuid: 388514ad-0c8b-4181-a93d-6b525893c56f
+    portId: 20
+  - guid: 388514ad-0c8b-4181-a93d-6b525893c56f
+    targetGuid: 890e8c1f-422f-4857-9608-c87788836ff6
+    portId: 21
+  - guid: 6d34fb05-456f-41ca-84ff-41f73770428e
+    targetGuid: e41edd40-39de-439c-82a9-595455ccfc63
+    portId: 22
+  - guid: 890e8c1f-422f-4857-9608-c87788836ff6
+    targetGuid: 674db388-705f-4b82-8ae6-b35908726fc4
+    portId: 23
+  - guid: 674db388-705f-4b82-8ae6-b35908726fc4
+    targetGuid: 6a0e0af5-b41f-4e4f-9a0b-7d514f3696d0
+    portId: 24
+  - guid: 6a0e0af5-b41f-4e4f-9a0b-7d514f3696d0
+    targetGuid: b520a058-259c-49d1-aad8-91ea091d1f41
+    portId: 25
+  - guid: 6a0e0af5-b41f-4e4f-9a0b-7d514f3696d0
+    targetGuid: 1d707a84-5e1a-476f-ab11-546af1f35622
+    portId: 26
+  - guid: 1d707a84-5e1a-476f-ab11-546af1f35622
+    targetGuid: d8c40a01-5f80-462e-82af-84c8bd4304fe
+    portId: 27
+  - guid: d8c40a01-5f80-462e-82af-84c8bd4304fe
+    targetGuid: c8de3079-8d31-4a40-821d-078856dd4fb9
+    portId: 28
+  - guid: d8c40a01-5f80-462e-82af-84c8bd4304fe
+    targetGuid: d5540fe9-dee2-46a4-943b-7dfc38f18ed9
+    portId: 29
+  - guid: d5540fe9-dee2-46a4-943b-7dfc38f18ed9
+    targetGuid: fffc319b-1e1c-4c74-82da-43fbd80707e2
+    portId: 30
+  - guid: c8de3079-8d31-4a40-821d-078856dd4fb9
+    targetGuid: fffc319b-1e1c-4c74-82da-43fbd80707e2
+    portId: 31
+  - guid: fffc319b-1e1c-4c74-82da-43fbd80707e2
+    targetGuid: 11486930-36cb-4868-ada0-170909dc71c5
+    portId: 32
+  - guid: 11486930-36cb-4868-ada0-170909dc71c5
+    targetGuid: 3102d811-cbfd-45ea-aca2-2da38f4a7773
+    portId: 33
+  - guid: 3102d811-cbfd-45ea-aca2-2da38f4a7773
+    targetGuid: ad7d7313-7d25-40bb-8434-ec4f089f7c63
+    portId: 34
+  - guid: ad7d7313-7d25-40bb-8434-ec4f089f7c63
+    targetGuid: bbfa05cf-1c77-4e8a-8bd4-e96449167a00
+    portId: 35
+  - guid: ad7d7313-7d25-40bb-8434-ec4f089f7c63
+    targetGuid: 52ba3494-d63e-4155-9f59-7336711dba1a
+    portId: 36
+  - guid: bbfa05cf-1c77-4e8a-8bd4-e96449167a00
+    targetGuid: a74dd939-ae8b-4ff8-8008-85c575911e22
+    portId: 37
+  - guid: 52ba3494-d63e-4155-9f59-7336711dba1a
+    targetGuid: c63137e9-3dd9-4510-a2b5-4da1799a5f50
+    portId: 38
+  - guid: c63137e9-3dd9-4510-a2b5-4da1799a5f50
+    targetGuid: b604cf60-597b-4834-9d51-d2714fbd44d9
+    portId: 39
+  - guid: b604cf60-597b-4834-9d51-d2714fbd44d9
+    targetGuid: df6e31a5-e66b-418b-b026-5c1e84baaa39
+    portId: 40
+  - guid: a74dd939-ae8b-4ff8-8008-85c575911e22
+    targetGuid: b604cf60-597b-4834-9d51-d2714fbd44d9
+    portId: 41
+  - guid: b520a058-259c-49d1-aad8-91ea091d1f41
+    targetGuid: d8c40a01-5f80-462e-82af-84c8bd4304fe
+    portId: 42
   nodes:
   - guid: 6fc4884a-b803-4de8-8268-e03d158e14c3
     characterSpr: {fileID: 0}
@@ -32,29 +155,9 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 250
-      y: 116.66667
+      x: 250.66667
+      y: 116
       width: 501.3333
-      height: 374.66663
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-    likeGain: 0
-    showLikeBar: 0
-  - guid: fd09d23a-b523-4649-b4a3-706c3c132b82
-    characterSpr: {fileID: 0}
-    characterName: 
-    dialogueText: '*telefone toca*'
-    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 1557.3334
-      y: 118
-      width: 501.33337
       height: 374.6667
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
@@ -72,9 +175,793 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 876.6667
+      x: 957.3333
       y: 111.33333
       width: 501.3333
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: fd09d23a-b523-4649-b4a3-706c3c132b82
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: '*telefone toca*'
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1592.6666
+      y: 109.33333
+      width: 501.33337
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 1d48db36-8003-4b43-a518-e3c7e25c4159
+    characterSpr: {fileID: 21300000, guid: 355c0b539342aa740961e76c1806d3d3, type: 3}
+    characterName: Nova Chefe
+    dialogueText: "Ent\xE3o\u2026 Voc\xEA gostou?"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - 
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2318.6667
+      y: 102.66667
+      width: 501.33325
+      height: 438.66663
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: e41edd40-39de-439c-82a9-595455ccfc63
+    characterSpr: {fileID: 21300000, guid: 99a863cee5ec77b4abfbfe752589f19c, type: 3}
+    characterName: Nova chefe
+    dialogueText: "N\xE3o gostou? Achei voc\xEA tinha senso humor, fui tentar ser
+      engra\xE7ada\r\n"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3760.6667
+      y: -20
+      width: 501.33325
+      height: 374.66666
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 634c24bb-dfac-42a2-ae7f-3ad2360712bc
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: Nova chefe
+    dialogueText: " Ah \xE9?? Ent\xE3o voc\xEA gostou da minha atua\xE7\xE3o?"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3738.6667
+      y: 488
+      width: 501.33325
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 862e5d3f-0b16-4d78-a176-3ed34414b712
+    characterSpr: {fileID: 21300000, guid: 355c0b539342aa740961e76c1806d3d3, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: ' Foi meio esquisito, nunca falei com uma cafeteira, muito menos
+      uma que flerta comigo
+
+'
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4467.3335
+      y: -16
+      width: 501.333
+      height: 374.66666
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: c4b94fc6-3fd4-468b-be2a-1541ca6717a8
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Isso foi bem bacana na verdade.\n\nMas agora fala\u2026\nqual
+      \xE9 seu nome?"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5958.6665
+      y: 496
+      width: 501.3335
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: ae1ad85d-7582-4f61-a90c-bc6bbea4deb1
+    characterSpr: {fileID: 21300000, guid: 99a863cee5ec77b4abfbfe752589f19c, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Frankeline\u2026\n\n\xC9 um nome bonito.\nMas meio longo.\n\nQue
+      tal Frankie?"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7530.6665
+      y: 255.33334
+      width: 501.3335
+      height: 374.66666
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 1741fc7b-cf60-412b-a61c-422596ad027d
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: "Voc\xEA "
+    dialogueText: "\xC9 um apelido.\r\nN\xF3s damos apelidos pras pessoas que s\xE3o
+      pr\xF3ximas da gente."
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8992.667
+      y: 254.66666
+      width: 501.333
+      height: 374.66666
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 7ea8e203-9ea1-45a5-b0d4-c01eaaff873b
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: Frankie
+    dialogueText: "PR\xD3XIMAS??\r\nA-ah\u2026\r\nEnt\xE3o n\xF3s somos pr\xF3ximos?\r\n"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 9728
+      y: 252
+      width: 501.333
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 5
+    showLikeBar: 0
+  - guid: 6ac8e030-7a9b-446b-b9d7-362ee66cb1cf
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Ah\u2026\r\nAcho que sim.\r\nQuer dizer, voc\xEA me ajudou no
+      elevador.\r\nE honestamente\u2026\r\nvoc\xEA \xE9 mais legal que metade desse
+      escrit\xF3rio.\r\n"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 10469.333
+      y: 259.33334
+      width: 501.33398
+      height: 374.66666
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: b531b10b-84be-4194-bf43-d7295216df9f
+    characterSpr: {fileID: 21300000, guid: 99a863cee5ec77b4abfbfe752589f19c, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Carambolas, como voc\xEA fez aquilo?"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4449.3335
+      y: 498.6667
+      width: 501.333
+      height: 374.66663
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: e7007c54-f26c-42f8-bcb3-697facf22fe1
+    characterSpr: {fileID: 21300000, guid: 99a863cee5ec77b4abfbfe752589f19c, type: 3}
+    characterName: Nova chefe
+    dialogueText: "Eu tentei me conectar aos eletr\xF4nicos do escrit\xF3rio.\nAinda
+      t\xF4 aprendendo a controlar essas coisas."
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5200.6665
+      y: 489.3333
+      width: 501.3335
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: b5dd3f53-1f7b-4d21-b63a-4ed96f38c799
+    characterSpr: {fileID: 21300000, guid: 355c0b539342aa740961e76c1806d3d3, type: 3}
+    characterName: Nova chefe
+    dialogueText: "Voc\xEA \xE9 um chato de galocha. Vou parar de brincar ent\xE3o"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5236.6665
+      y: -1.333334
+      width: 501.3335
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 024dc2b2-c9db-435c-b345-7a8b8019fcd4
+    characterSpr: {fileID: 21300000, guid: 355c0b539342aa740961e76c1806d3d3, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Poxa, eu s\xF3 fiquei surpreso.N\xE3o entendi muito bem\u2026\nAh,
+      eu queria te perguntar uma coisa.\n\nQual seu nome?"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5947.3335
+      y: 5.333334
+      width: 501.333
+      height: 374.66666
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: e98f0d50-ee9f-4180-b46d-fed59609b7e4
+    characterSpr: {fileID: 21300000, guid: 99a863cee5ec77b4abfbfe752589f19c, type: 3}
+    characterName: Frankeline
+    dialogueText: "Hmm... Acho que agora voc\xEA merece saber. \xC9 Frankeline, eu
+      mesma inventei "
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6742.6665
+      y: 253.33334
+      width: 501.3335
+      height: 374.66666
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: cfdccc9c-d334-442c-a1b8-da895fc7bff6
+    characterSpr: {fileID: 21300000, guid: 99a863cee5ec77b4abfbfe752589f19c, type: 3}
+    characterName: Frankie
+    dialogueText: "F-frankie??\n\nPor que voc\xEA diminuiu meu nome?"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8343.333
+      y: 251.33334
+      width: 501.33398
+      height: 374.66666
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 3816681f-ed14-4b3f-9967-5dc5a0bfee18
+    characterSpr: {fileID: 21300000, guid: 99a863cee5ec77b4abfbfe752589f19c, type: 3}
+    characterName: Frankie
+    dialogueText: "Carambolas\u2026"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11152.667
+      y: 255.33334
+      width: 501.333
+      height: 374.66666
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 388514ad-0c8b-4181-a93d-6b525893c56f
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: Frankie
+    dialogueText: "Isso \xE9\u2026\r\nbom de saber.\r\nAcho que nunca fui pr\xF3xima
+      de ningu\xE9m antes.\r\nIsso \xE9 uma vari\xE1vel nova.\r\n"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11812.667
+      y: 253.33334
+      width: 501.333
+      height: 374.66666
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 6d34fb05-456f-41ca-84ff-41f73770428e
+    characterSpr: {fileID: 21300000, guid: 355c0b539342aa740961e76c1806d3d3, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "N\xE3o?? Era uma cafeteira bicho, foi voc\xEA?\r\n"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2984
+      y: -17.333332
+      width: 501.33325
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: -10
+    showLikeBar: 0
+  - guid: 890e8c1f-422f-4857-9608-c87788836ff6
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: Frankie
+    dialogueText: "Inclusive\u2026\r\neu estava analisando algumas vari\xE1veis humanas.\r\nPosso
+      fazer perguntas?\r\n\r\n"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 12536
+      y: 252
+      width: 501.333
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 674db388-705f-4b82-8ae6-b35908726fc4
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: Claro
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 13198.667
+      y: 251.33334
+      width: 501.333
+      height: 374.66666
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 6a0e0af5-b41f-4e4f-9a0b-7d514f3696d0
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: Frankie
+    dialogueText: "Como voc\xEAs humanos se conectam?\r\n"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - 
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 13879.333
+      y: 257.33334
+      width: 501.33398
+      height: 438.66666
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 1d707a84-5e1a-476f-ab11-546af1f35622
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: Flertando, fazendo piadas e falando besteira.
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 14612
+      y: 532.6667
+      width: 501.333
+      height: 374.66663
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 5
+    showLikeBar: 0
+  - guid: d8c40a01-5f80-462e-82af-84c8bd4304fe
+    characterSpr: {fileID: 21300000, guid: 99a863cee5ec77b4abfbfe752589f19c, type: 3}
+    characterName: Frankie
+    dialogueText: "Porque voc\xEA conversa comigo normalmente?"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - 
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 15360.667
+      y: 277.33334
+      width: 501.333
+      height: 438.66666
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: d5540fe9-dee2-46a4-943b-7dfc38f18ed9
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Por que voc\xEA \xE9 um chuchuzinho\r\n"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 16058.667
+      y: 552.6667
+      width: 501.333
+      height: 374.66663
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 10
+    showLikeBar: 0
+  - guid: c8de3079-8d31-4a40-821d-078856dd4fb9
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Porque voc\xEA \xE9 uma m\xE1quina inteligente"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 16047.333
+      y: 116.66667
+      width: 501.333
+      height: 374.66663
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: -10
+    showLikeBar: 0
+  - guid: fffc319b-1e1c-4c74-82da-43fbd80707e2
+    characterSpr: {fileID: 0}
+    characterName: Frankie
+    dialogueText: ' Como se sentiria se eu pudesse explodir o mundo?'
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 16724.666
+      y: 284.66666
+      width: 501.33398
+      height: 374.66666
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 3102d811-cbfd-45ea-aca2-2da38f4a7773
+    characterSpr: {fileID: 0}
+    characterName: Frankie
+    dialogueText: "Nada, pr\xF3xima pergunta"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 18056.666
+      y: 272
+      width: 501.33398
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: ad7d7313-7d25-40bb-8434-ec4f089f7c63
+    characterSpr: {fileID: 0}
+    characterName: Frankie
+    dialogueText: "Voc\xEA disse que somos pr\xF3ximos, ent\xE3o eu me encaixo como
+      uma engrenagem importante, fa\xE7o parte da sua patota?\r\n"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - 
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 18731.334
+      y: 260
+      width: 501.33203
+      height: 438.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: bbfa05cf-1c77-4e8a-8bd4-e96449167a00
+    characterSpr: {fileID: 0}
+    characterName: "Voc\xEA"
+    dialogueText: "Acho que ainda n\xE3o\u2026 Mas voc\xEA \xE9 legal\r\n"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 19427.334
+      y: 82.666664
+      width: 501.33203
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 52ba3494-d63e-4155-9f59-7336711dba1a
+    characterSpr: {fileID: 0}
+    characterName: "Voc\xEA"
+    dialogueText: 'Ah claro, definitivamente importante brotinho
+
+'
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 19425.334
+      y: 520.6667
+      width: 501.33203
+      height: 374.66663
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: c63137e9-3dd9-4510-a2b5-4da1799a5f50
+    characterSpr: {fileID: 0}
+    characterName: "Voc\xEA"
+    dialogueText: " A-ah, isso \xE9 bacana, obrigado, bem eu vou indo, mas nos falamos
+      depois viu p\xE3ozinho\r\n"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 20212.666
+      y: 517.3333
+      width: 501.33398
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: b604cf60-597b-4834-9d51-d2714fbd44d9
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Ta certo, at\xE9 mais ent\xE3o\r\n"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 20964.666
+      y: 263.33334
+      width: 501.33398
+      height: 374.66666
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: a74dd939-ae8b-4ff8-8008-85c575911e22
+    characterSpr: {fileID: 0}
+    characterName: 'Frankie '
+    dialogueText: " Entendi\u2026 eu vou indo ent\xE3o\u2026Depois nos falamos\r\n"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 20194.666
+      y: 79.333336
+      width: 501.33398
+      height: 374.66666
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: df6e31a5-e66b-418b-b026-5c1e84baaa39
+    characterSpr: {fileID: 0}
+    characterName: "Voc\xEA"
+    dialogueText: "Bem acho que tenho que voltar a trabalhar n\xE9\r\n"
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 21717.334
+      y: 248
+      width: 501.33203
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: b520a058-259c-49d1-aad8-91ea091d1f41
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: Acho que tendo conversas profundas e passando tempo juntos.
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 14608
+      y: 36.666668
+      width: 501.333
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 10
+    showLikeBar: 0
+  - guid: fbe747ca-cac5-4b77-8481-9d8caf105f3e
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: ' Sim?? Aquela cafeteira era quente
+
+'
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2980.6667
+      y: 493.3333
+      width: 501.33325
+      height: 374.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 10
+    showLikeBar: 0
+  - guid: 11486930-36cb-4868-ada0-170909dc71c5
+    characterSpr: {fileID: 0}
+    characterName: "Voc\xEA"
+    dialogueText: ' O que??'
+    backgroundSpr: {fileID: -2993863927487691792, guid: f940f73258af2d24da9af4c61fc5b639, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 17411.334
+      y: 276
+      width: 501.33203
       height: 374.6667
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
