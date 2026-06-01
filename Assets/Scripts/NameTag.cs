@@ -3,7 +3,7 @@ using UnityEngine;
 public class NameTag : MonoBehaviour
 {
     public float offsetX, offsetY;
-    
+
     void LateUpdate()
     {
         FollowMouse();

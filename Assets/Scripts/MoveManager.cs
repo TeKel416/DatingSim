@@ -8,9 +8,10 @@ public class MoveManager : MonoBehaviour
     ClickManager clickManager;
 
     [Header("Locais")]
-    public LocationData activeLocation;
-    private LocationData leftLocation, rightLocation;
-    public Button goLeftBtn, goRightBtn;
+    public LocationData activeLocation, lastLocation;
+    public Button goBackBtn;
+    //private LocationData leftLocation, rightLocation;
+    //public Button goLeftBtn, goRightBtn;
 
     private void Start()
     {
@@ -18,20 +19,16 @@ public class MoveManager : MonoBehaviour
         clickManager = FindFirstObjectByType<ClickManager>();
 
         activeLocation.gameObject.SetActive(true);
-        goLeftBtn.onClick.AddListener(GoLeft);
-        goRightBtn.onClick.AddListener(GoRight);
-        UpdateMoveButtons();
+
+        //goLeftBtn.onClick.AddListener(GoLeft);
+        //goRightBtn.onClick.AddListener(GoRight);
+
+        goBackBtn.onClick.AddListener(GoBack);
+
+        //UpdateMoveButtons();
     }
 
-    public void UpdateMoveButtons()
-    {
-        leftLocation = activeLocation.leftLocation;
-        rightLocation = activeLocation.rightLocation;
-
-        goLeftBtn.gameObject.SetActive(leftLocation != null);
-        goRightBtn.gameObject.SetActive(rightLocation != null);
-    }
-
+    /*
     public void GoLeft()
     {
         // se nao precisar de item ou estiver destrancado
@@ -90,5 +87,54 @@ public class MoveManager : MonoBehaviour
             clickManager.textBox.GetComponent<Text>().text = rightLocation.hint;
             clickManager.storyCanvas.SetActive(true);
         }
+    }
+    */
+
+    public void GoBack()
+    {
+        lastLocation.gameObject.SetActive(true);
+        activeLocation.gameObject.SetActive(false);
+
+        activeLocation = lastLocation;
+
+        SetActiveGoBackBtn(false);
+    }
+
+    public void GoToLocation(LocationData location)
+    {
+        // se nao precisar de item ou estiver destrancado, vai para o local
+        if (!location.isLocked)
+        {
+            location.gameObject.SetActive(true);
+            activeLocation.gameObject.SetActive(false);
+
+            lastLocation = activeLocation;
+            activeLocation = location;
+
+            SetActiveGoBackBtn(true);
+        }
+        // se precisar e tiver o item
+        else if (gameManager.selectedItemID == location.requiredItemID)
+        {
+            location.isLocked = false;
+            GameManager.collectedItems.Remove(GameManager.collectedItems[gameManager.lastSlotClickedID]);
+            gameManager.UpdateEquipmentCanvas();
+
+            clickManager.nameTextBox.GetComponent<Text>().text = "Você";
+            clickManager.textBox.GetComponent<Text>().text = location.successMsg;
+            clickManager.storyCanvas.SetActive(true);
+        }
+        // se precisar e não tiver o item
+        else
+        {
+            clickManager.nameTextBox.GetComponent<Text>().text = "Você";
+            clickManager.textBox.GetComponent<Text>().text = location.hint;
+            clickManager.storyCanvas.SetActive(true);
+        }
+    }
+
+    public void SetActiveGoBackBtn(bool state)
+    {
+        goBackBtn.gameObject.SetActive(state);
     }
 }

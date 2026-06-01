@@ -173,6 +173,7 @@ namespace VNCreator
             {
                 isTyping = false;
                 dialogueTxt.text = currentNode.dialogueText;
+                yield return null;
             }
             else
             {

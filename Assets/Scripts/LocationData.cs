@@ -3,8 +3,6 @@ using UnityEngine.Events;
 
 public class LocationData : MonoBehaviour
 {
-    public LocationData leftLocation, rightLocation;
-
     [Header("Bloqueio")]
     public bool isLocked = false;
     public int requiredItemID = -1;

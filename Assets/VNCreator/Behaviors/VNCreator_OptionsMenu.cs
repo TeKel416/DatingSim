@@ -63,17 +63,17 @@ namespace VNCreator
 
         public void UpdateMasterVolume(float volume)
         {
-            audioMixer.SetFloat("Master_Vol", volume);
+            audioMixer.SetFloat("Master_Vol", (-80 + volume * 80));
         }
 
         public void UpdateMusicVolume(float volume)
         {
-            audioMixer.SetFloat("Music_Vol", volume);
+            audioMixer.SetFloat("Music_Vol", (-80 + volume * 80));
         }
 
         public void UpdateSFXVolume(float volume)
         {
-            audioMixer.SetFloat("SFX_Vol", volume);
+            audioMixer.SetFloat("SFX_Vol", (-80 + volume * 80));
         }
     }
 }

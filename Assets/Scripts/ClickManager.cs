@@ -101,7 +101,7 @@ public class ClickManager : MonoBehaviour
     {
         GameManager.collectedItems.Add(item);
         
-        if (item.pickupSfx) { VNCreator_SfxSource.Instance.PlaySound2D(item.pickupSfx); }
+        //if (item.pickupSfx) { VNCreator_SfxSource.Instance.PlaySound2D(item.pickupSfx); }
 
         gameManager.UpdateEquipmentCanvas();
         Destroy(item.gameObject);

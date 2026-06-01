@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 854587ee443043f49b943c6c774f9a95
+guid: 4bfbe8bf909e2054a9c11b6852d1ad54
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6033319838305256496
-    second: elevador_0
+      213: -4515603447190751015
+    second: cursor-target-1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -24,7 +24,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -57,7 +57,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 7
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 32
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: elevador_0
+      name: cursor-target-1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1080
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0db7f7da297554ca0800000000000000
-      internalID: -6033319838305256496
+      spriteID: 9d87aa7e69a5551c0800000000000000
+      internalID: -4515603447190751015
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      elevador_0: -6033319838305256496
+      cursor-target-1_0: -4515603447190751015
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
