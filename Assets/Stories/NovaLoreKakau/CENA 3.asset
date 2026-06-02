@@ -57,7 +57,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: 
     dialogueText: '*telefone toca*'
-    backgroundSpr: {fileID: 21300000, guid: 27bc2de4825c8b14884b8b8b1cd23a39, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: 35b7c31ba70dbec48bca77855deb1d24, type: 3}
     startNode: 1
     endNode: 0
     choices: 1
@@ -65,30 +65,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 97.333336
-      y: 110.66667
-      width: 501.33334
-      height: 374.6667
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-    likeGain: 0
-    showLikeBar: 0
-  - guid: 0904e3a8-6352-4b75-b4e0-b0c031ffc2ea
-    characterSpr: {fileID: 0}
-    characterName: "Voc\xEA "
-    dialogueText: "Al\xF4?"
-    backgroundSpr: {fileID: 21300000, guid: 27bc2de4825c8b14884b8b8b1cd23a39, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 837.3333
-      y: 105.33333
-      width: 501.3333
-      height: 374.6667
+      x: 97
+      y: 111
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -97,7 +77,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: Amanda
     dialogueText: "Oi  sou eu a Amanda, to grilada com uma coisa aqui \r\n"
-    backgroundSpr: {fileID: 21300000, guid: 27bc2de4825c8b14884b8b8b1cd23a39, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: 35b7c31ba70dbec48bca77855deb1d24, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -105,10 +85,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 1529.3334
+      x: 1529
       y: 104
-      width: 501.33325
-      height: 374.66666
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -117,7 +97,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: "Voc\xEA"
     dialogueText: "O que aconteceu, Amanda? \r\n"
-    backgroundSpr: {fileID: 21300000, guid: 27bc2de4825c8b14884b8b8b1cd23a39, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: 35b7c31ba70dbec48bca77855deb1d24, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -125,10 +105,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 2184.6667
-      y: 102.66667
-      width: 501.33325
-      height: 374.6667
+      x: 2185
+      y: 103
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -137,7 +117,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: "Voc\xEA"
     dialogueText: "Reclama\xE7\xE3o de qu\xEA?\r\n"
-    backgroundSpr: {fileID: 21300000, guid: 27bc2de4825c8b14884b8b8b1cd23a39, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: 35b7c31ba70dbec48bca77855deb1d24, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -145,51 +125,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 3482.6667
-      y: 95.333336
-      width: 501.33325
-      height: 374.66666
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-    likeGain: 0
-    showLikeBar: 0
-  - guid: 552e4c2c-2edc-4c4e-b6af-54cc282683c8
-    characterSpr: {fileID: 0}
-    characterName: Amanda
-    dialogueText: "Tem gente ouvindo barulho estranho nas liga\xE7\xF5es. Como...Vozes\r\n"
-    backgroundSpr: {fileID: 21300000, guid: 27bc2de4825c8b14884b8b8b1cd23a39, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 4122.6665
-      y: 93.333336
-      width: 501.3335
-      height: 374.66666
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-    likeGain: 0
-    showLikeBar: 0
-  - guid: d508dad1-dd62-4446-a701-a461a3ec8f00
-    characterSpr: {fileID: 0}
-    characterName: "Voc\xEA"
-    dialogueText: "Depois que conectaram tudo nos sat\xE9lites\u2026\r\neu n\xE3o
-      duvido mais de nada.\r\n"
-    backgroundSpr: {fileID: 21300000, guid: 27bc2de4825c8b14884b8b8b1cd23a39, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 5421.3335
-      y: 100.666664
-      width: 501.333
-      height: 374.6667
+      x: 3483
+      y: 95
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -198,7 +137,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: 
     dialogueText: "A liga\xE7\xE3o fica cheia de est\xE1tica.\r\nKRZZZZT\u2014\r\n"
-    backgroundSpr: {fileID: 21300000, guid: 27bc2de4825c8b14884b8b8b1cd23a39, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: 35b7c31ba70dbec48bca77855deb1d24, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -207,29 +146,9 @@ MonoBehaviour:
     nodePosition:
       serializedVersion: 2
       x: 7450
-      y: 106.66667
-      width: 501.3335
-      height: 374.6667
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-    likeGain: 0
-    showLikeBar: 0
-  - guid: 84f70f6d-ce70-4b7c-a154-13616654dcf8
-    characterSpr: {fileID: 0}
-    characterName: 
-    dialogueText: "\u201Cbrotinho\u2026\u201D\r\nA liga\xE7\xE3o cai.\r\n"
-    backgroundSpr: {fileID: 21300000, guid: 27bc2de4825c8b14884b8b8b1cd23a39, type: 3}
-    startNode: 0
-    endNode: 1
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 8868.667
-      y: 106.66667
-      width: 501.333
-      height: 374.6667
+      y: 107
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -239,7 +158,7 @@ MonoBehaviour:
     characterName: Amanda
     dialogueText: "As linhas internacionais t\xE3o caindo uma atr\xE1s da outra.\r\nE
       t\xE1 chegando reclama\xE7\xE3o sem parar.\r\n"
-    backgroundSpr: {fileID: 21300000, guid: 27bc2de4825c8b14884b8b8b1cd23a39, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: 35b7c31ba70dbec48bca77855deb1d24, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -247,10 +166,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 2857.3333
-      y: 95.333336
-      width: 501.3335
-      height: 374.66666
+      x: 2857
+      y: 95
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -260,7 +179,7 @@ MonoBehaviour:
     characterName: Amanda
     dialogueText: "Uma interfer\xEAncia, alguns disseram que parecia algu\xE9m falando
       no fundo da chamada"
-    backgroundSpr: {fileID: 21300000, guid: 27bc2de4825c8b14884b8b8b1cd23a39, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: 35b7c31ba70dbec48bca77855deb1d24, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -268,10 +187,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 4766.6665
-      y: 96.666664
-      width: 501.3335
-      height: 374.6667
+      x: 4767
+      y: 97
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -281,7 +200,7 @@ MonoBehaviour:
     characterName: Amanda
     dialogueText: "Pode ir verificar os servidores da\xED?\r\nTem alguma coisa MUITO
       errada acontecendo.\r\n"
-    backgroundSpr: {fileID: 21300000, guid: 27bc2de4825c8b14884b8b8b1cd23a39, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: 35b7c31ba70dbec48bca77855deb1d24, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -289,10 +208,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 6045.3335
+      x: 6045
       y: 102
-      width: 501.333
-      height: 374.66666
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -301,7 +220,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: "Voc\xEA"
     dialogueText: "T\xE1 bom.\r\nEu vou l\xE1.\r\n"
-    backgroundSpr: {fileID: 21300000, guid: 27bc2de4825c8b14884b8b8b1cd23a39, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: 35b7c31ba70dbec48bca77855deb1d24, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -309,10 +228,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 6708.6665
-      y: 107.33333
-      width: 501.3335
-      height: 374.6667
+      x: 6709
+      y: 107
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -321,7 +240,7 @@ MonoBehaviour:
     characterSpr: {fileID: 0}
     characterName: 
     dialogueText: "Por um instante\u2026\r\nparece que outra voz sussurra na linha.\r\n"
-    backgroundSpr: {fileID: 21300000, guid: 27bc2de4825c8b14884b8b8b1cd23a39, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: 35b7c31ba70dbec48bca77855deb1d24, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -330,9 +249,90 @@ MonoBehaviour:
     nodePosition:
       serializedVersion: 2
       x: 8132
-      y: 101.333336
-      width: 501.333
-      height: 374.66666
+      y: 101
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 0904e3a8-6352-4b75-b4e0-b0c031ffc2ea
+    characterSpr: {fileID: 0}
+    characterName: "Voc\xEA "
+    dialogueText: "Al\xF4?"
+    backgroundSpr: {fileID: 21300000, guid: 35b7c31ba70dbec48bca77855deb1d24, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 837
+      y: 105
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 552e4c2c-2edc-4c4e-b6af-54cc282683c8
+    characterSpr: {fileID: 0}
+    characterName: Amanda
+    dialogueText: "Tem gente ouvindo barulho estranho nas liga\xE7\xF5es. Como...Vozes\r\n"
+    backgroundSpr: {fileID: 21300000, guid: 35b7c31ba70dbec48bca77855deb1d24, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4123
+      y: 93
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: d508dad1-dd62-4446-a701-a461a3ec8f00
+    characterSpr: {fileID: 0}
+    characterName: "Voc\xEA"
+    dialogueText: "Depois que conectaram tudo nos sat\xE9lites\u2026\r\neu n\xE3o
+      duvido mais de nada.\r\n"
+    backgroundSpr: {fileID: 21300000, guid: 35b7c31ba70dbec48bca77855deb1d24, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5421
+      y: 101
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 84f70f6d-ce70-4b7c-a154-13616654dcf8
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "\u201Cbrotinho\u2026\u201D\r\nA liga\xE7\xE3o cai.\r\n"
+    backgroundSpr: {fileID: 21300000, guid: 35b7c31ba70dbec48bca77855deb1d24, type: 3}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8869
+      y: 107
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0

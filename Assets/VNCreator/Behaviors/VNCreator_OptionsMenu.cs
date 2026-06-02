@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace VNCreator
@@ -74,6 +75,11 @@ namespace VNCreator
         public void UpdateSFXVolume(float volume)
         {
             audioMixer.SetFloat("SFX_Vol", (-80 + volume * 80));
+        }
+
+        public void LoadMainMenu()
+        {
+            SceneManager.LoadScene("MainMenu");
         }
     }
 }

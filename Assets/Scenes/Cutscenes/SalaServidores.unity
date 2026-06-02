@@ -211,13 +211,57 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2824257680667931892, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2824257680667931892, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2824257680667931892, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 814937707}
+    - target: {fileID: 2824257680667931892, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2824257680667931892, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: LoadMainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 2824257680667931892, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: VNCreator.VNCreator_OptionsMenu, VNCreator
+      objectReference: {fileID: 0}
+    - target: {fileID: 2824257680667931892, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294010882020459169, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6276035467959214364, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6276035467959214364, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6276035467959214364, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 8251612701667454356, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8251612701667454356, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -226,7 +270,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
 --- !u!114 &398950985 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8898526999960583805, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
+  m_CorrespondingSourceObject: {fileID: 2856314201626920394, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
   m_PrefabInstance: {fileID: 398950984}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -485,7 +529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: VNCreator::VNCreator.VNCreator_DisplayUI
   story: {fileID: 11400000, guid: bd9a86fcd238ee348bb4ded58ce57114, type: 2}
   likeSlider: {fileID: 463027549}
-  isNewStory: 0
+  goToEndScene: 1
   characterNameTxt: {fileID: 398951000}
   dialogueTxt: {fileID: 398951001}
   characterImg: {fileID: 398951002}
@@ -500,7 +544,7 @@ MonoBehaviour:
   choiceBtn1: {fileID: 398950994}
   choiceBtn2: {fileID: 398950993}
   choiceBtn3: {fileID: 398950992}
-  endScene: Assets/Scenes/Explore2.unity
+  endScene: Assets/Scenes/Explore3.unity
   optionsMenu: {fileID: 398950991}
   mainMenu: Assets/Scenes/MainMenu.unity
 --- !u!114 &814937707

@@ -449,8 +449,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 313170cab61f78948805a3f38e9eeb4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LocationData
-  leftLocation: {fileID: 1079561934}
-  rightLocation: {fileID: 1387617252}
   isLocked: 0
   requiredItemID: -1
   hint: 
@@ -3984,8 +3982,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 313170cab61f78948805a3f38e9eeb4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LocationData
-  leftLocation: {fileID: 0}
-  rightLocation: {fileID: 2040645057}
   isLocked: 0
   requiredItemID: -1
   hint: 
@@ -4500,8 +4496,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveManager
   activeLocation: {fileID: 1079561934}
-  goLeftBtn: {fileID: 1660029751}
-  goRightBtn: {fileID: 1872819410}
+  lastLocation: {fileID: 0}
+  goBackBtn: {fileID: 0}
 --- !u!4 &914307179
 Transform:
   m_ObjectHideFlags: 0
@@ -4803,7 +4799,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1079561934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4816,8 +4812,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 313170cab61f78948805a3f38e9eeb4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LocationData
-  leftLocation: {fileID: 1772630266}
-  rightLocation: {fileID: 84945933}
   isLocked: 0
   requiredItemID: -1
   hint: 
@@ -5282,8 +5276,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 313170cab61f78948805a3f38e9eeb4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LocationData
-  leftLocation: {fileID: 84945933}
-  rightLocation: {fileID: 0}
   isLocked: 0
   requiredItemID: -1
   hint: 
@@ -6834,8 +6826,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 313170cab61f78948805a3f38e9eeb4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LocationData
-  leftLocation: {fileID: 2040645057}
-  rightLocation: {fileID: 1079561934}
   isLocked: 0
   requiredItemID: -1
   hint: 
@@ -8336,8 +8326,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 313170cab61f78948805a3f38e9eeb4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LocationData
-  leftLocation: {fileID: 783242758}
-  rightLocation: {fileID: 1772630266}
   isLocked: 0
   requiredItemID: -1
   hint: 

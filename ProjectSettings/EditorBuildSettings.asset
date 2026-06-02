@@ -18,26 +18,53 @@ EditorBuildSettings:
     path: Assets/Scenes/Cutscenes/Almoxarifado1.unity
     guid: 8b6150f8774e40c4e93300f1932d8c0e
   - enabled: 1
+    path: Assets/Scenes/Explore2.unity
+    guid: d86302046eb2bce4e843e91f4efac76b
+  - enabled: 1
     path: Assets/Scenes/Cutscenes/SalaServidores.unity
     guid: 5f374f4541a15d741aefd6bb625b6a7d
   - enabled: 1
-    path: Assets/Scenes/EndScreen.unity
-    guid: 0febab711d4a6f94db074538c0816a08
-  - enabled: 1
-    path: Assets/Scenes/Explore2.unity
-    guid: 0e8b9efd6905e594d82074e65b88901b
-  - enabled: 1
-    path: Assets/Scenes/Explore2_1.unity
-    guid: be4ad3f7609319646aca4b7df6dcb247
+    path: Assets/Scenes/Explore3.unity
+    guid: 12ceb01c0db51b346b1bd8de154521ba
   - enabled: 1
     path: Assets/Scenes/Cutscenes/Almoxarifado2.unity
     guid: 574ad16afd810e34f8ba21d553dfc649
   - enabled: 1
-    path: Assets/Scenes/Cutscenes/SalaChefe2.unity
-    guid: edaba8b60b358754e81244fc407e67e7
+    path: Assets/Scenes/Explore4.unity
+    guid: d0097ae378aa84e41ab13b41c49b7b74
   - enabled: 1
-    path: Assets/Scenes/Cutscenes/SalaChefe2_1.unity
+    path: Assets/Scenes/Cutscenes/SalaChefe.unity
     guid: 594a19278b0c9804cad88bd368ae9b22
+  - enabled: 1
+    path: Assets/Scenes/Explore5.unity
+    guid: 3b037a9979f264a488f79c00cfd32f52
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Copa.unity
+    guid: 22fbe84dc2f4d2d4c8ebb9bee4818df2
+  - enabled: 1
+    path: Assets/Scenes/Explore6.unity
+    guid: 78b63630f272a674f89ffbd7d9e3d213
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Banheiro.unity
+    guid: eb448877617db644686bd9940fb35618
+  - enabled: 1
+    path: Assets/Scenes/Explore7.unity
+    guid: a8a614b25ee1be5448e659d0493f4459
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/SalaServidores2.unity
+    guid: 5165537a0b71df2438181731366daee3
+  - enabled: 1
+    path: Assets/Scenes/Explore8.unity
+    guid: 3f54ffbdff027d04a9750f702bf854e6
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/SalaChefe2.unity
+    guid: 7d42039e756fa7a4c803f55e2384716e
+  - enabled: 1
+    path: Assets/Scenes/Explore9.unity
+    guid: ed8b921f986debf4dbf3e166a4cb240c
+  - enabled: 1
+    path: Assets/Scenes/EndScreen.unity
+    guid: 0febab711d4a6f94db074538c0816a08
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0

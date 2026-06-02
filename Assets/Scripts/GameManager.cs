@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
 
         // selecionar campo vazio
         // save changes and stop if an empty slot is clicked or the last item is removed
-        if ((slotID >= collectedItems.Count || slotID < 0) && lastSlotClickedID > -1)
+        if ((slotID >= collectedItems.Count || slotID < 0) && lastSlotClickedID >= -1)
         {
             // no items selected
             DeselectSlot(lastSlotClickedID);
@@ -94,7 +94,7 @@ public class GameManager : MonoBehaviour
         Color emptyColor = Color.white;
         emptyColor.a = 0;
 
-        equipmentSlots[slotID].color = emptyColor;
+        if (slotID > -1) equipmentSlots[slotID].color = emptyColor;
         lastSlotClickedID = -1;
     }
 

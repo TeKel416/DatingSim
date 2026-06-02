@@ -11,7 +11,7 @@ namespace VNCreator
         [Header("Like Bar")]
         public Slider likeSlider;
         [Header("New Story")]
-        public bool isNewStory = false;
+        public bool goToEndScene = false;
         [Header("Text")]
         public Text characterNameTxt;
         public Text dialogueTxt;
@@ -225,7 +225,7 @@ namespace VNCreator
 
         void EndStory()
         {
-            if (isNewStory)
+            if (!goToEndScene)
             {
                 SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene());
                 //SceneManager.SetActiveScene(SceneManager.GetSceneByName(endScene));

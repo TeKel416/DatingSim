@@ -119,6 +119,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &600738036 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2856314201626920394, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
+  m_PrefabInstance: {fileID: 1327070387}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1 &669726753
 GameObject:
   m_ObjectHideFlags: 0
@@ -151,7 +162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: VNCreator::VNCreator.VNCreator_DisplayUI
   story: {fileID: 11400000, guid: 821f531bccf7a984095860b456070752, type: 2}
   likeSlider: {fileID: 1327070388}
-  isNewStory: 1
+  goToEndScene: 1
   characterNameTxt: {fileID: 1327070398}
   dialogueTxt: {fileID: 1327070399}
   characterImg: {fileID: 1327070400}
@@ -161,12 +172,12 @@ MonoBehaviour:
   nextBtn: {fileID: 1327070397}
   previousBtn: {fileID: 1327070396}
   saveBtn: {fileID: 1327070395}
-  menuButton: {fileID: 1062712922}
+  menuButton: {fileID: 1595049623}
   optButton: {fileID: 1327070394}
   choiceBtn1: {fileID: 1327070392}
   choiceBtn2: {fileID: 1327070391}
   choiceBtn3: {fileID: 1327070390}
-  endScene: Assets/Scenes/Explore1.unity
+  endScene: Assets/Scenes/Explore2.unity
   optionsMenu: {fileID: 1327070389}
   mainMenu: Assets/Scenes/MainMenu.unity
 --- !u!4 &669726755
@@ -202,7 +213,7 @@ MonoBehaviour:
   sfxVolumeSlider: {fileID: 1521306808}
   readSpeedSlider: {fileID: 1521306807}
   instantTextToggle: {fileID: 1521306806}
-  backButton: {fileID: 1521306805}
+  backButton: {fileID: 600738036}
   optionsMenu: {fileID: 1327070389}
   mainMenu: {fileID: 0}
 --- !u!1 &846114094
@@ -288,17 +299,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1062712922 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8960293499012067262, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
-  m_PrefabInstance: {fileID: 1327070387}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1001 &1327070387
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -541,17 +541,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
---- !u!114 &1521306805 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8898526999960583805, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
-  m_PrefabInstance: {fileID: 1327070387}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!114 &1521306806 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2559004794833504179, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
@@ -607,6 +596,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
+--- !u!114 &1595049623 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2824257680667931892, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
+  m_PrefabInstance: {fileID: 1327070387}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
