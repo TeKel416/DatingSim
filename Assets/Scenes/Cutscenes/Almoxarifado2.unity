@@ -235,17 +235,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
---- !u!114 &344310784 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8960293499012067262, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
-  m_PrefabInstance: {fileID: 344310782}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1 &344310785 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7950211621241730003, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
@@ -404,7 +393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: VNCreator::VNCreator.VNCreator_DisplayUI
   story: {fileID: 11400000, guid: 7617af589218a0441b7ef780042e63bf, type: 2}
   likeSlider: {fileID: 344310783}
-  isNewStory: 0
+  goToEndScene: 1
   characterNameTxt: {fileID: 344310793}
   dialogueTxt: {fileID: 344310794}
   characterImg: {fileID: 344310795}
@@ -414,12 +403,12 @@ MonoBehaviour:
   nextBtn: {fileID: 344310792}
   previousBtn: {fileID: 344310791}
   saveBtn: {fileID: 344310790}
-  menuButton: {fileID: 344310784}
+  menuButton: {fileID: 0}
   optButton: {fileID: 344310789}
   choiceBtn1: {fileID: 344310788}
   choiceBtn2: {fileID: 344310787}
   choiceBtn3: {fileID: 344310786}
-  endScene: Assets/Scenes/Explore2_1.unity
+  endScene: Assets/Scenes/Explore4.unity
   optionsMenu: {fileID: 344310785}
   mainMenu: Assets/Scenes/MainMenu.unity
 --- !u!4 &669726755
@@ -455,7 +444,7 @@ MonoBehaviour:
   sfxVolumeSlider: {fileID: 1905012792}
   readSpeedSlider: {fileID: 1905012791}
   instantTextToggle: {fileID: 1905012790}
-  backButton: {fileID: 1905012789}
+  backButton: {fileID: 0}
   optionsMenu: {fileID: 344310785}
   mainMenu: {fileID: 0}
 --- !u!1 &846114094
@@ -541,17 +530,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1905012789 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8898526999960583805, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
-  m_PrefabInstance: {fileID: 344310782}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!114 &1905012790 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2559004794833504179, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}

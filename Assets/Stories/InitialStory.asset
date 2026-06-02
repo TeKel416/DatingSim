@@ -19,46 +19,19 @@ MonoBehaviour:
   - guid: b6d56dbb-664a-4498-80e7-d929ce1fdd04
     targetGuid: 7d084069-7442-48d2-8f23-1e401b13103d
     portId: 1
+  - guid: eefca884-dac2-4afa-9a47-500af7062172
+    targetGuid: 909d0dda-20ca-4609-840d-10bde64799f2
+    portId: 2
   - guid: 909d0dda-20ca-4609-840d-10bde64799f2
     targetGuid: 5a3291c5-95f0-4678-996d-9e0245c9636f
-    portId: 2
-  - guid: eefca884-dac2-4afa-9a47-500af7062172
-    targetGuid: cde83ca9-3c0a-427c-ae6a-75f30b611fd0
     portId: 3
-  - guid: cde83ca9-3c0a-427c-ae6a-75f30b611fd0
-    targetGuid: 909d0dda-20ca-4609-840d-10bde64799f2
-    portId: 4
-  - guid: cde83ca9-3c0a-427c-ae6a-75f30b611fd0
-    targetGuid: 909d0dda-20ca-4609-840d-10bde64799f2
-    portId: 5
   nodes:
-  - guid: 5a3291c5-95f0-4678-996d-9e0245c9636f
-    characterSpr: {fileID: 0}
-    characterName: "Voc\xEA"
-    dialogueText: "Essa mudan\xE7a de conex\xE3o com os sat\xE9lites est\xE1 ferrando
-      minha vida\u2026"
-    backgroundSpr: {fileID: 21300000, guid: f24a8af226fe14549a102b3747eb8ed2, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 1286
-      y: 104
-      width: 499
-      height: 371
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-    likeGain: 0
-    showLikeBar: 0
   - guid: b6d56dbb-664a-4498-80e7-d929ce1fdd04
     characterSpr: {fileID: 0}
     characterName: "Voc\xEA"
     dialogueText: "N\xE3o quero passar a madrugada aqui. Acho que vou fazer outra
       coisa e deixar esses pap\xE9is pra depois."
-    backgroundSpr: {fileID: 21300000, guid: f24a8af226fe14549a102b3747eb8ed2, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -79,7 +52,7 @@ MonoBehaviour:
     characterName: "Voc\xEA"
     dialogueText: "Tenho que entregar aquele documento de Presta\xE7\xE3o de Contas
       pro Figgs. Acho que est\xE1 na sala do chefe."
-    backgroundSpr: {fileID: 21300000, guid: f24a8af226fe14549a102b3747eb8ed2, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
     startNode: 0
     endNode: 1
     choices: 1
@@ -121,7 +94,7 @@ MonoBehaviour:
     characterName: "Voc\xEA"
     dialogueText: "J\xE1 faz tanto tempo que eu t\xF4 aqui e esses pap\xE9is s\xF3
       se acumulam\u2026 Maldito dia!"
-    backgroundSpr: {fileID: 21300000, guid: f24a8af226fe14549a102b3747eb8ed2, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -129,31 +102,31 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 1183
-      y: -283
+      x: 610
+      y: 108
       width: 499
       height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 8300000, guid: 8275a4bd932cf644b8913c201305a8f4, type: 3}
     likeGain: 0
     showLikeBar: 0
-  - guid: cde83ca9-3c0a-427c-ae6a-75f30b611fd0
+  - guid: 5a3291c5-95f0-4678-996d-9e0245c9636f
     characterSpr: {fileID: 0}
-    characterName: teste
-    dialogueText: teste
-    backgroundSpr: {fileID: 0}
+    characterName: "Voc\xEA"
+    dialogueText: "Essa mudan\xE7a de conex\xE3o com os sat\xE9lites est\xE1 ferrando
+      minha vida\u2026"
+    backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
     startNode: 0
     endNode: 0
-    choices: 2
+    choices: 1
     choiceOptions:
-    - a
-    - b
+    - 
     nodePosition:
       serializedVersion: 2
-      x: 516
-      y: -251
+      x: 1286
+      y: 104
       width: 499
-      height: 433
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
