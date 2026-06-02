@@ -3055,7 +3055,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '>'
+  m_text: "\u2193"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3082,8 +3082,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4944,6 +4944,7 @@ MonoBehaviour:
   storyCanvas: {fileID: 119974069}
   nameTextBox: {fileID: 119974068}
   textBox: {fileID: 119974067}
+  moveCanvas: {fileID: 0}
 --- !u!114 &464165505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6810,7 +6811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ed6c7bc45cf4834d822614c9e7b9ef3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveManager
-  activeLocation: {fileID: 1387617252}
+  activeLocation: {fileID: 1079561934}
   lastLocation: {fileID: 1349863977}
   goBackBtn: {fileID: 1442360143}
 --- !u!4 &914307179
@@ -7717,7 +7718,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1079561934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7734,34 +7735,10 @@ MonoBehaviour:
   requiredItemID: -1
   hint: 
   successMsg: 
-  removeOnEnable: 1
+  removeOnEnable: 0
   onEnable:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1154232826}
-        m_TargetAssemblyTypeName: ProgressManager, VNCreator
-        m_MethodName: TriggerStoryOnEnter
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Almoxarifado2
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 612826449}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1079561935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9162,7 +9139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1387617252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9175,10 +9152,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 313170cab61f78948805a3f38e9eeb4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LocationData
-  isLocked: 1
-  requiredItemID: 4
-  hint: "A sala dos servidores t\xE1 trancada."
-  successMsg: Abri a sala dos servidores!
+  isLocked: 0
+  requiredItemID: -1
+  hint: 
+  successMsg: 
   removeOnEnable: 0
   onEnable:
     m_PersistentCalls:
@@ -9818,7 +9795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.39215687}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.78431374}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

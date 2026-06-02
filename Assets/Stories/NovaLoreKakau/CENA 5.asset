@@ -25,24 +25,27 @@ MonoBehaviour:
   - guid: 83a1335f-b7b2-4014-9b73-221fc2926037
     targetGuid: 5bfd1c6d-8a3c-488e-b04e-bbf2289e80ce
     portId: 3
-  - guid: 5bfd1c6d-8a3c-488e-b04e-bbf2289e80ce
-    targetGuid: 5527815d-1e19-422e-80cd-3209594d3fe7
-    portId: 4
   - guid: dded7619-72cf-44c5-a72a-e4673a672638
     targetGuid: 004b00fd-a471-4251-89c2-674b3cde4dcd
-    portId: 5
+    portId: 4
   - guid: bc6998ab-8321-4e05-8fca-af30366bca17
     targetGuid: bcbe194f-734b-4104-9a90-4eed43fe7fd0
-    portId: 6
+    portId: 5
   - guid: 5527815d-1e19-422e-80cd-3209594d3fe7
     targetGuid: 2c71319f-7a6f-4645-b4b3-7b1a869b9348
+    portId: 6
+  - guid: 5bfd1c6d-8a3c-488e-b04e-bbf2289e80ce
+    targetGuid: 38bee5e7-902b-4fd6-8393-b92d542b5080
     portId: 7
+  - guid: 38bee5e7-902b-4fd6-8393-b92d542b5080
+    targetGuid: 5527815d-1e19-422e-80cd-3209594d3fe7
+    portId: 8
   nodes:
   - guid: 004b00fd-a471-4251-89c2-674b3cde4dcd
     characterSpr: {fileID: 1051506275367356307, guid: aea39f6b56bf2bc46b26a2cf9dba0754, type: 3}
     characterName: "Voc\xEA"
     dialogueText: "T\xE1 legal..."
-    backgroundSpr: {fileID: 8998524344937442728, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -51,9 +54,9 @@ MonoBehaviour:
     nodePosition:
       serializedVersion: 2
       x: 816
-      y: 137.6
-      width: 499.19995
-      height: 366.40002
+      y: 138
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -61,8 +64,8 @@ MonoBehaviour:
   - guid: 0945d4e0-35df-45ef-9180-34846fb1165e
     characterSpr: {fileID: 21300000, guid: 7da10fc76ac0a884da8a693de444b7d3, type: 3}
     characterName: Figgs
-    dialogueText: Ei bicho, espera ai
-    backgroundSpr: {fileID: 8998524344937442728, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
+    dialogueText: "Ei bicho, espera a\xED!"
+    backgroundSpr: {fileID: 21300000, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -70,10 +73,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 1534.4
-      y: 125.6
-      width: 499.19995
-      height: 366.40002
+      x: 1534
+      y: 126
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -81,8 +84,8 @@ MonoBehaviour:
   - guid: bcbe194f-734b-4104-9a90-4eed43fe7fd0
     characterSpr: {fileID: 21300000, guid: 7da10fc76ac0a884da8a693de444b7d3, type: 3}
     characterName: Figgs
-    dialogueText: Achei isso nas tralhas que o senhor guardou a muito tempo chefe
-    backgroundSpr: {fileID: 8998524344937442728, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
+    dialogueText: Achei isso nas tralhas que o senhor guardou a muito tempo, chefe.
+    backgroundSpr: {fileID: 21300000, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -90,10 +93,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 2844.8
+      x: 2845
       y: 132
-      width: 499.19995
-      height: 365.6
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -102,8 +105,8 @@ MonoBehaviour:
     characterSpr: {fileID: 21300000, guid: 07eee9fe8243833459e3629b86ffa0aa, type: 3}
     characterName: Figgs
     dialogueText: "Tem um compartimento nos servidores, pra desligar a nossa conex\xE3o
-      com os sat\xE9lites"
-    backgroundSpr: {fileID: 8998524344937442728, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
+      com os sat\xE9lites."
+    backgroundSpr: {fileID: 21300000, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -112,50 +115,9 @@ MonoBehaviour:
     nodePosition:
       serializedVersion: 2
       x: 3500
-      y: 127.99999
-      width: 499.19995
-      height: 366.4
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-    likeGain: 0
-    showLikeBar: 0
-  - guid: 5bfd1c6d-8a3c-488e-b04e-bbf2289e80ce
-    characterSpr: {fileID: -1101263252191093980, guid: 92ecaea234df06b4da89671c46bf3051, type: 3}
-    characterName: Chester
-    dialogueText: "Isso ai nem era pra estar aqui Figgs, mas vai ser \xFAtil"
-    backgroundSpr: {fileID: 8998524344937442728, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 4192.8
-      y: 132
-      width: 499.2002
-      height: 366.4
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-    likeGain: 0
-    showLikeBar: 0
-  - guid: 2c71319f-7a6f-4645-b4b3-7b1a869b9348
-    characterSpr: {fileID: 21300000, guid: 07eee9fe8243833459e3629b86ffa0aa, type: 3}
-    characterName: 
-    dialogueText: "Porque acho que teu brotinho rob\xF4 n\xE3o \xE9 s\xF3 um rostinho
-      bonito.\r\n"
-    backgroundSpr: {fileID: 8998524344937442728, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
-    startNode: 0
-    endNode: 1
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 5629.6
-      y: 125.6
-      width: 499.1997
-      height: 366.40002
+      y: 128
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -164,8 +126,8 @@ MonoBehaviour:
     characterSpr: {fileID: -1101263252191093980, guid: 92ecaea234df06b4da89671c46bf3051, type: 3}
     characterName: Chester
     dialogueText: "Os sistemas est\xE3o ficando malucos.\r\nV\xEA se resolve isso,
-      deve estar sendo aquele rob\xF4"
-    backgroundSpr: {fileID: 8998524344937442728, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
+      deve estar sendo aquele rob\xF4."
+    backgroundSpr: {fileID: 21300000, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
     startNode: 1
     endNode: 0
     choices: 1
@@ -173,10 +135,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 129.6
-      y: 139.20001
-      width: 499.19998
-      height: 365.6
+      x: 130
+      y: 139
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -184,9 +146,13 @@ MonoBehaviour:
   - guid: bc6998ab-8321-4e05-8fca-af30366bca17
     characterSpr: {fileID: 21300000, guid: 07eee9fe8243833459e3629b86ffa0aa, type: 3}
     characterName: Figgs
-    dialogueText: "Ei, bicho\u2026\r\nTem uma parada estranha acontecendo faz tempo.\r\nFiggs
-      entrega uma chave antiga.\r\n"
-    backgroundSpr: {fileID: 8998524344937442728, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
+    dialogueText: 'Tem uma parada estranha acontecendo faz tempo.
+
+      (Figgs entrega
+      uma chave antiga.)
+
+'
+    backgroundSpr: {fileID: 21300000, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -194,10 +160,51 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 2184.8
-      y: 119.200005
-      width: 499.19995
-      height: 365.6
+      x: 2185
+      y: 119
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 2c71319f-7a6f-4645-b4b3-7b1a869b9348
+    characterSpr: {fileID: 21300000, guid: 07eee9fe8243833459e3629b86ffa0aa, type: 3}
+    characterName: Figgs
+    dialogueText: "Porque acho que teu brotinho rob\xF4 n\xE3o \xE9 s\xF3 um rostinho
+      bonito."
+    backgroundSpr: {fileID: 21300000, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5630
+      y: 126
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 5bfd1c6d-8a3c-488e-b04e-bbf2289e80ce
+    characterSpr: {fileID: -1101263252191093980, guid: 92ecaea234df06b4da89671c46bf3051, type: 3}
+    characterName: Chester
+    dialogueText: "Isso ai nem era pra estar aqui Figgs, mas deve ser \xFAtil."
+    backgroundSpr: {fileID: 21300000, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3997
+      y: 121
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -206,7 +213,7 @@ MonoBehaviour:
     characterSpr: {fileID: 21300000, guid: 07eee9fe8243833459e3629b86ffa0aa, type: 3}
     characterName: "Voc\xEA"
     dialogueText: "E por que t\xE1 me dando isso agora?\r\n"
-    backgroundSpr: {fileID: 8998524344937442728, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
+    backgroundSpr: {fileID: 21300000, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -214,10 +221,31 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 4826.4
-      y: 132
-      width: 499.2002
-      height: 365.6
+      x: 5075
+      y: 123
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 0
+  - guid: 38bee5e7-902b-4fd6-8393-b92d542b5080
+    characterSpr: {fileID: -1101263252191093980, guid: 92ecaea234df06b4da89671c46bf3051, type: 3}
+    characterName: Chester
+    dialogueText: "Por\xE9m aquele sistema estava em manuten\xE7\xE3o, n\xE3o chega
+      energia direito."
+    backgroundSpr: {fileID: 21300000, guid: e0fd0ac3635469d4ab9029baf3dd5b58, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4532
+      y: 115
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0

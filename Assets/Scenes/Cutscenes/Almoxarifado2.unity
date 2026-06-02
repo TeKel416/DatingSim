@@ -235,6 +235,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
+--- !u!114 &344310784 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2824257680667931892, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
+  m_PrefabInstance: {fileID: 344310782}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1 &344310785 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7950211621241730003, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
@@ -403,7 +414,7 @@ MonoBehaviour:
   nextBtn: {fileID: 344310792}
   previousBtn: {fileID: 344310791}
   saveBtn: {fileID: 344310790}
-  menuButton: {fileID: 0}
+  menuButton: {fileID: 344310784}
   optButton: {fileID: 344310789}
   choiceBtn1: {fileID: 344310788}
   choiceBtn2: {fileID: 344310787}
@@ -444,7 +455,7 @@ MonoBehaviour:
   sfxVolumeSlider: {fileID: 1905012792}
   readSpeedSlider: {fileID: 1905012791}
   instantTextToggle: {fileID: 1905012790}
-  backButton: {fileID: 0}
+  backButton: {fileID: 1463417874}
   optionsMenu: {fileID: 344310785}
   mainMenu: {fileID: 0}
 --- !u!1 &846114094
@@ -457,6 +468,7 @@ GameObject:
   m_Component:
   - component: {fileID: 846114097}
   - component: {fileID: 846114096}
+  - component: {fileID: 846114098}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -530,6 +542,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &846114098
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846114094}
+  m_Enabled: 1
+--- !u!114 &1463417874 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2856314201626920394, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}
+  m_PrefabInstance: {fileID: 344310782}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!114 &1905012790 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2559004794833504179, guid: 0750e48f9b1fffb49b9abd5a42792186, type: 3}

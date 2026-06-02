@@ -119,10 +119,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 132.8
+      x: 133
       y: 88
-      width: 499.2
-      height: 365.6
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -140,10 +140,10 @@ MonoBehaviour:
     - "N\xE3o, voc\xEA \xE9 um brotinho supimpa, n\xE3o vai fazer nada comigo n\xE9?"
     nodePosition:
       serializedVersion: 2
-      x: 2244.8
+      x: 2245
       y: 72
-      width: 499.19995
-      height: 424.80002
+      width: 499
+      height: 433
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -160,10 +160,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 3045.6
-      y: 63.199997
-      width: 499.19995
-      height: 365.6
+      x: 3046
+      y: 63
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -180,10 +180,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 4999.2
+      x: 4999
       y: -160
-      width: 499.1997
-      height: 365.6
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -201,10 +201,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 5710.4
+      x: 5710
       y: 364
-      width: 499.2002
-      height: 365.6
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -221,10 +221,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 6455.2
-      y: 41.6
-      width: 499.1997
-      height: 365.6
+      x: 6455
+      y: 42
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -241,10 +241,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 7873.6
+      x: 7874
       y: 48
-      width: 499.1997
-      height: 365.6
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -262,10 +262,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 9265.6
-      y: 44.799995
-      width: 499.2002
-      height: 365.59998
+      x: 9266
+      y: 45
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -284,8 +284,8 @@ MonoBehaviour:
       serializedVersion: 2
       x: 9892
       y: 48
-      width: 499.2002
-      height: 365.6
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -303,10 +303,10 @@ MonoBehaviour:
     - Ficar com Frankeline
     nodePosition:
       serializedVersion: 2
-      x: 10482.4
+      x: 10482
       y: 36
-      width: 499.19922
-      height: 424.80002
+      width: 499
+      height: 433
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -323,10 +323,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 11129.6
-      y: -315.19998
-      width: 499.2002
-      height: 365.59998
+      x: 11130
+      y: -315
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -343,10 +343,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 11135.2
-      y: 245.6
-      width: 499.2002
-      height: 365.59998
+      x: 11135
+      y: 246
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -364,10 +364,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 11793.6
-      y: 248.80002
-      width: 499.2002
-      height: 365.59998
+      x: 11794
+      y: 249
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -385,10 +385,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 13793.6
+      x: 13794
       y: 248
-      width: 499.2002
-      height: 365.6
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -405,10 +405,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 14432.8
-      y: -306.4
-      width: 499.2002
-      height: 365.6
+      x: 14433
+      y: -306
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -425,10 +425,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 15286.4
+      x: 15286
       y: -48
-      width: 499.19922
-      height: 365.6
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -445,10 +445,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 804.8
-      y: 90.4
-      width: 499.2
-      height: 365.59998
+      x: 805
+      y: 90
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -467,9 +467,9 @@ MonoBehaviour:
     nodePosition:
       serializedVersion: 2
       x: 1480
-      y: 87.2
-      width: 499.19995
-      height: 365.6
+      y: 87
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -488,10 +488,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 3706.4
-      y: 59.199997
-      width: 499.2002
-      height: 365.6
+      x: 3706
+      y: 59
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -509,10 +509,10 @@ MonoBehaviour:
     - Admitir
     nodePosition:
       serializedVersion: 2
-      x: 4356.8
+      x: 4357
       y: 44
-      width: 499.2002
-      height: 424.80002
+      width: 499
+      height: 433
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -529,10 +529,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 4981.6
+      x: 4982
       y: 372
-      width: 499.1997
-      height: 365.6
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -550,9 +550,9 @@ MonoBehaviour:
     nodePosition:
       serializedVersion: 2
       x: 5704
-      y: -162.4
-      width: 499.2002
-      height: 365.6
+      y: -162
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -569,10 +569,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 7202.4
-      y: 46.4
-      width: 499.2002
-      height: 365.59998
+      x: 7202
+      y: 46
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -589,10 +589,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 8511.2
-      y: 53.6
-      width: 499.2002
-      height: 365.6
+      x: 8511
+      y: 54
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -609,10 +609,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 12463.2
-      y: 260.80002
-      width: 499.2002
-      height: 365.59998
+      x: 12463
+      y: 261
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -629,10 +629,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 14442.4
-      y: 251.20001
-      width: 499.19922
-      height: 365.6
+      x: 14442
+      y: 251
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -649,10 +649,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 12405.6
-      y: -319.19998
-      width: 499.2002
-      height: 365.59998
+      x: 12406
+      y: -319
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -671,8 +671,8 @@ MonoBehaviour:
       serializedVersion: 2
       x: 11748
       y: -316
-      width: 499.2002
-      height: 365.6
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -689,10 +689,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 13129.6
+      x: 13130
       y: 256
-      width: 499.2002
-      height: 365.6
+      width: 499
+      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0

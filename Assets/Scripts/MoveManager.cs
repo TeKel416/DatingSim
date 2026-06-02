@@ -22,12 +22,15 @@ public class MoveManager : MonoBehaviour
     }
     public void GoBack()
     {
-        lastLocation.gameObject.SetActive(true);
-        activeLocation.gameObject.SetActive(false);
+        if (clickManager.storyCanvas.activeInHierarchy == false)
+        {
+            lastLocation.gameObject.SetActive(true);
+            activeLocation.gameObject.SetActive(false);
 
-        activeLocation = lastLocation;
+            activeLocation = lastLocation;
 
-        SetActiveGoBackBtn(false);
+            SetActiveGoBackBtn(false);
+        }
     }
 
     public void GoToLocation(LocationData location)

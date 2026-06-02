@@ -22,129 +22,135 @@ MonoBehaviour:
   - guid: 1d48db36-8003-4b43-a518-e3c7e25c4159
     targetGuid: 634c24bb-dfac-42a2-ae7f-3ad2360712bc
     portId: 2
-  - guid: 6ac8e030-7a9b-446b-b9d7-362ee66cb1cf
-    targetGuid: 3816681f-ed14-4b3f-9967-5dc5a0bfee18
-    portId: 3
   - guid: 3816681f-ed14-4b3f-9967-5dc5a0bfee18
     targetGuid: 388514ad-0c8b-4181-a93d-6b525893c56f
-    portId: 4
+    portId: 3
   - guid: 890e8c1f-422f-4857-9608-c87788836ff6
     targetGuid: 674db388-705f-4b82-8ae6-b35908726fc4
-    portId: 5
+    portId: 4
   - guid: 674db388-705f-4b82-8ae6-b35908726fc4
     targetGuid: 6a0e0af5-b41f-4e4f-9a0b-7d514f3696d0
-    portId: 6
+    portId: 5
   - guid: 6a0e0af5-b41f-4e4f-9a0b-7d514f3696d0
     targetGuid: 48ea7cf3-d71e-4e85-99bc-b660fd6c9e17
-    portId: 7
+    portId: 6
   - guid: 6a0e0af5-b41f-4e4f-9a0b-7d514f3696d0
     targetGuid: 5bdc9bc0-5de8-4668-a53a-d384a2c5f0fe
-    portId: 8
+    portId: 7
   - guid: d5540fe9-dee2-46a4-943b-7dfc38f18ed9
     targetGuid: fffc319b-1e1c-4c74-82da-43fbd80707e2
-    portId: 9
+    portId: 8
   - guid: 3102d811-cbfd-45ea-aca2-2da38f4a7773
     targetGuid: ad7d7313-7d25-40bb-8434-ec4f089f7c63
-    portId: 10
+    portId: 9
   - guid: 11486930-36cb-4868-ada0-170909dc71c5
     targetGuid: 3102d811-cbfd-45ea-aca2-2da38f4a7773
-    portId: 11
+    portId: 10
   - guid: fd09d23a-b523-4649-b4a3-706c3c132b82
     targetGuid: 1d48db36-8003-4b43-a518-e3c7e25c4159
-    portId: 12
+    portId: 11
   - guid: e41edd40-39de-439c-82a9-595455ccfc63
     targetGuid: 862e5d3f-0b16-4d78-a176-3ed34414b712
-    portId: 13
+    portId: 12
   - guid: 634c24bb-dfac-42a2-ae7f-3ad2360712bc
     targetGuid: b531b10b-84be-4194-bf43-d7295216df9f
-    portId: 14
+    portId: 13
   - guid: 862e5d3f-0b16-4d78-a176-3ed34414b712
     targetGuid: b5dd3f53-1f7b-4d21-b63a-4ed96f38c799
-    portId: 15
+    portId: 14
   - guid: b531b10b-84be-4194-bf43-d7295216df9f
     targetGuid: e7007c54-f26c-42f8-bcb3-697facf22fe1
-    portId: 16
+    portId: 15
   - guid: e7007c54-f26c-42f8-bcb3-697facf22fe1
     targetGuid: c4b94fc6-3fd4-468b-be2a-1541ca6717a8
-    portId: 17
-  - guid: b5dd3f53-1f7b-4d21-b63a-4ed96f38c799
-    targetGuid: 024dc2b2-c9db-435c-b345-7a8b8019fcd4
-    portId: 18
-  - guid: 024dc2b2-c9db-435c-b345-7a8b8019fcd4
-    targetGuid: e98f0d50-ee9f-4180-b46d-fed59609b7e4
-    portId: 19
+    portId: 16
   - guid: c4b94fc6-3fd4-468b-be2a-1541ca6717a8
     targetGuid: e98f0d50-ee9f-4180-b46d-fed59609b7e4
-    portId: 20
+    portId: 17
   - guid: e98f0d50-ee9f-4180-b46d-fed59609b7e4
     targetGuid: ae1ad85d-7582-4f61-a90c-bc6bbea4deb1
-    portId: 21
+    portId: 18
   - guid: cfdccc9c-d334-442c-a1b8-da895fc7bff6
     targetGuid: 1741fc7b-cf60-412b-a61c-422596ad027d
-    portId: 22
+    portId: 19
   - guid: 1741fc7b-cf60-412b-a61c-422596ad027d
     targetGuid: 7ea8e203-9ea1-45a5-b0d4-c01eaaff873b
-    portId: 23
+    portId: 20
   - guid: 7ea8e203-9ea1-45a5-b0d4-c01eaaff873b
     targetGuid: 6ac8e030-7a9b-446b-b9d7-362ee66cb1cf
-    portId: 24
-  - guid: ae1ad85d-7582-4f61-a90c-bc6bbea4deb1
-    targetGuid: cfdccc9c-d334-442c-a1b8-da895fc7bff6
-    portId: 25
-  - guid: 388514ad-0c8b-4181-a93d-6b525893c56f
-    targetGuid: 890e8c1f-422f-4857-9608-c87788836ff6
-    portId: 26
+    portId: 21
   - guid: 48ea7cf3-d71e-4e85-99bc-b660fd6c9e17
     targetGuid: d8c40a01-5f80-462e-82af-84c8bd4304fe
-    portId: 27
+    portId: 22
   - guid: 5bdc9bc0-5de8-4668-a53a-d384a2c5f0fe
     targetGuid: d8c40a01-5f80-462e-82af-84c8bd4304fe
-    portId: 28
+    portId: 23
   - guid: d8c40a01-5f80-462e-82af-84c8bd4304fe
     targetGuid: 9e794e11-a3bd-4ce2-84c7-cbb1c0a25e46
-    portId: 29
+    portId: 24
   - guid: d8c40a01-5f80-462e-82af-84c8bd4304fe
     targetGuid: d5540fe9-dee2-46a4-943b-7dfc38f18ed9
-    portId: 30
+    portId: 25
   - guid: fffc319b-1e1c-4c74-82da-43fbd80707e2
     targetGuid: 11486930-36cb-4868-ada0-170909dc71c5
-    portId: 31
+    portId: 26
   - guid: ad7d7313-7d25-40bb-8434-ec4f089f7c63
     targetGuid: a74dd939-ae8b-4ff8-8008-85c575911e22
-    portId: 32
+    portId: 27
   - guid: ad7d7313-7d25-40bb-8434-ec4f089f7c63
     targetGuid: c63137e9-3dd9-4510-a2b5-4da1799a5f50
-    portId: 33
+    portId: 28
   - guid: a74dd939-ae8b-4ff8-8008-85c575911e22
     targetGuid: b604cf60-597b-4834-9d51-d2714fbd44d9
-    portId: 34
+    portId: 29
   - guid: c63137e9-3dd9-4510-a2b5-4da1799a5f50
     targetGuid: b604cf60-597b-4834-9d51-d2714fbd44d9
-    portId: 35
+    portId: 30
   - guid: b604cf60-597b-4834-9d51-d2714fbd44d9
     targetGuid: df6e31a5-e66b-418b-b026-5c1e84baaa39
-    portId: 36
+    portId: 31
   - guid: 9e794e11-a3bd-4ce2-84c7-cbb1c0a25e46
     targetGuid: fffc319b-1e1c-4c74-82da-43fbd80707e2
-    portId: 37
+    portId: 32
   - guid: c4137912-79f9-426d-af6a-dfae21a0a6f1
     targetGuid: 7dd7203a-ccaf-4261-9f3b-0aa05f067292
-    portId: 38
-  - guid: d21acfbf-d903-4941-af84-1715e5e0efe5
-    targetGuid: 200b259f-27b4-483d-a90b-44ce4827338a
-    portId: 39
-  - guid: 200b259f-27b4-483d-a90b-44ce4827338a
-    targetGuid: 768d9072-8efe-481b-a4c8-396ecbba2f65
-    portId: 40
+    portId: 33
   - guid: 768d9072-8efe-481b-a4c8-396ecbba2f65
     targetGuid: 94ce3cc6-dfc3-40e5-9ce7-43df33135eab
-    portId: 41
+    portId: 34
+  - guid: d21acfbf-d903-4941-af84-1715e5e0efe5
+    targetGuid: 200b259f-27b4-483d-a90b-44ce4827338a
+    portId: 35
+  - guid: 200b259f-27b4-483d-a90b-44ce4827338a
+    targetGuid: 768d9072-8efe-481b-a4c8-396ecbba2f65
+    portId: 36
   - guid: 94ce3cc6-dfc3-40e5-9ce7-43df33135eab
     targetGuid: ff2b9cb3-7be1-43f7-9a94-eb0027512dce
-    portId: 42
+    portId: 37
   - guid: ff2b9cb3-7be1-43f7-9a94-eb0027512dce
     targetGuid: c4137912-79f9-426d-af6a-dfae21a0a6f1
+    portId: 38
+  - guid: ae1ad85d-7582-4f61-a90c-bc6bbea4deb1
+    targetGuid: 76753e7f-d320-4cfe-97b9-e107d7d63c7e
+    portId: 39
+  - guid: 76753e7f-d320-4cfe-97b9-e107d7d63c7e
+    targetGuid: cfdccc9c-d334-442c-a1b8-da895fc7bff6
+    portId: 40
+  - guid: b5dd3f53-1f7b-4d21-b63a-4ed96f38c799
+    targetGuid: e98f0d50-ee9f-4180-b46d-fed59609b7e4
+    portId: 41
+  - guid: 6ac8e030-7a9b-446b-b9d7-362ee66cb1cf
+    targetGuid: 60ad47dc-7c30-41db-8c56-33126409961f
+    portId: 42
+  - guid: 60ad47dc-7c30-41db-8c56-33126409961f
+    targetGuid: 3816681f-ed14-4b3f-9967-5dc5a0bfee18
     portId: 43
+  - guid: 388514ad-0c8b-4181-a93d-6b525893c56f
+    targetGuid: e9c67c24-d884-460d-a363-01b346108e0c
+    portId: 44
+  - guid: e9c67c24-d884-460d-a363-01b346108e0c
+    targetGuid: 890e8c1f-422f-4857-9608-c87788836ff6
+    portId: 45
   nodes:
   - guid: 7dd7203a-ccaf-4261-9f3b-0aa05f067292
     characterSpr: {fileID: 0}
@@ -183,89 +189,6 @@ MonoBehaviour:
       y: 103
       width: 499
       height: 433
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-    likeGain: 0
-    showLikeBar: 1
-  - guid: 6ac8e030-7a9b-446b-b9d7-362ee66cb1cf
-    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
-    characterName: "Voc\xEA"
-    dialogueText: "Ah\u2026\r\nAcho que sim.\r\nQuer dizer, voc\xEA me ajudou no
-      elevador.\r\nE honestamente\u2026\r\nvoc\xEA \xE9 mais legal que metade desse
-      escrit\xF3rio.\r\n"
-    backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 10469
-      y: 259
-      width: 499
-      height: 371
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-    likeGain: 0
-    showLikeBar: 1
-  - guid: 3816681f-ed14-4b3f-9967-5dc5a0bfee18
-    characterSpr: {fileID: -2137949083381817235, guid: 5c5ace68ba60bbe42aa14f98db3479fd, type: 3}
-    characterName: Frankie
-    dialogueText: "Carambolas\u2026"
-    backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 11153
-      y: 255
-      width: 499
-      height: 371
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-    likeGain: 0
-    showLikeBar: 1
-  - guid: 890e8c1f-422f-4857-9608-c87788836ff6
-    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
-    characterName: Frankie
-    dialogueText: "Inclusive\u2026\r\neu estava analisando algumas vari\xE1veis humanas.\r\nPosso
-      fazer perguntas?\r\n\r\n"
-    backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 12536
-      y: 252
-      width: 499
-      height: 371
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-    likeGain: 0
-    showLikeBar: 1
-  - guid: 674db388-705f-4b82-8ae6-b35908726fc4
-    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
-    characterName: "Voc\xEA"
-    dialogueText: Claro
-    backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 13199
-      y: 251
-      width: 499
-      height: 371
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -479,7 +402,7 @@ MonoBehaviour:
   - guid: b5dd3f53-1f7b-4d21-b63a-4ed96f38c799
     characterSpr: {fileID: 21300000, guid: 355c0b539342aa740961e76c1806d3d3, type: 3}
     characterName: Nova chefe
-    dialogueText: "Voc\xEA \xE9 um chato de galocha. Vou parar de brincar ent\xE3o"
+    dialogueText: "Voc\xEA \xE9 um chato de galocha. Vou parar de brincar, ent\xE3o."
     backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
     startNode: 0
     endNode: 0
@@ -490,27 +413,6 @@ MonoBehaviour:
       serializedVersion: 2
       x: 4699
       y: -185
-      width: 499
-      height: 371
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-    likeGain: 0
-    showLikeBar: 1
-  - guid: 024dc2b2-c9db-435c-b345-7a8b8019fcd4
-    characterSpr: {fileID: 21300000, guid: 355c0b539342aa740961e76c1806d3d3, type: 3}
-    characterName: "Voc\xEA"
-    dialogueText: "Poxa, eu s\xF3 fiquei surpreso.N\xE3o entendi muito bem\u2026\nAh,
-      eu queria te perguntar uma coisa.\n\nQual seu nome?"
-    backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 5552
-      y: -181
       width: 499
       height: 371
     soundEffect: {fileID: 0}
@@ -562,7 +464,7 @@ MonoBehaviour:
   - guid: cfdccc9c-d334-442c-a1b8-da895fc7bff6
     characterSpr: {fileID: 21300000, guid: 99a863cee5ec77b4abfbfe752589f19c, type: 3}
     characterName: Frankie
-    dialogueText: "F-frankie??\n\nPor que voc\xEA diminuiu meu nome?"
+    dialogueText: "F-frankie?? Por que voc\xEA diminuiu meu nome?"
     backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
     startNode: 0
     endNode: 0
@@ -582,7 +484,7 @@ MonoBehaviour:
   - guid: 1741fc7b-cf60-412b-a61c-422596ad027d
     characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
     characterName: "Voc\xEA "
-    dialogueText: "\xC9 um apelido.\r\nN\xF3s damos apelidos pras pessoas que s\xE3o
+    dialogueText: "\xC9 um apelido. N\xF3s damos apelidos pras pessoas que s\xE3o
       pr\xF3ximas da gente."
     backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
     startNode: 0
@@ -619,48 +521,6 @@ MonoBehaviour:
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 5
-    showLikeBar: 1
-  - guid: ae1ad85d-7582-4f61-a90c-bc6bbea4deb1
-    characterSpr: {fileID: 21300000, guid: 99a863cee5ec77b4abfbfe752589f19c, type: 3}
-    characterName: "Voc\xEA"
-    dialogueText: "Frankeline\u2026\n\n\xC9 um nome bonito.\nMas meio longo.\n\nQue
-      tal Frankie?"
-    backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 7215
-      y: 109
-      width: 499
-      height: 371
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-    likeGain: 0
-    showLikeBar: 1
-  - guid: 388514ad-0c8b-4181-a93d-6b525893c56f
-    characterSpr: {fileID: -2137949083381817235, guid: 5c5ace68ba60bbe42aa14f98db3479fd, type: 3}
-    characterName: Frankie
-    dialogueText: "Isso \xE9\u2026\r\nbom de saber.\r\nAcho que nunca fui pr\xF3xima
-      de ningu\xE9m antes.\r\nIsso \xE9 uma vari\xE1vel nova.\r\n"
-    backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 11813
-      y: 253
-      width: 499
-      height: 371
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-    likeGain: 0
     showLikeBar: 1
   - guid: 48ea7cf3-d71e-4e85-99bc-b660fd6c9e17
     characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
@@ -990,3 +850,186 @@ MonoBehaviour:
     backgroundMusic: {fileID: 0}
     likeGain: 0
     showLikeBar: 0
+  - guid: ae1ad85d-7582-4f61-a90c-bc6bbea4deb1
+    characterSpr: {fileID: 21300000, guid: 99a863cee5ec77b4abfbfe752589f19c, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Frankeline\u2026 \xC9 um nome bonito. Mas meio longo."
+    backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7003
+      y: 101
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: 76753e7f-d320-4cfe-97b9-e107d7d63c7e
+    characterSpr: {fileID: 21300000, guid: 99a863cee5ec77b4abfbfe752589f19c, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: Que tal Frankie?
+    backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7509
+      y: 94
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: 6ac8e030-7a9b-446b-b9d7-362ee66cb1cf
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Ah\u2026 Acho que sim.\r\nQuer dizer, voc\xEA me ajudou no elevador."
+    backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 10093
+      y: 105
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: 3816681f-ed14-4b3f-9967-5dc5a0bfee18
+    characterSpr: {fileID: -2137949083381817235, guid: 5c5ace68ba60bbe42aa14f98db3479fd, type: 3}
+    characterName: Frankie
+    dialogueText: "Carambolas\u2026"
+    backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11187
+      y: 174
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: 60ad47dc-7c30-41db-8c56-33126409961f
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "E honestamente\u2026 voc\xEA \xE9 mais legal que metade desse
+      escrit\xF3rio."
+    backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 10636
+      y: 96
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: 388514ad-0c8b-4181-a93d-6b525893c56f
+    characterSpr: {fileID: -2137949083381817235, guid: 5c5ace68ba60bbe42aa14f98db3479fd, type: 3}
+    characterName: Frankie
+    dialogueText: "Isso \xE9\u2026 bom de saber."
+    backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11694
+      y: 180
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: e9c67c24-d884-460d-a363-01b346108e0c
+    characterSpr: {fileID: -2137949083381817235, guid: 5c5ace68ba60bbe42aa14f98db3479fd, type: 3}
+    characterName: Frankie
+    dialogueText: "Acho que nunca fui pr\xF3xima de ningu\xE9m antes.\r\nIsso \xE9
+      uma vari\xE1vel nova."
+    backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 12202
+      y: 181
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: 890e8c1f-422f-4857-9608-c87788836ff6
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: Frankie
+    dialogueText: "Inclusive\u2026\r\neu estava analisando algumas vari\xE1veis humanas.\r\nPosso
+      fazer perguntas?\r\n\r\n"
+    backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 12760
+      y: 184
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1
+  - guid: 674db388-705f-4b82-8ae6-b35908726fc4
+    characterSpr: {fileID: 21300000, guid: 7f01622113486ae4d9c587e6a83f0445, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: Claro
+    backgroundSpr: {fileID: 21300000, guid: f6281cac14845d043ae65933a04fff27, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 13311
+      y: 197
+      width: 499
+      height: 371
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: 0
+    showLikeBar: 1

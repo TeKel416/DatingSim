@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -6,7 +7,7 @@ using VNCreator;
 public class ClickManager : MonoBehaviour
 {
     GameManager gameManager;
-    public GameObject storyCanvas, nameTextBox, textBox;
+    public GameObject storyCanvas, nameTextBox, textBox, moveCanvas;
 
     private void Start()
     {
@@ -64,10 +65,11 @@ public class ClickManager : MonoBehaviour
                 AddNewItem(item.itemToAdd);
             }
 
-            // APENAS PRA ESSE J2
-            if (item.itemID == 11)
+            if (item.itemID == 20)
             {
-                SceneManager.LoadScene("EndScreen");
+                storyCanvas.SetActive(false);
+                moveCanvas.SetActive(false);
+                StartCoroutine(LoadAsyncScene("Final"));
             }
         }
         else
@@ -76,6 +78,19 @@ public class ClickManager : MonoBehaviour
             textBox.GetComponent<Text>().text = item.hint;
             storyCanvas.SetActive(true);
         }
+    }
+
+    IEnumerator LoadAsyncScene(string storyScene)
+    {
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(storyScene, LoadSceneMode.Additive);
+
+        // Wait until the asynchronous scene fully loads
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
+
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName(storyScene));
     }
 
     public ItemData CombineItems(int slotID1, int slotID2)

@@ -164,9 +164,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19bffdf8e809ebd439aaf9f444d2ea04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VNCreator::VNCreator.VNCreator_DisplayUI
-  story: {fileID: 11400000, guid: 345dd6a00539d4b49ba0c1e607bc48f0, type: 2}
+  story: {fileID: 11400000, guid: eaa2e3134e2cc874db6e8c02be162ee9, type: 2}
   likeSlider: {fileID: 1488593112}
-  goToEndScene: 0
+  goToEndScene: 1
   characterNameTxt: {fileID: 1488593128}
   dialogueTxt: {fileID: 1488593129}
   characterImg: {fileID: 1488593130}
