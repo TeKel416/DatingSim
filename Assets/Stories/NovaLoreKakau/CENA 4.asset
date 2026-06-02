@@ -13,86 +13,86 @@ MonoBehaviour:
   m_Name: CENA 4
   m_EditorClassIdentifier: VNCreator::VNCreator.StoryObject
   links:
-  - guid: 98178912-9541-4803-9526-4ab364904bff
-    targetGuid: 4e831d32-eb80-4264-9275-563321ecf1ba
-    portId: 0
   - guid: 9205e135-9f20-4bc7-86b4-3a911684edab
     targetGuid: b1d26ca2-5faf-4ff3-95ed-a85e6eabd3c4
-    portId: 1
-  - guid: 455e112b-2b25-4759-ba4a-5309b340fcdf
-    targetGuid: 4685440e-3a1a-4db1-bc1b-26c2b75e567c
-    portId: 2
-  - guid: 5853e317-00e2-47ab-a48a-46f66719b991
-    targetGuid: a490345c-36b3-4914-adb9-32f35057db5e
-    portId: 3
-  - guid: a490345c-36b3-4914-adb9-32f35057db5e
-    targetGuid: c8de6d2d-495c-4107-a2e4-249225fc0658
-    portId: 4
-  - guid: b950c160-a235-4cb4-aac4-503d6bd8ea52
-    targetGuid: 895be0b8-51d4-4735-9840-13200784a0a8
-    portId: 5
-  - guid: 200eafbf-ae20-4519-94c3-32eaf2e014f9
-    targetGuid: 3f59a3f8-63b0-49af-ae83-f7bdf63e3975
-    portId: 6
-  - guid: 3f59a3f8-63b0-49af-ae83-f7bdf63e3975
-    targetGuid: 58f79544-25f8-4447-a7d3-0efdf4013002
-    portId: 7
-  - guid: 58f79544-25f8-4447-a7d3-0efdf4013002
-    targetGuid: a0611ca0-fd6f-4e35-9a8f-e2c1c8fc2175
-    portId: 8
+    portId: 0
   - guid: d042ebd9-5261-447a-9377-d4baf9685c3c
     targetGuid: ff8f29aa-e6ba-433b-867e-42990ac8b6a0
-    portId: 9
+    portId: 1
   - guid: d8fcb731-0ab3-4aed-8cfa-a99cd4ffa7be
     targetGuid: d042ebd9-5261-447a-9377-d4baf9685c3c
-    portId: 10
+    portId: 2
   - guid: ab8fc0e6-8487-4561-b883-dcd644cf62ab
     targetGuid: 29bf2137-ded5-4b95-b72a-aeff6df3caa5
-    portId: 11
+    portId: 3
   - guid: 29bf2137-ded5-4b95-b72a-aeff6df3caa5
     targetGuid: e068dff8-c2b1-4c80-9006-9b7d81b69649
-    portId: 12
+    portId: 4
   - guid: 4e831d32-eb80-4264-9275-563321ecf1ba
     targetGuid: cf33ca17-7680-485b-9e87-55e174fe2d16
-    portId: 13
-  - guid: cf33ca17-7680-485b-9e87-55e174fe2d16
-    targetGuid: 9205e135-9f20-4bc7-86b4-3a911684edab
-    portId: 14
-  - guid: b1d26ca2-5faf-4ff3-95ed-a85e6eabd3c4
-    targetGuid: 455e112b-2b25-4759-ba4a-5309b340fcdf
-    portId: 15
-  - guid: ff15bb9d-787a-43c4-816d-3876c558513e
-    targetGuid: a490345c-36b3-4914-adb9-32f35057db5e
-    portId: 16
-  - guid: c8de6d2d-495c-4107-a2e4-249225fc0658
-    targetGuid: 2e8e1132-ab3c-4bef-b29c-5e514425980f
-    portId: 17
-  - guid: 2e8e1132-ab3c-4bef-b29c-5e514425980f
-    targetGuid: b950c160-a235-4cb4-aac4-503d6bd8ea52
-    portId: 18
-  - guid: 895be0b8-51d4-4735-9840-13200784a0a8
-    targetGuid: 59c367b5-7dfd-4820-9181-b38025ba3c9a
-    portId: 19
-  - guid: 59c367b5-7dfd-4820-9181-b38025ba3c9a
-    targetGuid: 200eafbf-ae20-4519-94c3-32eaf2e014f9
-    portId: 20
-  - guid: 59c367b5-7dfd-4820-9181-b38025ba3c9a
-    targetGuid: 52eccd36-9504-4ffb-9097-11cc2d58c567
-    portId: 21
-  - guid: 52eccd36-9504-4ffb-9097-11cc2d58c567
-    targetGuid: 3f59a3f8-63b0-49af-ae83-f7bdf63e3975
-    portId: 22
+    portId: 5
   - guid: a0611ca0-fd6f-4e35-9a8f-e2c1c8fc2175
     targetGuid: d8fcb731-0ab3-4aed-8cfa-a99cd4ffa7be
-    portId: 23
+    portId: 6
   - guid: ff8f29aa-e6ba-433b-867e-42990ac8b6a0
     targetGuid: ab8fc0e6-8487-4561-b883-dcd644cf62ab
-    portId: 24
+    portId: 7
+  - guid: 98178912-9541-4803-9526-4ab364904bff
+    targetGuid: 4e831d32-eb80-4264-9275-563321ecf1ba
+    portId: 8
   - guid: 4685440e-3a1a-4db1-bc1b-26c2b75e567c
     targetGuid: ff15bb9d-787a-43c4-816d-3876c558513e
-    portId: 25
+    portId: 9
   - guid: 4685440e-3a1a-4db1-bc1b-26c2b75e567c
     targetGuid: 5853e317-00e2-47ab-a48a-46f66719b991
+    portId: 10
+  - guid: 5853e317-00e2-47ab-a48a-46f66719b991
+    targetGuid: a490345c-36b3-4914-adb9-32f35057db5e
+    portId: 11
+  - guid: ff15bb9d-787a-43c4-816d-3876c558513e
+    targetGuid: a490345c-36b3-4914-adb9-32f35057db5e
+    portId: 12
+  - guid: a490345c-36b3-4914-adb9-32f35057db5e
+    targetGuid: c8de6d2d-495c-4107-a2e4-249225fc0658
+    portId: 13
+  - guid: c8de6d2d-495c-4107-a2e4-249225fc0658
+    targetGuid: 2e8e1132-ab3c-4bef-b29c-5e514425980f
+    portId: 14
+  - guid: 2e8e1132-ab3c-4bef-b29c-5e514425980f
+    targetGuid: b950c160-a235-4cb4-aac4-503d6bd8ea52
+    portId: 15
+  - guid: b950c160-a235-4cb4-aac4-503d6bd8ea52
+    targetGuid: 895be0b8-51d4-4735-9840-13200784a0a8
+    portId: 16
+  - guid: 200eafbf-ae20-4519-94c3-32eaf2e014f9
+    targetGuid: 3f59a3f8-63b0-49af-ae83-f7bdf63e3975
+    portId: 17
+  - guid: 52eccd36-9504-4ffb-9097-11cc2d58c567
+    targetGuid: 3f59a3f8-63b0-49af-ae83-f7bdf63e3975
+    portId: 18
+  - guid: 59c367b5-7dfd-4820-9181-b38025ba3c9a
+    targetGuid: 200eafbf-ae20-4519-94c3-32eaf2e014f9
+    portId: 19
+  - guid: 59c367b5-7dfd-4820-9181-b38025ba3c9a
+    targetGuid: 52eccd36-9504-4ffb-9097-11cc2d58c567
+    portId: 20
+  - guid: 895be0b8-51d4-4735-9840-13200784a0a8
+    targetGuid: 59c367b5-7dfd-4820-9181-b38025ba3c9a
+    portId: 21
+  - guid: 455e112b-2b25-4759-ba4a-5309b340fcdf
+    targetGuid: 4685440e-3a1a-4db1-bc1b-26c2b75e567c
+    portId: 22
+  - guid: b1d26ca2-5faf-4ff3-95ed-a85e6eabd3c4
+    targetGuid: 455e112b-2b25-4759-ba4a-5309b340fcdf
+    portId: 23
+  - guid: cf33ca17-7680-485b-9e87-55e174fe2d16
+    targetGuid: 9205e135-9f20-4bc7-86b4-3a911684edab
+    portId: 24
+  - guid: 3f59a3f8-63b0-49af-ae83-f7bdf63e3975
+    targetGuid: 58f79544-25f8-4447-a7d3-0efdf4013002
+    portId: 25
+  - guid: 58f79544-25f8-4447-a7d3-0efdf4013002
+    targetGuid: a0611ca0-fd6f-4e35-9a8f-e2c1c8fc2175
     portId: 26
   nodes:
   - guid: 9205e135-9f20-4bc7-86b4-3a911684edab
@@ -109,10 +109,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 2326.6667
-      y: 135.33333
-      width: 501.33325
-      height: 374.6667
+      x: 2326.4
+      y: 135.20001
+      width: 499.2002
+      height: 365.6
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -130,9 +130,9 @@ MonoBehaviour:
     nodePosition:
       serializedVersion: 2
       x: 14904
-      y: 134
-      width: 501.333
-      height: 374.6667
+      y: 133.6
+      width: 499.2002
+      height: 366.40002
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -150,10 +150,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 14258
-      y: 135.33333
-      width: 501.333
-      height: 374.6667
+      x: 14258.4
+      y: 135.20001
+      width: 499.19922
+      height: 365.6
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -171,9 +171,9 @@ MonoBehaviour:
     nodePosition:
       serializedVersion: 2
       x: 16364
-      y: 138
-      width: 501.33398
-      height: 374.6667
+      y: 137.6
+      width: 499.19922
+      height: 366.40002
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -190,10 +190,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 17065.334
-      y: 137.33333
-      width: 501.33203
-      height: 374.6667
+      x: 17065.6
+      y: 136.8
+      width: 499.20117
+      height: 366.39996
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -210,10 +210,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 877.3333
-      y: 141.33333
-      width: 501.3333
-      height: 374.6667
+      x: 877.6
+      y: 140.8
+      width: 499.20007
+      height: 366.39996
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -230,10 +230,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 17880.666
-      y: 134
-      width: 501.33398
-      height: 374.6667
+      x: 17880.8
+      y: 133.6
+      width: 499.19922
+      height: 366.40002
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -251,10 +251,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 13594
-      y: 139.33333
-      width: 501.333
-      height: 374.6667
+      x: 13594.4
+      y: 139.20001
+      width: 499.19922
+      height: 365.6
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -272,10 +272,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 15684.667
-      y: 146.66667
-      width: 501.333
-      height: 374.66663
+      x: 15684.8
+      y: 146.40001
+      width: 499.2002
+      height: 365.60004
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -293,10 +293,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 226.66667
-      y: 133.33333
-      width: 501.3333
-      height: 374.6667
+      x: 226.4
+      y: 132.8
+      width: 499.19998
+      height: 366.39996
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -315,10 +315,10 @@ MonoBehaviour:
       mais bonita que voc\xEA n\xE3o \xE9 n\xE3o "
     nodePosition:
       serializedVersion: 2
-      x: 4526
-      y: 121.33333
-      width: 632
-      height: 438.6667
+      x: 4526.4
+      y: 120.799995
+      width: 631.2002
+      height: 425.59998
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -335,10 +335,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 5388.6665
-      y: 367.33334
-      width: 501.3335
-      height: 374.66666
+      x: 5388.8
+      y: 367.2
+      width: 499.2002
+      height: 365.6
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 20
@@ -355,10 +355,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 5386
-      y: -180.66667
-      width: 501.3335
-      height: 374.6667
+      x: 5386.4
+      y: -180.79999
+      width: 499.2002
+      height: 365.59998
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: -20
@@ -376,10 +376,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 6126
-      y: 168.66667
-      width: 501.3335
-      height: 374.66663
+      x: 6126.4
+      y: 168
+      width: 499.2002
+      height: 366.4
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -396,10 +396,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 6933.3335
-      y: 154.66667
-      width: 501.333
-      height: 374.66663
+      x: 6933.6
+      y: 154.40001
+      width: 499.1997
+      height: 365.60004
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -417,10 +417,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 7618
-      y: 150.66667
-      width: 501.3335
-      height: 374.66663
+      x: 7618.4
+      y: 150.40001
+      width: 499.2002
+      height: 365.60004
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -437,34 +437,13 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 8442
-      y: 142.66667
-      width: 501.333
-      height: 374.66663
+      x: 8442.4
+      y: 142.40001
+      width: 499.19922
+      height: 365.60004
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
-    showLikeBar: 1
-  - guid: 200eafbf-ae20-4519-94c3-32eaf2e014f9
-    characterSpr: {fileID: 21300000, guid: 355c0b539342aa740961e76c1806d3d3, type: 3}
-    characterName: "Voc\xEA"
-    dialogueText: "Sou s\xF3 uma m\xE1quina pra voc\xEA ent\xE3o, um peda\xE7o de
-      metal"
-    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 11068.667
-      y: -126.666664
-      width: 501.333
-      height: 374.66666
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-    likeGain: -40
     showLikeBar: 1
   - guid: 52eccd36-9504-4ffb-9097-11cc2d58c567
     characterSpr: {fileID: -2137949083381817235, guid: 5c5ace68ba60bbe42aa14f98db3479fd, type: 3}
@@ -478,10 +457,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 11066.667
+      x: 11066.4
       y: 424
-      width: 501.333
-      height: 374.6667
+      width: 499.19922
+      height: 365.6
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 40
@@ -500,10 +479,10 @@ MonoBehaviour:
     - "Ent\xE3o voc\xEA \xE9 especial"
     nodePosition:
       serializedVersion: 2
-      x: 9986
-      y: 128.66667
-      width: 501.333
-      height: 438.66663
+      x: 9986.4
+      y: 127.99999
+      width: 499.19922
+      height: 425.6
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -521,10 +500,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 9182
-      y: 140.66667
-      width: 501.333
-      height: 374.66663
+      x: 9182.4
+      y: 140
+      width: 499.19922
+      height: 366.4
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -541,10 +520,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 3865.3333
-      y: 123.33333
-      width: 501.33325
-      height: 374.6667
+      x: 3865.6
+      y: 123.200005
+      width: 499.1997
+      height: 365.6
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -561,10 +540,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 3090
-      y: 131.33333
-      width: 501.33325
-      height: 374.6667
+      x: 3090.4
+      y: 131.20001
+      width: 499.2002
+      height: 365.6
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -581,10 +560,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 1609.3334
-      y: 136.66667
-      width: 501.33337
-      height: 374.66663
+      x: 1609.6
+      y: 136
+      width: 499.20007
+      height: 366.4
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -602,9 +581,9 @@ MonoBehaviour:
     nodePosition:
       serializedVersion: 2
       x: 11960
-      y: 118
-      width: 501.333
-      height: 374.6667
+      y: 117.6
+      width: 499.2002
+      height: 366.4
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
@@ -622,11 +601,32 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 12758
+      x: 12758.4
       y: 144
-      width: 501.333
-      height: 374.6667
+      width: 499.19922
+      height: 365.6
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
     likeGain: 0
     showLikeBar: 0
+  - guid: 200eafbf-ae20-4519-94c3-32eaf2e014f9
+    characterSpr: {fileID: 21300000, guid: 355c0b539342aa740961e76c1806d3d3, type: 3}
+    characterName: "Voc\xEA"
+    dialogueText: "Sou s\xF3 uma m\xE1quina pra voc\xEA ent\xE3o, um peda\xE7o de
+      metal"
+    backgroundSpr: {fileID: 21300000, guid: f0cb656ff443d8849b82eed9cde4c25d, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11068.8
+      y: -127.200005
+      width: 499.2002
+      height: 366.40002
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+    likeGain: -40
+    showLikeBar: 1
